@@ -1,0 +1,632 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pth",
+				"pthread_detach"
+			],
+			[
+				"THR",
+				"thr_fn1"
+			],
+			[
+				"time",
+				"time_now"
+			],
+			[
+				"ch",
+				"child_status"
+			],
+			[
+				"p",
+				"printf	printf …"
+			],
+			[
+				"td1",
+				"td1_thread_entry"
+			],
+			[
+				"rt_",
+				"rt_uint32_t"
+			],
+			[
+				"rt",
+				"rt_uint32_t"
+			],
+			[
+				"rt_hw",
+				"rt_hw_led_off"
+			],
+			[
+				"set",
+				"set_value"
+			],
+			[
+				"led_",
+				"led_thread_entry"
+			],
+			[
+				"led",
+				"led_thread"
+			],
+			[
+				"RT",
+				"RT_EOK"
+			],
+			[
+				"add",
+				"add2"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"re",
+				"recepacket"
+			],
+			[
+				"uin",
+				"uint8_t"
+			],
+			[
+				"u",
+				"uint8_t"
+			],
+			[
+				"RF",
+				"RFIRQF0"
+			],
+			[
+				"ui",
+				"uint8_t"
+			],
+			[
+				"S",
+				"SHORT_ADDR1"
+			],
+			[
+				"sh",
+				"SHORT_ADDR0"
+			],
+			[
+				"rx",
+				"RXTXflag"
+			],
+			[
+				"uint",
+				"uint8_t"
+			],
+			[
+				"ua",
+				"uartsend_string"
+			],
+			[
+				"C",
+				"CLKCONCMD"
+			],
+			[
+				"ke",
+				"key_scan"
+			],
+			[
+				"KEY",
+				"key_init"
+			],
+			[
+				"li",
+				"listfoler"
+			],
+			[
+				"y",
+				"year"
+			],
+			[
+				"yea",
+				"years"
+			],
+			[
+				"ma",
+				"main	main()"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"l",
+				"list1"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/G++.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/G++.sublime-build",
+					""
+				],
+				[
+					"Packages/User/G++.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/G++.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/GCC.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GCC.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/GCC.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/Gcc.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Gcc.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/Gcc.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/g++.sublime-build",
+					""
+				],
+				[
+					"Packages/User/g++.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/g++.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "git:",
+		"selected_items":
+		[
+			[
+				"git:",
+				"Git: Version"
+			],
+			[
+				"sublimegit",
+				"SublimeGit: Documentation"
+			],
+			[
+				"git:in",
+				"Git: Init"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"git:v",
+				"Git: Version"
+			],
+			[
+				"git:status",
+				"Git: Status"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"trimmer",
+				"Trimmer: Delete empty lines."
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"c++",
+				"Build With: C++ Single File - Run"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 491.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Administrator/wifidog-qk365"
+	],
+	"file_history":
+	[
+		"/C/Users/Administrator/Desktop/abs.txt",
+		"/G/inbox/wifidog/wifidog-gateway-官方/libhttpd/protocol.c",
+		"/G/inbox/wifidog/wifidog-gateway-官方/libhttpd/ip_acl.c",
+		"/G/inbox/wifidog/wifidog-gateway-官方/libhttpd/api.c",
+		"/G/inbox/wifidog/wifidog-gateway-官方/wifidog.conf",
+		"/G/inbox/wifidog/wifidog-gateway-官方/libhttpd/httpd.h",
+		"/G/inbox/wifidog/wifidog-gateway-官方/src/httpd_thread.c",
+		"/G/inbox/wifidog/wifidog-gateway-官方/src/firewall.c",
+		"/D/Program Files (x86)/Sublime Text 3/Data/Packages/SublimeGit/SublimeGit.sublime-settings",
+		"/G/inbox/wifidog/wifidog-gateway-官方/src/http.c",
+		"/G/inbox/wifidog/wifidog-gateway-官方/src/gateway.c",
+		"/G/inbox/wifidog/wifidog-gateway-官方/.tags_sorted_by_file",
+		"/G/inbox/wifidog-gateway-master/src/gateway.h",
+		"/G/inbox/wifidog-gateway-master/src/common.h",
+		"/G/inbox/wifidog-gateway-master/src/conf.c",
+		"/G/inbox/wifidog-gateway-master/src/conf.h",
+		"/G/inbox/wifidog-gateway-master/src/util.c",
+		"/G/inbox/wifidog-gateway-master/libhttpd/protocol.c",
+		"/G/inbox/wifidog-gateway-master/libhttpd/httpd.h",
+		"/G/inbox/wifidog-gateway-master/libhttpd/api.c",
+		"/G/inbox/wifidog-gateway-master/src/httpd_thread.c",
+		"/G/inbox/wifidog-gateway-master/src/gateway.c",
+		"/G/inbox/wifidog-gateway-master/src/safe.c",
+		"/G/inbox/wifidog-gateway-master/src/safe.h",
+		"/G/shared/te.c",
+		"/G/inbox/wifidog-gateway-master/src/wdctl.c",
+		"/G/inbox/wifidog-gateway-master/src/debug.h",
+		"/G/inbox/wifidog-gateway-master/src/debug.c",
+		"/D/Program Files (x86)/Sublime Text 3/Data/Packages/Default/Preferences.sublime-settings",
+		"/D/Program Files (x86)/Sublime Text 3/Data/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Administrator/AppData/Local/Temp/scp53731/home/liping/wifidog-gateway-master/wifidog.conf",
+		"/C/Users/Administrator/AppData/Local/Temp/scp53398/home/liping/wifidog-gateway-master/configure",
+		"/C/Users/Administrator/AppData/Local/Temp/scp20198/home/liping/hello/hello.c",
+		"/C/Users/Administrator/AppData/Local/Temp/scp55679/home/liping/fork.c",
+		"/C/Users/Administrator/AppData/Local/Temp/scp54371/home/liping/fork.c",
+		"/C/Users/Administrator/AppData/Local/Temp/scp25601/home/liping/hello/haha.c",
+		"/C/Users/Administrator/AppData/Local/Temp/scp25293/home/liping/hello/sin_value.c",
+		"/C/Users/Administrator/AppData/Local/Temp/scp49300/home/liping/hello/hello.c",
+		"/C/Users/Administrator/Desktop/udp_server.py",
+		"/C/Users/Administrator/Desktop/contri.py",
+		"/C/Users/Administrator/Desktop/udp_client.py",
+		"/C/Users/Administrator/Desktop/tcp.py",
+		"/C/Users/Administrator/Desktop/wifidog.config",
+		"/C/Users/Administrator/Desktop/test.py",
+		"/C/Users/Administrator/Desktop/setup.py",
+		"/C/Users/Administrator/Desktop/server.py",
+		"/C/Users/Administrator/Desktop/hello.py",
+		"/D/Program Files (x86)/Sublime Text 3/Data/Packages/Trimmer/Default (Windows).sublime-keymap",
+		"/G/inbox/rt_thread_project/rt_thread_master_f1/bsp/stm32f10x/drivers/led.c",
+		"/G/inbox/rt_thread_project/rt_thread_master_f1/bsp/stm32f10x/drivers/led.h",
+		"/G/inbox/rt_thread_project/rt_thread_master_f1/bsp/stm32f10x/applications/test.c",
+		"/G/inbox/rt_thread_project/rt_thread_master_f1/bsp/stm32f10x/applications/test.h",
+		"/G/inbox/rt_thread_project/rt_thread_master_f1/bsp/stm32f10x/applications/application.c",
+		"/G/inbox/rt_thread_project/rt_thread_master_f1/include/rtdef.h",
+		"/G/inbox/rt_thread_project/rt_thread_master_f1/bsp/stm32f10x/rtconfig.h",
+		"/G/inbox/rt_thread_project/rt_thread_master_f1/bsp/stm32f10x/drivers/key.h",
+		"/G/inbox/rt_thread_project/rt_thread_master_f1/bsp/stm32f10x/drivers/key.c",
+		"/G/inbox/rt_thread_project/rt_thread_master_f1/bsp/stm32f10x/applications/startup.c",
+		"/G/inbox/rt_thread_project/rt_thread_master_f1/bsp/stm32f10x/drivers/board.c",
+		"/G/inbox/rt_thread_project/rt_thread_master_f1/bsp/stm32f10x/drivers/usart.c",
+		"/G/inbox/rt_thread_project/rt_thread_master_f1/components/dfs/filesystems/uffs/src/inc/uffs/uffs_fs.h",
+		"/D/Program Files (x86)/Sublime Text 3/Data/Packages/CTags/CTags.sublime-settings",
+		"/D/Program Files (x86)/Sublime Text 3/Data/Packages/User/CTags.sublime-settings",
+		"/C/Users/Administrator/Desktop/README.rst",
+		"/C/Users/Administrator/Desktop/CTags.sublime-package",
+		"/G/inbox/rt_thread_project/rt-thread-master_f1/bsp/stm32f10x/applications/application.c",
+		"/C/Users/Administrator/Desktop/test.c",
+		"/D/Program Files (x86)/Sublime Text 3/Data/Packages/User/GCC.sublime-build",
+		"/G/inbox/lianxi/led/led.c",
+		"/G/inbox/t1.py",
+		"/G/inbox/test/tes1.py",
+		"/G/inbox/tes1.py",
+		"/G/inbox/CleanNote.py",
+		"/G/inbox/test.c",
+		"/G/inbox/STM32_master/dtmf/ad.c",
+		"/G/inbox/STM32_master/dtmf/dtmf_det.c",
+		"/D/Program Files (x86)/Sublime Text 3/Data/Packages/User/G++.sublime-build",
+		"/G/inbox/test1.cpp",
+		"/G/inbox/main.c",
+		"/G/inbox/w_errorinfo.c",
+		"/G/inbox/w_errorinfo.i",
+		"/G/inbox/w_errorinfo.h",
+		"/G/inbox/gsf.py",
+		"/G/inbox/atoi.c",
+		"/D/Program Files (x86)/Sublime Text 3/Data/Packages/User/g++.sublime-build",
+		"/D/Program Files (x86)/Sublime Text 3/Data/Packages/User/Gcc.sublime-build",
+		"/G/inbox/2.c",
+		"/G/inbox/2.s",
+		"/G/inbox/2.i",
+		"/G/inbox/first.html",
+		"/G/inbox/hy.html",
+		"/G/inbox/HTML 实例.htm",
+		"/G/inbox/lua-5.3.2/src/lauxlib.h",
+		"/G/inbox/lua-5.3.2/src/lvm.h",
+		"/G/inbox/glibc-2.19/time/clock.c",
+		"/G/inbox/glibc-2.19/io/read.c",
+		"/G/inbox/iic.h",
+		"/G/inbox/iic.c",
+		"/G/inbox/hello.html",
+		"/G/inbox/fhsf.py",
+		"/D/Program Files (x86)/Python/Python35/tab.py",
+		"/C/Users/Administrator/Desktop/tab.py",
+		"/I/scr/Driver/rtc.c",
+		"/C/Users/Administrator/Desktop/AID130/main.h",
+		"/C/Users/Administrator/Desktop/AID130/extern_val.h",
+		"/C/Users/Administrator/Desktop/AID130/interrupt.c",
+		"/C/Users/Administrator/Desktop/AID130/menu.h",
+		"/C/Users/Administrator/Desktop/AID130/menu.c",
+		"/C/Users/Administrator/Desktop/AID130/ziku.h",
+		"/C/Users/Administrator/Desktop/AID130/ziku.c",
+		"/C/Users/Administrator/Desktop/AID130/inc/extrn_val.c",
+		"/C/Users/Administrator/Desktop/AID130/inc/extern_val.h",
+		"/C/Users/Administrator/Desktop/AID130/inc/delay.h",
+		"/C/Users/Administrator/Desktop/AID130/inc/delay.c",
+		"/C/Users/Administrator/Desktop/AID130/inc/config.c",
+		"/G/inbox/aid130/config.txt",
+		"/C/Users/Administrator/Desktop/AID130/inc/config.h",
+		"/G/inbox/1.py",
+		"/D/Program Files (x86)/Sublime Text 3/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/G/inbox/Python.sublime-build",
+		"/D/Program Files (x86)/Sublime Text 3/Data/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/D/Program Files (x86)/Sublime Text 3/Packages/Python.sublime-package",
+		"/G/inbox/新建文本文档.c",
+		"/D/Program Files (x86)/Sublime Text 3/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Program Files (x86)/Python/Python35/work/1.py",
+		"/G/inbox/STM32-master/accel_test_rtos/ADIS1625x.c"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"addr",
+			"fds",
+			"RT_USING_TC",
+			"address",
+			"ctrl+b"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 130.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "wifidog_qk365.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rtcon",
+				"bsp\\stm32f10x\\rtconfig.h"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 289.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

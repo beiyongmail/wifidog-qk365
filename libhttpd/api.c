@@ -48,6 +48,7 @@
 #include <varargs.h>
 #endif
 
+/** 进行URL解码 */
 char *
 httpdUrlEncode(str)
 const char *str;
@@ -67,6 +68,7 @@ const char *str;
     return (new);
 }
 
+/** 获取访问方式名字 */
 char *
 httpdRequestMethodName(request * r)
 {
@@ -80,6 +82,7 @@ httpdRequestMethodName(request * r)
     }
 }
 
+/** 在符号表中查找变量 */
 httpVar *
 httpdGetVariableByName(request * r, const char *name)
 {
@@ -94,6 +97,7 @@ httpdGetVariableByName(request * r, const char *name)
     return (NULL);
 }
 
+/** 获取第一个与指定前缀相匹配的变量 */
 httpVar *
 httpdGetVariableByPrefix(request * r, const char *prefix)
 {
@@ -126,6 +130,7 @@ httpdSetVariableValue(request * r, const char *name, const char *value)
     }
 }
 
+/** 在符号表中查找变量 */
 httpVar *
 httpdGetVariableByPrefixedName(request * r, const char *prefix, const char *name)
 {
@@ -145,6 +150,7 @@ httpdGetVariableByPrefixedName(request * r, const char *prefix, const char *name
     return (NULL);
 }
 
+/** 获取下一个与指定前缀相匹配的变量 */
 httpVar *
 httpdGetNextVariableByPrefix(curVar, prefix)
 httpVar *curVar;
@@ -160,6 +166,7 @@ const char *prefix;
     return (NULL);
 }
 
+/** 在符号表中增加变量 */
 int
 httpdAddVariable(request * r, const char *name, const char *value)
 {
@@ -193,6 +200,7 @@ httpdAddVariable(request * r, const char *name, const char *value)
     return (0);
 }
 
+/** 创建WEB服务器 */
 httpd *
 httpdCreate(host, port)
 char *host;
@@ -300,6 +308,7 @@ httpd *server;
     free(server);
 }
 
+/** 接受一个HTTP连接请求 */
 request *
 httpdGetConnection(server, timeout)
 httpd *server;
@@ -364,6 +373,7 @@ struct timeval *timeout;
     return (r);
 }
 
+/** 读取并保存从客户端发送过来的请求和数据 */
 int
 httpdReadRequest(httpd * server, request * r)
 {
@@ -488,6 +498,7 @@ httpdReadRequest(httpd * server, request * r)
     return (0);
 }
 
+/** 请求结束处理 */
 void
 httpdEndRequest(request * r)
 {
@@ -503,6 +514,7 @@ httpdFreeVariables(request * r)
     _httpd_freeVariables(r->variables);
 }
 
+/** Dump符号表内容 */
 void
 httpdDumpVariables(request * r)
 {
@@ -520,6 +532,7 @@ httpdDumpVariables(request * r)
     }
 }
 
+/** 设置文件基本路径名 */
 void
 httpdSetFileBase(server, path)
 httpd *server;
@@ -529,6 +542,7 @@ const char *path;
     server->fileBasePath[HTTP_MAX_URL - 1] = 0;
 }
 
+/** 将一个外部文件加入到输出内容 */
 int
 httpdAddFileContent(server, dir, name, indexFlag, preload, path)
 httpd *server;
@@ -562,6 +576,7 @@ char *path;
     return (0);
 }
 
+/** 增加与通配符匹配的文件内容 */
 int
 httpdAddWildcardContent(server, dir, preload, path)
 httpd *server;
@@ -594,6 +609,7 @@ char *path;
     return (0);
 }
 
+/** 调用C函数产生输出内容 */
 int
 httpdAddCContent(server, dir, name, indexFlag, preload, function)
 httpd *server;
@@ -621,6 +637,7 @@ void (*function) ();
     return (0);
 }
 
+/** 请求指定目录中的任何文件时调用C回调函数 */
 int
 httpdAddCWildcardContent(server, dir, preload, function)
 httpd *server;
@@ -646,6 +663,7 @@ void (*function) ();
     return (0);
 }
 
+/** 将一个内部文本BUFFER加入到HTML输出内容 */
 int
 httpdAddStaticContent(server, dir, name, indexFlag, preload, data)
 httpd *server;
@@ -673,12 +691,14 @@ char *data;
     return (0);
 }
 
+/** 发送HTML头 */
 void
 httpdSendHeaders(request * r)
 {
     _httpd_sendHeaders(r, 0, 0);
 }
 
+/** 设置返回给客户端浏览器的的响应代码 */
 void
 httpdSetResponse(request * r, const char *msg)
 {
@@ -686,6 +706,7 @@ httpdSetResponse(request * r, const char *msg)
     r->response.response[HTTP_MAX_URL - 1] = 0;
 }
 
+/** 设置除HTML文本以外的内容类型 */
 void
 httpdSetContentType(request * r, const char *type)
 {
@@ -693,6 +714,7 @@ httpdSetContentType(request * r, const char *type)
     r->response.contentType[HTTP_MAX_URL - 1] = 0;
 }
 
+/** 增加HTML头内容 */
 void
 httpdAddHeader(request * r, const char *msg)
 {
@@ -714,6 +736,7 @@ httpdSetCookie(request * r, const char *name, const char *value)
     httpdAddHeader(r, buf);
 }
 
+/** 将文本BUFFER内容发送到客户端浏览器 */
 void
 httpdOutput(request * r, const char *msg)
 {
@@ -763,6 +786,7 @@ httpdOutput(request * r, const char *msg)
     _httpd_net_write(r->clientSock, buf, strlen(buf));
 }
 
+/** 按指定格式将内容输出到客户端浏览器 */
 #ifdef HAVE_STDARG_H
 void
 httpdPrintf(request * r, const char *fmt, ...)
@@ -793,6 +817,7 @@ va_dcl
     _httpd_net_write(r->clientSock, buf, strlen(buf));
 }
 
+/** 对请求进行处理，并将请求内容发送到客户端浏览器 */
 void
 httpdProcessRequest(httpd * server, request * r)
 {
@@ -860,6 +885,7 @@ httpdProcessRequest(httpd * server, request * r)
     _httpd_writeAccessLog(server, r);
 }
 
+/** 设置访问日志文件 */
 void
 httpdSetAccessLog(server, fp)
 httpd *server;
@@ -868,6 +894,7 @@ FILE *fp;
     server->accessLog = fp;
 }
 
+/** 设置错误日志文件 */
 void
 httpdSetErrorLog(server, fp)
 httpd *server;
@@ -876,6 +903,7 @@ FILE *fp;
     server->errorLog = fp;
 }
 
+/** 使用用户名和口令进行身份认证 */
 int
 httpdAuthenticate(request * r, const char *realm)
 {
@@ -947,6 +975,7 @@ httpdSendFile(httpd * server, request * r, const char *path)
     }
 }
 
+/** 强迫身份认证 */
 void
 httpdForceAuthenticate(request * r, const char *realm)
 {

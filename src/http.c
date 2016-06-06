@@ -75,7 +75,7 @@ void
 http_callback_404(httpd * webserver, request * r, int error_code)
 {
     char tmp_url[MAX_BUF], *url, *mac;
-    // t_client *client;
+    t_client *client;
     s_config *config = config_get_config();
     t_auth_serv *auth_server = get_auth_server();
 
@@ -119,38 +119,43 @@ http_callback_404(httpd * webserver, request * r, int error_code)
         debug(LOG_INFO, "Sent %s an apology since auth server not online - no point sending them to auth server",
               r->clientAddr);
 #endif
-        mac = arp_get(r->clientAddr);
-        debug(LOG_INFO, "MAC address for ip %s", r->clientAddr);
-        iptables_fw_access(FW_ACCESS_ALLOW, r->clientAddr, mac, FW_MARK_KNOWN);
+        // mac = arp_get(r->clientAddr);
+        // debug(LOG_INFO, "MAC address for ip %s", r->clientAddr);
+        // iptables_fw_access(FW_ACCESS_ALLOW, r->clientAddr, mac, FW_MARK_KNOWN);
 
-        // if (!(mac = arp_get(r->clientAddr))) 
-        // {
-        //     /* We could not get their MAC address */
-        //     /* 获取客户端mac地址失败 */
-        //     debug(LOG_INFO, "Failed to retrieve MAC address for ip %s", r->clientAddr);
-        //     send_http_page(r, "WiFiDog Error", "Failed to retrieve your MAC address");
-        // } 
-        // else 
-        // {
-        //     mac = arp_get(r->clientAddr);
-        //     /* We have their MAC address */
-        //     LOCK_CLIENT_LIST();
+        if (!(mac = arp_get(r->clientAddr))) 
+        {
+            /* We could not get their MAC address */
+            /* 获取客户端mac地址失败 */
+            debug(LOG_INFO, "Failed to retrieve MAC address for ip %s", r->clientAddr);
+            send_http_page(r, "WiFiDog Error", "Failed to retrieve your MAC address");
+        } 
+        else 
+        {
+            mac = arp_get(r->clientAddr);
+            /* We have their MAC address */
+            LOCK_CLIENT_LIST();
 
-        //     /* 判断客户端是否存在于列表中 */
-        //     if ((client = client_list_find(r->clientAddr, mac)) == NULL) 
-        //     {
-        //         debug(LOG_INFO, "New client for %s", r->clientAddr);
-        //         /* 将此客户端添加到客户端列表 */
-        //         //client_list_add(r->clientAddr, mac, token->value);
-        //         client_list_add(r->clientAddr, mac, (const char *)1234);
-        //     }
-        //     UNLOCK_CLIENT_LIST();
-        //     // fw_allow(client, FW_MARK_KNOWN);
-        //     iptables_fw_access(FW_ACCESS_ALLOW, r->clientAddr, mac, FW_MARK_KNOWN);
-        //     //fw_allow_host(r->request.host);
+            /* 判断客户端是否存在于列表中 */
+            if ((client = client_list_find(r->clientAddr, mac)) == NULL) 
+            {
+                debug(LOG_INFO, "New client for %s", r->clientAddr);
+                /* 将此客户端添加到客户端列表 */
+                //client_list_add(r->clientAddr, mac, token->value);
+                client_list_add(r->clientAddr, mac, (const char *)1234);
+            }
+            UNLOCK_CLIENT_LIST();
+            //fw_allow(client, FW_MARK_KNOWN);
+            iptables_fw_access(FW_ACCESS_ALLOW, r->clientAddr, mac, FW_MARK_KNOWN);
+            served_this_session++;
+            //fw_allow_host(r->request.host);
+            //
+            // safe_asprintf(&urlFragment, "%sgw_id=%s", auth_server->authserv_portal_script_path_fragment, config->gw_id);
+            // http_send_redirect_to_auth(r, urlFragment, "Redirect to portal");
+            // free(urlFragment);
             
-        // }
-        // free(mac);
+        }
+        free(mac);
 
     } else {
         /* 本机与认证服务器都在线，返回重定向包于客户端 */

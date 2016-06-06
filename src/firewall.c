@@ -252,6 +252,9 @@ fw_destroy(void)
 /**Probably a misnomer, this function actually refreshes the entire client list's traffic counter, re-authenticates every client with the central server and update's the central servers traffic counters and notifies it if a client has logged-out.
  * @todo Make this function smaller and use sub-fonctions
  */
+/** 更新客户端出入口流量，根据出口流量更新每个客户端的最近更新时间
+ *  客户端超时则从客户端列表中移除并通过iptables禁止其访问网络，并告知认证服务器此客户端下线
+ *  客户端未超时则从认证服务器获取此客户端信息，判断其是否通过认证服务器下线 */
 void
 fw_sync_with_authserver(void)
 {
@@ -283,6 +286,7 @@ fw_sync_with_authserver(void)
          * short:  Shorter than config->checkinterval * config->clienttimeout */
         icmp_ping(p1->ip);
         /* Update the counters on the remote server only if we have an auth server */
+        /** 将客户端的出入流量上传至认证服务器，此时如果此客户端在认证服务器上下线会返回告知wifidog  */
         if (config->auth_servers != NULL) {
             auth_server_request(&authresponse, REQUEST_TYPE_COUNTERS, p1->ip, p1->mac, p1->token, p1->counters.incoming,
                                 p1->counters.outgoing, p1->counters.incoming_delta, p1->counters.outgoing_delta);
@@ -327,7 +331,9 @@ fw_sync_with_authserver(void)
                 switch (authresponse.authcode) {
                 case AUTH_DENIED:
                     debug(LOG_NOTICE, "%s - Denied. Removing client and firewall rules", tmp->ip);
+                    /** 修改iptables禁止此客户端访问外网 */
                     fw_deny(tmp);
+                    /** 从客户端列表中删除此客户端 */
                     client_list_delete(tmp);
                     break;
 

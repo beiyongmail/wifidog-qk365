@@ -64,13 +64,16 @@ thread_client_timeout_check(const void *arg)
 
     while (1) {
         /* Sleep for config.checkinterval seconds... */
+        /** 设置超时时间 */
         timeout.tv_sec = time(NULL) + config_get_config()->checkinterval;
         timeout.tv_nsec = 0;
 
         /* Mutex must be locked for pthread_cond_timedwait... */
+        /** 使用pthread_cond_timedwait必须先上锁 */
         pthread_mutex_lock(&cond_mutex);
 
         /* Thread safe "sleep" */
+        /** 等待超时  */
         pthread_cond_timedwait(&cond, &cond_mutex, &timeout);
 
         /* No longer needs to be locked */

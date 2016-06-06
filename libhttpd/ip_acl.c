@@ -15,7 +15,9 @@
 **
 **
 ** $Id$
-**
+** 访问控制列表(Access Control List，ACL) 是路由器和交换机接口的指令列表，用来控制端口进出的数据包。
+** 这些指令列表用来告诉路由器哪些数据包可以收、哪些数据包需要拒绝。至于数据包是被接收还是拒绝，
+** 可以由类似于源地址、目的地址、端口号等的特定指示条件来决定。
 */
 
 #include "config.h"
@@ -114,6 +116,7 @@ _isInCidrBlock(httpd * server, request * r, int addr1, int len1, int addr2, int 
 ** PUBLIC ROUTINES
 **************************************************************************/
 
+/** 在ACL表中增加访问控制项 */
 httpAcl *
 httpdAddAcl(server, acl, cidr, action)
 httpd *server;
@@ -162,6 +165,7 @@ int action;
     return (acl);
 }
 
+/** 进行ACL检查 */
 int
 httpdCheckAcl(httpd * server, request * r, httpAcl * acl)
 {
@@ -190,6 +194,7 @@ httpdCheckAcl(httpd * server, request * r, httpAcl * acl)
     return (action);
 }
 
+/** 设置默认ACL */
 void
 httpdSetDefaultAcl(server, acl)
 httpd *server;

@@ -269,7 +269,34 @@ iptables_fw_init(void)
     /*
      *
      * Everything in the MANGLE table
+     * 1.filter 定义允许或者不允许的
+     * 2.nat 定义地址转换的 
+     * 3.mangle功能:修改报文原数据
+     * 
+     *     -P :设置默认策略的
+     *     -F: FLASH，清空规则链的
+     *     -N:NEW 支持用户新建一个链
+     *     -X: 用于删除用户自定义的空链
+     *     -E：用来Rename chain主要是用来给用户自定义的链重命名
+     *     -Z：清空链，及链中默认规则的计数器的（有两个计数器，被匹配到多少个数据包，多少个字节）
      *
+     *     -A：追加，在当前链的最后新增一个规则
+     *     -I num : 插入，把当前规则插入为第几条
+     *     -R num：Replays替换/修改第几条规则
+     *     -D num：删除，明确指定删除第几条规则
+     *
+     *     -s：指定作为源地址匹配，这里不能指定主机名称，必须是IP
+     *     -d：表示匹配目标地址
+     *     -p：用于匹配协议的（这里的协议通常有3种，TCP/UDP/ICMP）
+     *     -i eth0：从这块网卡流入的数据,流入一般用在INPUT和PREROUTING上
+     *     -o eth0：从这块网卡流出的数据,流出一般在OUTPUT和POSTROUTING上
+     *详解-j ACTION
+     *     DROP：悄悄丢弃
+     *     REJECT：明示拒绝
+     *     ACCEPT：接受
+     *     REDIRECT：重定向：主要用于实现端口重定向
+     *     MARK：打防火墙标记的
+     *     RETURN：返回
      */
 
     /* Create new chains */
@@ -334,6 +361,7 @@ iptables_fw_init(void)
         iptables_do_command("-t nat -A " CHAIN_UNKNOWN " -j " CHAIN_AUTH_IS_DOWN);
         iptables_do_command("-t nat -A " CHAIN_AUTH_IS_DOWN " -m mark --mark 0x%u -j ACCEPT", FW_MARK_AUTH_IS_DOWN);
     }
+    /** 将 80 端口的访问重定向(REDIRECT)到 (本路由)网关web服务器的监听端口  */
     iptables_do_command("-t nat -A " CHAIN_UNKNOWN " -p tcp --dport 80 -j REDIRECT --to-ports %d", gw_port);
 
     /*
