@@ -147,6 +147,118 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/centralserver.h",
+			"settings":
+			{
+				"buffer_size": 3348,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/firewall.c",
+			"settings":
+			{
+				"buffer_size": 13599,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/fw_iptables.c",
+			"settings":
+			{
+				"buffer_size": 28026,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/firewall.h",
+			"settings":
+			{
+				"buffer_size": 2976,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/centralserver.c",
+			"settings":
+			{
+				"buffer_size": 12685,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/gateway.c",
+			"settings":
+			{
+				"buffer_size": 19788,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/http.c",
+			"settings":
+			{
+				"buffer_size": 17011,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/wd_util.c",
+			"settings":
+			{
+				"buffer_size": 6762,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/httpd_thread.c",
+			"settings":
+			{
+				"buffer_size": 2847,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "libhttpd/api.c",
+			"settings":
+			{
+				"buffer_size": 24655,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "libhttpd/protocol.c",
+			"settings":
+			{
+				"buffer_size": 18552,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/safe.c",
+			"settings":
+			{
+				"buffer_size": 5784,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/client_list.c",
+			"settings":
+			{
+				"buffer_size": 9957,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/conf.h",
+			"settings":
+			{
+				"buffer_size": 9780,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "Packages/User/G++.sublime-build",
 	"build_system_choices":
@@ -291,10 +403,26 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "git:",
+		"height": 127.0,
+		"last_filter": "git:push",
 		"selected_items":
 		[
+			[
+				"git:push",
+				"Git: Push"
+			],
+			[
+				"git:comm",
+				"Git: Commit"
+			],
+			[
+				"git:add",
+				"Git: Quick Add"
+			],
+			[
+				"git:status",
+				"Git: Status"
+			],
 			[
 				"git:",
 				"Git: Version"
@@ -314,10 +442,6 @@
 			[
 				"git:v",
 				"Git: Version"
-			],
-			[
-				"git:status",
-				"Git: Status"
 			],
 			[
 				"Package Control: in",
@@ -344,7 +468,7 @@
 				"Package Control: Remove Package"
 			]
 		],
-		"width": 491.0
+		"width": 528.0
 	},
 	"console":
 	{
@@ -364,10 +488,23 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Administrator/wifidog-qk365"
+		"/C/Users/Administrator/wifidog-qk365",
+		"/C/Users/Administrator/wifidog-qk365/libhttpd",
+		"/C/Users/Administrator/wifidog-qk365/src"
 	],
 	"file_history":
 	[
+		"/C/Users/Administrator/wifidog-qk365/src/auth.c",
+		"/C/Users/Administrator/wifidog-qk365/src/ping_thread.c",
+		"/C/Users/Administrator/wifidog-qk365/src/fw_iptables.h",
+		"/C/Users/Administrator/wifidog-qk365/src/fw_iptables.c",
+		"/C/Users/Administrator/wifidog-qk365/src/util.h",
+		"/C/Users/Administrator/wifidog-qk365/libhttpd/api.c",
+		"/C/Users/Administrator/wifidog-qk365/libhttpd/httpd.h",
+		"/C/Users/Administrator/wifidog-qk365/libhttpd/ip_acl.c",
+		"/C/Users/Administrator/wifidog-qk365/libhttpd/httpd_priv.h",
+		"/C/Users/Administrator/wifidog-qk365/install/include/wifidog/httpd.h",
+		"/C/Users/Administrator/wifidog-qk365/libhttpd/protocol.c",
 		"/C/Users/Administrator/Desktop/abs.txt",
 		"/G/inbox/wifidog/wifidog-gateway-官方/libhttpd/protocol.c",
 		"/G/inbox/wifidog/wifidog-gateway-官方/libhttpd/ip_acl.c",
@@ -484,16 +621,7 @@
 		"/C/Users/Administrator/Desktop/AID130/inc/delay.c",
 		"/C/Users/Administrator/Desktop/AID130/inc/config.c",
 		"/G/inbox/aid130/config.txt",
-		"/C/Users/Administrator/Desktop/AID130/inc/config.h",
-		"/G/inbox/1.py",
-		"/D/Program Files (x86)/Sublime Text 3/Data/Packages/Default/Default (Windows).sublime-keymap",
-		"/G/inbox/Python.sublime-build",
-		"/D/Program Files (x86)/Sublime Text 3/Data/Packages/SublimeREPL/SublimeREPL.sublime-settings",
-		"/D/Program Files (x86)/Sublime Text 3/Packages/Python.sublime-package",
-		"/G/inbox/新建文本文档.c",
-		"/D/Program Files (x86)/Sublime Text 3/Data/Packages/User/Default (Windows).sublime-keymap",
-		"/D/Program Files (x86)/Python/Python35/work/1.py",
-		"/G/inbox/STM32-master/accel_test_rtos/ADIS1625x.c"
+		"/C/Users/Administrator/Desktop/AID130/inc/config.h"
 	],
 	"find":
 	{
@@ -512,6 +640,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"fw_set_authservers",
+			"iptables_fw_counters_update",
 			"addr",
 			"fds",
 			"RT_USING_TC",
@@ -534,8 +664,437 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/centralserver.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3348,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1479,
+								1479
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 363.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/firewall.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13599,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10069,
+								10069
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6003.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/fw_iptables.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 28026,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21106,
+								21088
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 11583.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/firewall.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2976,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2243,
+								2261
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 923.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/centralserver.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12685,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4827,
+								4830
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2223.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/gateway.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19788,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15137,
+								15164
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8183.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/http.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17011,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14362,
+								14381
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6537.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/wd_util.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6762,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2094,
+								2075
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 803.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/httpd_thread.c",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2847,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2560,
+								2579
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/C++/C.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1200.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "libhttpd/api.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24655,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23121,
+								23129
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 18263.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "libhttpd/protocol.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18552,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12992,
+								12998
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 10023.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/safe.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5784,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5741,
+								5752
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3543.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "src/client_list.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9957,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2698,
+								2682
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1403.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "src/conf.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9780,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9428,
+								9417
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4243.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -577,6 +1136,14 @@
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 130.0
+	},
+	"output.git-push":
+	{
+		"height": 130.0
 	},
 	"pinned_build_system": "Packages/Python/Python.sublime-build",
 	"project": "wifidog_qk365.sublime-project",

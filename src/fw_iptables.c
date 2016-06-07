@@ -170,7 +170,38 @@ iptables_compile(const char *table, const char *chain, const t_firewall_rule * r
             snprintf((command + strlen(command)), (sizeof(command) -
                                                    strlen(command)), "-m set --match-set %s dst ", rule->mask);
         } else {
-            snprintf((command + strlen(command)), (sizeof(command) - strlen(command)), "-d %s ", rule->mask);
+            // snprintf((command + strlen(command)), (sizeof(command) - strlen(command)), "-d %s ", rule->mask);
+            char *mask=rule->mask;
+            int mask_len=strlen(mask);
+            int is_domain=0,
+                i=0;
+            for(;i<mask_len;i++){
+                if((mask[i]>=46&&mask[i]<=57)||mask[i]==32){
+                    continue;
+                }else{
+                    is_domain=1;
+                    break;
+                }
+            }
+            char * ip =NULL;
+            if(is_domain){
+                struct in_addr * h_addr =wd_gethostbyname(mask);
+                if(h_addr){
+                    ip= safe_strdup(inet_ntoa(*h_addr));
+                    free(h_addr);
+                }
+                if(ip){
+                    mask=ip;
+                }else{
+                    debug(LOG_ERR, "doamin %s not find ip try again!",mask);
+                    mask="0.0.0.0";
+                }
+            }
+            snprintf((command + strlen(command)), (sizeof(command) -
+                        strlen(command)), "-d %s ", mask);
+            if(ip){
+                free(ip);
+            }
         }
     }
     if (rule->protocol != NULL) {

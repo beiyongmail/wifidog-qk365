@@ -621,6 +621,14 @@ _parse_firewall_rule(const char *ruleset, char *leftover)
         tmp2->next = tmp;
     }
 
+    for (i = 0; *(mask + i) != '\0'; i++)
+        if (!isdigit((unsigned char)*(mask + i))
+                &&!isalpha((unsigned char)*(mask + i))
+                && (*(mask + i) != '-')
+                && (*(mask + i) != '.')
+                && (*(mask + i) != '/'))
+            all_nums = 0; /*< No longer only digits */
+
     return 1;
 }
 
