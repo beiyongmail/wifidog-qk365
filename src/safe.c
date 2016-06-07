@@ -126,6 +126,7 @@ safe_strdup(const char *s)
         debug(LOG_CRIT, "safe_strdup called with NULL which would have crashed strdup. Bailing out");
         exit(1);
     }
+    /** 将串拷贝到新建的位置处 */
     retval = strdup(s);
     if (!retval) {
         debug(LOG_CRIT, "Failed to duplicate a string: %s.  Bailing out", strerror(errno));

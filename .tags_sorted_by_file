@@ -1,775 +1,1728 @@
-argparse	contrib\load-tester\common.py	/^import argparse$/;"	i
-fcntl	contrib\load-tester\common.py	/^import fcntl$/;"	i
-get_argparser	contrib\load-tester\common.py	/^def get_argparser():$/;"	f
-get_ip_address	contrib\load-tester\common.py	/^def get_ip_address(ifname):$/;"	f
-get_mac_address	contrib\load-tester\common.py	/^def get_mac_address(ifname):$/;"	f
-socket	contrib\load-tester\common.py	/^import socket$/;"	i
-struct	contrib\load-tester\common.py	/^import struct$/;"	i
-BadStatusLine	contrib\load-tester\fire_requests.py	/^from httplib import BadStatusLine$/;"	i
-HTTPConnection	contrib\load-tester\fire_requests.py	/^from httplib import HTTPConnection$/;"	i
-PORT	contrib\load-tester\fire_requests.py	/^PORT = "2060"$/;"	v
-Pool	contrib\load-tester\fire_requests.py	/^from multiprocessing import Pool$/;"	i
-args	contrib\load-tester\fire_requests.py	/^    args = parser.parse_args()$/;"	v
-common	contrib\load-tester\fire_requests.py	/^import common$/;"	i
-functools	contrib\load-tester\fire_requests.py	/^import functools$/;"	i
-main	contrib\load-tester\fire_requests.py	/^def main(targetIF, prefix, maxI):$/;"	f
-main_single	contrib\load-tester\fire_requests.py	/^def main_single(target, prefix, i):$/;"	f
-p	contrib\load-tester\fire_requests.py	/^    p = Pool(int(args.process_count))$/;"	v
-parser	contrib\load-tester\fire_requests.py	/^    parser = common.get_argparser()$/;"	v
-partial	contrib\load-tester\fire_requests.py	/^    partial = functools.partial($/;"	v
-random	contrib\load-tester\fire_requests.py	/^import random$/;"	i
-target	contrib\load-tester\fire_requests.py	/^    target = common.get_ip_address(args.target_interface)$/;"	v
-uuid	contrib\load-tester\fire_requests.py	/^import uuid$/;"	i
-Pool	contrib\load-tester\fire_wdctl.py	/^from multiprocessing import Pool$/;"	i
-args	contrib\load-tester\fire_wdctl.py	/^    args = parser.parse_args()$/;"	v
-common	contrib\load-tester\fire_wdctl.py	/^import common$/;"	i
-functools	contrib\load-tester\fire_wdctl.py	/^import functools$/;"	i
-main_single	contrib\load-tester\fire_wdctl.py	/^def main_single(target, prefix, i):$/;"	f
-p	contrib\load-tester\fire_wdctl.py	/^    p = Pool(int(args.process_count))$/;"	v
-parser	contrib\load-tester\fire_wdctl.py	/^    parser = common.get_argparser()$/;"	v
-partial	contrib\load-tester\fire_wdctl.py	/^    partial = functools.partial($/;"	v
-random	contrib\load-tester\fire_wdctl.py	/^import random$/;"	i
-subprocess	contrib\load-tester\fire_wdctl.py	/^import subprocess$/;"	i
-target	contrib\load-tester\fire_wdctl.py	/^    target = common.get_ip_address(args.target_interface)$/;"	v
-start	contrib\load-tester\generate_interfaces.sh	/^function start() {$/;"	f
-stop	contrib\load-tester\generate_interfaces.sh	/^function stop() {$/;"	f
-AuthHandler	contrib\load-tester\mock_auth.py	/^class AuthHandler(BaseHTTPRequestHandler):$/;"	c
-BaseHTTPRequestHandler	contrib\load-tester\mock_auth.py	/^from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer$/;"	i
-HTTPServer	contrib\load-tester\mock_auth.py	/^from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer$/;"	i
-do_GET	contrib\load-tester\mock_auth.py	/^    def do_GET(self):$/;"	m	class:AuthHandler
-main	contrib\load-tester\mock_auth.py	/^def main():$/;"	f
-random	contrib\load-tester\mock_auth.py	/^import random$/;"	i
-getdatum	contrib\load-tester\plot_memory.sh	/^function getdatum {$/;"	f
-main	contrib\load-tester\plot_memory.sh	/^function main {$/;"	f
-plot	contrib\load-tester\plot_memory.sh	/^function plot {$/;"	f
-cleanup	contrib\load-tester\run.sh	/^function cleanup() {$/;"	f
-main	contrib\load-tester\run.sh	/^function main() {$/;"	f
-HTTP_ACL_DENY	install\include\wifidog\httpd.h	87;"	d
-HTTP_ACL_PERMIT	install\include\wifidog\httpd.h	86;"	d
-HTTP_ANY_ADDR	install\include\wifidog\httpd.h	64;"	d
-HTTP_C_FUNCT	install\include\wifidog\httpd.h	73;"	d
-HTTP_C_WILDCARD	install\include\wifidog\httpd.h	77;"	d
-HTTP_EMBER_FUNCT	install\include\wifidog\httpd.h	74;"	d
-HTTP_FALSE	install\include\wifidog\httpd.h	70;"	d
-HTTP_FILE	install\include\wifidog\httpd.h	72;"	d
-HTTP_GET	install\include\wifidog\httpd.h	66;"	d
-HTTP_IP_ADDR_LEN	install\include\wifidog\httpd.h	61;"	d
-HTTP_MAX_AUTH	install\include\wifidog\httpd.h	60;"	d
-HTTP_MAX_HEADERS	install\include\wifidog\httpd.h	59;"	d
-HTTP_MAX_LEN	install\include\wifidog\httpd.h	57;"	d
-HTTP_MAX_URL	install\include\wifidog\httpd.h	58;"	d
-HTTP_METHOD_ERROR	install\include\wifidog\httpd.h	79;"	d
-HTTP_PORT	install\include\wifidog\httpd.h	56;"	d
-HTTP_POST	install\include\wifidog\httpd.h	67;"	d
-HTTP_READ_BUF_LEN	install\include\wifidog\httpd.h	63;"	d
-HTTP_STATIC	install\include\wifidog\httpd.h	75;"	d
-HTTP_TIME_STRING_LEN	install\include\wifidog\httpd.h	62;"	d
-HTTP_TRUE	install\include\wifidog\httpd.h	69;"	d
-HTTP_WILDCARD	install\include\wifidog\httpd.h	76;"	d
-LIB_HTTPD_H	install\include\wifidog\httpd.h	32;"	d
-__ANSI_PROTO	install\include\wifidog\httpd.h	38;"	d
-__ANSI_PROTO	install\include\wifidog\httpd.h	40;"	d
-_httpd_content	install\include\wifidog\httpd.h	/^    typedef struct _httpd_content {$/;"	s
-_httpd_dir	install\include\wifidog\httpd.h	/^    typedef struct _httpd_dir {$/;"	s
-_httpd_var	install\include\wifidog\httpd.h	/^    typedef struct _httpd_var {$/;"	s
-accessLog	install\include\wifidog\httpd.h	/^        FILE *accessLog, *errorLog;$/;"	m	struct:__anon3
-action	install\include\wifidog\httpd.h	/^        char len, action;$/;"	m	struct:ip_acl_s
-addr	install\include\wifidog\httpd.h	/^        int addr;$/;"	m	struct:ip_acl_s
-authLength	install\include\wifidog\httpd.h	/^        int method, contentLength, authLength;$/;"	m	struct:__anon1
-authPassword	install\include\wifidog\httpd.h	/^        char authPassword[HTTP_MAX_AUTH];$/;"	m	struct:__anon1
-authUser	install\include\wifidog\httpd.h	/^        char authUser[HTTP_MAX_AUTH];$/;"	m	struct:__anon1
-children	install\include\wifidog\httpd.h	/^        struct _httpd_dir *children, *next;$/;"	m	struct:_httpd_dir	typeref:struct:_httpd_dir::_httpd_dir
-clientAddr	install\include\wifidog\httpd.h	/^        char readBuf[HTTP_READ_BUF_LEN + 1], *readBufPtr, clientAddr[HTTP_IP_ADDR_LEN];$/;"	m	struct:__anon4
-clientSock	install\include\wifidog\httpd.h	/^        int clientSock, readBufRemain;$/;"	m	struct:__anon4
-content	install\include\wifidog\httpd.h	/^        httpContent *content;$/;"	m	struct:__anon2
-content	install\include\wifidog\httpd.h	/^        httpDir *content;$/;"	m	struct:__anon3
-contentLength	install\include\wifidog\httpd.h	/^        int method, contentLength, authLength;$/;"	m	struct:__anon1
-contentType	install\include\wifidog\httpd.h	/^        char headersSent, headers[HTTP_MAX_HEADERS], response[HTTP_MAX_URL], contentType[HTTP_MAX_URL];$/;"	m	struct:__anon2
-data	install\include\wifidog\httpd.h	/^        char *data, *path;$/;"	m	struct:_httpd_content
-defaultAcl	install\include\wifidog\httpd.h	/^        httpAcl *defaultAcl;$/;"	m	struct:__anon3
-entries	install\include\wifidog\httpd.h	/^        struct _httpd_content *entries;$/;"	m	struct:_httpd_dir	typeref:struct:_httpd_dir::_httpd_content
-errorFunction304	install\include\wifidog\httpd.h	/^        void (*errorFunction304) (), (*errorFunction403) (), (*errorFunction404) ();$/;"	m	struct:__anon3
-errorLog	install\include\wifidog\httpd.h	/^        FILE *accessLog, *errorLog;$/;"	m	struct:__anon3
-fileBasePath	install\include\wifidog\httpd.h	/^        char fileBasePath[HTTP_MAX_URL], *host;$/;"	m	struct:__anon3
-function	install\include\wifidog\httpd.h	/^        void (*function) ();$/;"	m	struct:_httpd_content
-headers	install\include\wifidog\httpd.h	/^        char headersSent, headers[HTTP_MAX_HEADERS], response[HTTP_MAX_URL], contentType[HTTP_MAX_URL];$/;"	m	struct:__anon2
-headersSent	install\include\wifidog\httpd.h	/^        char headersSent, headers[HTTP_MAX_HEADERS], response[HTTP_MAX_URL], contentType[HTTP_MAX_URL];$/;"	m	struct:__anon2
-host	install\include\wifidog\httpd.h	/^        char fileBasePath[HTTP_MAX_URL], *host;$/;"	m	struct:__anon3
-host	install\include\wifidog\httpd.h	/^        char path[HTTP_MAX_URL], query[HTTP_MAX_URL], host[HTTP_MAX_URL],       \/* acv@acv.ca\/wifidog: Added decoding$/;"	m	struct:__anon1
-httpAcl	install\include\wifidog\httpd.h	/^    } httpAcl;$/;"	t	typeref:struct:ip_acl_s
-httpContent	install\include\wifidog\httpd.h	/^    } httpContent;$/;"	t	typeref:struct:_httpd_content
-httpDir	install\include\wifidog\httpd.h	/^    } httpDir;$/;"	t	typeref:struct:_httpd_dir
-httpReq	install\include\wifidog\httpd.h	/^    } httpReq;$/;"	t	typeref:struct:__anon1
-httpRes	install\include\wifidog\httpd.h	/^    } httpRes;$/;"	t	typeref:struct:__anon2
-httpVar	install\include\wifidog\httpd.h	/^    } httpVar;$/;"	t	typeref:struct:_httpd_var
-httpd	install\include\wifidog\httpd.h	/^    } httpd;$/;"	t	typeref:struct:__anon3
-httpdRequestContentLength	install\include\wifidog\httpd.h	84;"	d
-httpdRequestContentType	install\include\wifidog\httpd.h	83;"	d
-httpdRequestMethod	install\include\wifidog\httpd.h	81;"	d
-httpdRequestPath	install\include\wifidog\httpd.h	82;"	d
-ifModified	install\include\wifidog\httpd.h	/^         ifModified[HTTP_MAX_URL];$/;"	m	struct:__anon1
-indexFlag	install\include\wifidog\httpd.h	/^        int type, indexFlag;$/;"	m	struct:_httpd_content
-ip_acl_s	install\include\wifidog\httpd.h	/^    typedef struct ip_acl_s {$/;"	s
-lastError	install\include\wifidog\httpd.h	/^        int port, serverSock, startTime, lastError;$/;"	m	struct:__anon3
-len	install\include\wifidog\httpd.h	/^        char len, action;$/;"	m	struct:ip_acl_s
-method	install\include\wifidog\httpd.h	/^        int method, contentLength, authLength;$/;"	m	struct:__anon1
-name	install\include\wifidog\httpd.h	/^        char *name, *value;$/;"	m	struct:_httpd_var
-name	install\include\wifidog\httpd.h	/^        char *name;$/;"	m	struct:_httpd_content
-name	install\include\wifidog\httpd.h	/^        char *name;$/;"	m	struct:_httpd_dir
-next	install\include\wifidog\httpd.h	/^        struct _httpd_content *next;$/;"	m	struct:_httpd_content	typeref:struct:_httpd_content::_httpd_content
-next	install\include\wifidog\httpd.h	/^        struct _httpd_dir *children, *next;$/;"	m	struct:_httpd_dir	typeref:struct:_httpd_dir::
-next	install\include\wifidog\httpd.h	/^        struct ip_acl_s *next;$/;"	m	struct:ip_acl_s	typeref:struct:ip_acl_s::ip_acl_s
-nextValue	install\include\wifidog\httpd.h	/^        struct _httpd_var *nextValue, *nextVariable;$/;"	m	struct:_httpd_var	typeref:struct:_httpd_var::_httpd_var
-nextVariable	install\include\wifidog\httpd.h	/^        struct _httpd_var *nextValue, *nextVariable;$/;"	m	struct:_httpd_var	typeref:struct:_httpd_var::
-path	install\include\wifidog\httpd.h	/^        char *data, *path;$/;"	m	struct:_httpd_content
-path	install\include\wifidog\httpd.h	/^        char path[HTTP_MAX_URL], query[HTTP_MAX_URL], host[HTTP_MAX_URL],       \/* acv@acv.ca\/wifidog: Added decoding$/;"	m	struct:__anon1
-port	install\include\wifidog\httpd.h	/^        int port, serverSock, startTime, lastError;$/;"	m	struct:__anon3
-preload	install\include\wifidog\httpd.h	/^        int (*preload) ();$/;"	m	struct:_httpd_content
-query	install\include\wifidog\httpd.h	/^        char path[HTTP_MAX_URL], query[HTTP_MAX_URL], host[HTTP_MAX_URL],       \/* acv@acv.ca\/wifidog: Added decoding$/;"	m	struct:__anon1
-readBuf	install\include\wifidog\httpd.h	/^        char readBuf[HTTP_READ_BUF_LEN + 1], *readBufPtr, clientAddr[HTTP_IP_ADDR_LEN];$/;"	m	struct:__anon4
-readBufPtr	install\include\wifidog\httpd.h	/^        char readBuf[HTTP_READ_BUF_LEN + 1], *readBufPtr, clientAddr[HTTP_IP_ADDR_LEN];$/;"	m	struct:__anon4
-readBufRemain	install\include\wifidog\httpd.h	/^        int clientSock, readBufRemain;$/;"	m	struct:__anon4
-request	install\include\wifidog\httpd.h	/^        httpReq request;$/;"	m	struct:__anon4
-request	install\include\wifidog\httpd.h	/^    } request;$/;"	t	typeref:struct:__anon4
-response	install\include\wifidog\httpd.h	/^        char headersSent, headers[HTTP_MAX_HEADERS], response[HTTP_MAX_URL], contentType[HTTP_MAX_URL];$/;"	m	struct:__anon2
-response	install\include\wifidog\httpd.h	/^        httpRes response;$/;"	m	struct:__anon4
-responseLength	install\include\wifidog\httpd.h	/^        int responseLength;$/;"	m	struct:__anon2
-serverSock	install\include\wifidog\httpd.h	/^        int port, serverSock, startTime, lastError;$/;"	m	struct:__anon3
-startTime	install\include\wifidog\httpd.h	/^        int port, serverSock, startTime, lastError;$/;"	m	struct:__anon3
-type	install\include\wifidog\httpd.h	/^        int type, indexFlag;$/;"	m	struct:_httpd_content
-value	install\include\wifidog\httpd.h	/^        char *name, *value;$/;"	m	struct:_httpd_var
-variables	install\include\wifidog\httpd.h	/^        httpVar *variables;$/;"	m	struct:__anon4
-httpdAddCContent	libhttpd\api.c	/^httpdAddCContent(server, dir, name, indexFlag, preload, function)$/;"	f
-httpdAddCWildcardContent	libhttpd\api.c	/^httpdAddCWildcardContent(server, dir, preload, function)$/;"	f
-httpdAddFileContent	libhttpd\api.c	/^httpdAddFileContent(server, dir, name, indexFlag, preload, path)$/;"	f
-httpdAddHeader	libhttpd\api.c	/^httpdAddHeader(request * r, const char *msg)$/;"	f
-httpdAddStaticContent	libhttpd\api.c	/^httpdAddStaticContent(server, dir, name, indexFlag, preload, data)$/;"	f
-httpdAddVariable	libhttpd\api.c	/^httpdAddVariable(request * r, const char *name, const char *value)$/;"	f
-httpdAddWildcardContent	libhttpd\api.c	/^httpdAddWildcardContent(server, dir, preload, path)$/;"	f
-httpdAuthenticate	libhttpd\api.c	/^httpdAuthenticate(request * r, const char *realm)$/;"	f
-httpdCreate	libhttpd\api.c	/^httpdCreate(host, port)$/;"	f
-httpdDestroy	libhttpd\api.c	/^httpdDestroy(server)$/;"	f
-httpdDumpVariables	libhttpd\api.c	/^httpdDumpVariables(request * r)$/;"	f
-httpdEndRequest	libhttpd\api.c	/^httpdEndRequest(request * r)$/;"	f
-httpdForceAuthenticate	libhttpd\api.c	/^httpdForceAuthenticate(request * r, const char *realm)$/;"	f
-httpdFreeVariables	libhttpd\api.c	/^httpdFreeVariables(request * r)$/;"	f
-httpdGetConnection	libhttpd\api.c	/^httpdGetConnection(server, timeout)$/;"	f
-httpdGetNextVariableByPrefix	libhttpd\api.c	/^httpdGetNextVariableByPrefix(curVar, prefix)$/;"	f
-httpdGetVariableByName	libhttpd\api.c	/^httpdGetVariableByName(request * r, const char *name)$/;"	f
-httpdGetVariableByPrefix	libhttpd\api.c	/^httpdGetVariableByPrefix(request * r, const char *prefix)$/;"	f
-httpdGetVariableByPrefixedName	libhttpd\api.c	/^httpdGetVariableByPrefixedName(request * r, const char *prefix, const char *name)$/;"	f
-httpdOutput	libhttpd\api.c	/^httpdOutput(request * r, const char *msg)$/;"	f
-httpdPrintf	libhttpd\api.c	/^httpdPrintf(request * r, const char *fmt, ...)$/;"	f
-httpdProcessRequest	libhttpd\api.c	/^httpdProcessRequest(httpd * server, request * r)$/;"	f
-httpdReadRequest	libhttpd\api.c	/^httpdReadRequest(httpd * server, request * r)$/;"	f
-httpdRequestMethodName	libhttpd\api.c	/^httpdRequestMethodName(request * r)$/;"	f
-httpdSendFile	libhttpd\api.c	/^httpdSendFile(httpd * server, request * r, const char *path)$/;"	f
-httpdSendHeaders	libhttpd\api.c	/^httpdSendHeaders(request * r)$/;"	f
-httpdSetAccessLog	libhttpd\api.c	/^httpdSetAccessLog(server, fp)$/;"	f
-httpdSetContentType	libhttpd\api.c	/^httpdSetContentType(request * r, const char *type)$/;"	f
-httpdSetCookie	libhttpd\api.c	/^httpdSetCookie(request * r, const char *name, const char *value)$/;"	f
-httpdSetErrorFunction	libhttpd\api.c	/^httpdSetErrorFunction(httpd * server, int error, void (*function) ())$/;"	f
-httpdSetErrorLog	libhttpd\api.c	/^httpdSetErrorLog(server, fp)$/;"	f
-httpdSetFileBase	libhttpd\api.c	/^httpdSetFileBase(server, path)$/;"	f
-httpdSetResponse	libhttpd\api.c	/^httpdSetResponse(request * r, const char *msg)$/;"	f
-httpdSetVariableValue	libhttpd\api.c	/^httpdSetVariableValue(request * r, const char *name, const char *value)$/;"	f
-httpdUrlEncode	libhttpd\api.c	/^httpdUrlEncode(str)$/;"	f
-HTTP_ACL_DENY	libhttpd\httpd.h	87;"	d
-HTTP_ACL_PERMIT	libhttpd\httpd.h	86;"	d
-HTTP_ANY_ADDR	libhttpd\httpd.h	64;"	d
-HTTP_C_FUNCT	libhttpd\httpd.h	73;"	d
-HTTP_C_WILDCARD	libhttpd\httpd.h	77;"	d
-HTTP_EMBER_FUNCT	libhttpd\httpd.h	74;"	d
-HTTP_FALSE	libhttpd\httpd.h	70;"	d
-HTTP_FILE	libhttpd\httpd.h	72;"	d
-HTTP_GET	libhttpd\httpd.h	66;"	d
-HTTP_IP_ADDR_LEN	libhttpd\httpd.h	61;"	d
-HTTP_MAX_AUTH	libhttpd\httpd.h	60;"	d
-HTTP_MAX_HEADERS	libhttpd\httpd.h	59;"	d
-HTTP_MAX_LEN	libhttpd\httpd.h	57;"	d
-HTTP_MAX_URL	libhttpd\httpd.h	58;"	d
-HTTP_METHOD_ERROR	libhttpd\httpd.h	79;"	d
-HTTP_PORT	libhttpd\httpd.h	56;"	d
-HTTP_POST	libhttpd\httpd.h	67;"	d
-HTTP_READ_BUF_LEN	libhttpd\httpd.h	63;"	d
-HTTP_STATIC	libhttpd\httpd.h	75;"	d
-HTTP_TIME_STRING_LEN	libhttpd\httpd.h	62;"	d
-HTTP_TRUE	libhttpd\httpd.h	69;"	d
-HTTP_WILDCARD	libhttpd\httpd.h	76;"	d
-LIB_HTTPD_H	libhttpd\httpd.h	32;"	d
-__ANSI_PROTO	libhttpd\httpd.h	38;"	d
-__ANSI_PROTO	libhttpd\httpd.h	40;"	d
-_httpd_content	libhttpd\httpd.h	/^    typedef struct _httpd_content {$/;"	s
-_httpd_dir	libhttpd\httpd.h	/^    typedef struct _httpd_dir {$/;"	s
-_httpd_var	libhttpd\httpd.h	/^    typedef struct _httpd_var {$/;"	s
-accessLog	libhttpd\httpd.h	/^        FILE *accessLog, *errorLog;$/;"	m	struct:__anon7
-action	libhttpd\httpd.h	/^        char len, action;$/;"	m	struct:ip_acl_s
-addr	libhttpd\httpd.h	/^        int addr;$/;"	m	struct:ip_acl_s
-authLength	libhttpd\httpd.h	/^        int method, contentLength, authLength;$/;"	m	struct:__anon5
-authPassword	libhttpd\httpd.h	/^        char authPassword[HTTP_MAX_AUTH];$/;"	m	struct:__anon5
-authUser	libhttpd\httpd.h	/^        char authUser[HTTP_MAX_AUTH];$/;"	m	struct:__anon5
-children	libhttpd\httpd.h	/^        struct _httpd_dir *children, *next;$/;"	m	struct:_httpd_dir	typeref:struct:_httpd_dir::_httpd_dir
-clientAddr	libhttpd\httpd.h	/^        char readBuf[HTTP_READ_BUF_LEN + 1], *readBufPtr, clientAddr[HTTP_IP_ADDR_LEN];$/;"	m	struct:__anon8
-clientSock	libhttpd\httpd.h	/^        int clientSock, readBufRemain;$/;"	m	struct:__anon8
-content	libhttpd\httpd.h	/^        httpContent *content;$/;"	m	struct:__anon6
-content	libhttpd\httpd.h	/^        httpDir *content;$/;"	m	struct:__anon7
-contentLength	libhttpd\httpd.h	/^        int method, contentLength, authLength;$/;"	m	struct:__anon5
-contentType	libhttpd\httpd.h	/^        char headersSent, headers[HTTP_MAX_HEADERS], response[HTTP_MAX_URL], contentType[HTTP_MAX_URL];$/;"	m	struct:__anon6
-data	libhttpd\httpd.h	/^        char *data, *path;$/;"	m	struct:_httpd_content
-defaultAcl	libhttpd\httpd.h	/^        httpAcl *defaultAcl;$/;"	m	struct:__anon7
-entries	libhttpd\httpd.h	/^        struct _httpd_content *entries;$/;"	m	struct:_httpd_dir	typeref:struct:_httpd_dir::_httpd_content
-errorFunction304	libhttpd\httpd.h	/^        void (*errorFunction304) (), (*errorFunction403) (), (*errorFunction404) ();$/;"	m	struct:__anon7
-errorLog	libhttpd\httpd.h	/^        FILE *accessLog, *errorLog;$/;"	m	struct:__anon7
-fileBasePath	libhttpd\httpd.h	/^        char fileBasePath[HTTP_MAX_URL], *host;$/;"	m	struct:__anon7
-function	libhttpd\httpd.h	/^        void (*function) ();$/;"	m	struct:_httpd_content
-headers	libhttpd\httpd.h	/^        char headersSent, headers[HTTP_MAX_HEADERS], response[HTTP_MAX_URL], contentType[HTTP_MAX_URL];$/;"	m	struct:__anon6
-headersSent	libhttpd\httpd.h	/^        char headersSent, headers[HTTP_MAX_HEADERS], response[HTTP_MAX_URL], contentType[HTTP_MAX_URL];$/;"	m	struct:__anon6
-host	libhttpd\httpd.h	/^        char fileBasePath[HTTP_MAX_URL], *host;$/;"	m	struct:__anon7
-host	libhttpd\httpd.h	/^        char path[HTTP_MAX_URL], query[HTTP_MAX_URL], host[HTTP_MAX_URL],       \/* acv@acv.ca\/wifidog: Added decoding$/;"	m	struct:__anon5
-httpAcl	libhttpd\httpd.h	/^    } httpAcl;$/;"	t	typeref:struct:ip_acl_s
-httpContent	libhttpd\httpd.h	/^    } httpContent;$/;"	t	typeref:struct:_httpd_content
-httpDir	libhttpd\httpd.h	/^    } httpDir;$/;"	t	typeref:struct:_httpd_dir
-httpReq	libhttpd\httpd.h	/^    } httpReq;$/;"	t	typeref:struct:__anon5
-httpRes	libhttpd\httpd.h	/^    } httpRes;$/;"	t	typeref:struct:__anon6
-httpVar	libhttpd\httpd.h	/^    } httpVar;$/;"	t	typeref:struct:_httpd_var
-httpd	libhttpd\httpd.h	/^    } httpd;$/;"	t	typeref:struct:__anon7
-httpdRequestContentLength	libhttpd\httpd.h	84;"	d
-httpdRequestContentType	libhttpd\httpd.h	83;"	d
-httpdRequestMethod	libhttpd\httpd.h	81;"	d
-httpdRequestPath	libhttpd\httpd.h	82;"	d
-ifModified	libhttpd\httpd.h	/^         ifModified[HTTP_MAX_URL];$/;"	m	struct:__anon5
-indexFlag	libhttpd\httpd.h	/^        int type, indexFlag;$/;"	m	struct:_httpd_content
-ip_acl_s	libhttpd\httpd.h	/^    typedef struct ip_acl_s {$/;"	s
-lastError	libhttpd\httpd.h	/^        int port, serverSock, startTime, lastError;$/;"	m	struct:__anon7
-len	libhttpd\httpd.h	/^        char len, action;$/;"	m	struct:ip_acl_s
-method	libhttpd\httpd.h	/^        int method, contentLength, authLength;$/;"	m	struct:__anon5
-name	libhttpd\httpd.h	/^        char *name, *value;$/;"	m	struct:_httpd_var
-name	libhttpd\httpd.h	/^        char *name;$/;"	m	struct:_httpd_content
-name	libhttpd\httpd.h	/^        char *name;$/;"	m	struct:_httpd_dir
-next	libhttpd\httpd.h	/^        struct _httpd_content *next;$/;"	m	struct:_httpd_content	typeref:struct:_httpd_content::_httpd_content
-next	libhttpd\httpd.h	/^        struct _httpd_dir *children, *next;$/;"	m	struct:_httpd_dir	typeref:struct:_httpd_dir::
-next	libhttpd\httpd.h	/^        struct ip_acl_s *next;$/;"	m	struct:ip_acl_s	typeref:struct:ip_acl_s::ip_acl_s
-nextValue	libhttpd\httpd.h	/^        struct _httpd_var *nextValue, *nextVariable;$/;"	m	struct:_httpd_var	typeref:struct:_httpd_var::_httpd_var
-nextVariable	libhttpd\httpd.h	/^        struct _httpd_var *nextValue, *nextVariable;$/;"	m	struct:_httpd_var	typeref:struct:_httpd_var::
-path	libhttpd\httpd.h	/^        char *data, *path;$/;"	m	struct:_httpd_content
-path	libhttpd\httpd.h	/^        char path[HTTP_MAX_URL], query[HTTP_MAX_URL], host[HTTP_MAX_URL],       \/* acv@acv.ca\/wifidog: Added decoding$/;"	m	struct:__anon5
-port	libhttpd\httpd.h	/^        int port, serverSock, startTime, lastError;$/;"	m	struct:__anon7
-preload	libhttpd\httpd.h	/^        int (*preload) ();$/;"	m	struct:_httpd_content
-query	libhttpd\httpd.h	/^        char path[HTTP_MAX_URL], query[HTTP_MAX_URL], host[HTTP_MAX_URL],       \/* acv@acv.ca\/wifidog: Added decoding$/;"	m	struct:__anon5
-readBuf	libhttpd\httpd.h	/^        char readBuf[HTTP_READ_BUF_LEN + 1], *readBufPtr, clientAddr[HTTP_IP_ADDR_LEN];$/;"	m	struct:__anon8
-readBufPtr	libhttpd\httpd.h	/^        char readBuf[HTTP_READ_BUF_LEN + 1], *readBufPtr, clientAddr[HTTP_IP_ADDR_LEN];$/;"	m	struct:__anon8
-readBufRemain	libhttpd\httpd.h	/^        int clientSock, readBufRemain;$/;"	m	struct:__anon8
-request	libhttpd\httpd.h	/^        httpReq request;$/;"	m	struct:__anon8
-request	libhttpd\httpd.h	/^    } request;$/;"	t	typeref:struct:__anon8
-response	libhttpd\httpd.h	/^        char headersSent, headers[HTTP_MAX_HEADERS], response[HTTP_MAX_URL], contentType[HTTP_MAX_URL];$/;"	m	struct:__anon6
-response	libhttpd\httpd.h	/^        httpRes response;$/;"	m	struct:__anon8
-responseLength	libhttpd\httpd.h	/^        int responseLength;$/;"	m	struct:__anon6
-serverSock	libhttpd\httpd.h	/^        int port, serverSock, startTime, lastError;$/;"	m	struct:__anon7
-startTime	libhttpd\httpd.h	/^        int port, serverSock, startTime, lastError;$/;"	m	struct:__anon7
-type	libhttpd\httpd.h	/^        int type, indexFlag;$/;"	m	struct:_httpd_content
-value	libhttpd\httpd.h	/^        char *name, *value;$/;"	m	struct:_httpd_var
-variables	libhttpd\httpd.h	/^        httpVar *variables;$/;"	m	struct:__anon8
-LEVEL_ERROR	libhttpd\httpd_priv.h	47;"	d
-LEVEL_NOTICE	libhttpd\httpd_priv.h	46;"	d
-LIB_HTTPD_H_PRIV	libhttpd\httpd_priv.h	32;"	d
-__ANSI_PROTO	libhttpd\httpd_priv.h	36;"	d
-__ANSI_PROTO	libhttpd\httpd_priv.h	38;"	d
-_isInCidrBlock	libhttpd\ip_acl.c	/^_isInCidrBlock(httpd * server, request * r, int addr1, int len1, int addr2, int len2)$/;"	f	file:
-httpdAddAcl	libhttpd\ip_acl.c	/^httpdAddAcl(server, acl, cidr, action)$/;"	f
-httpdCheckAcl	libhttpd\ip_acl.c	/^httpdCheckAcl(httpd * server, request * r, httpAcl * acl)$/;"	f
-httpdSetDefaultAcl	libhttpd\ip_acl.c	/^httpdSetDefaultAcl(server, acl)$/;"	f
-scanCidr	libhttpd\ip_acl.c	/^scanCidr(val, result, length)$/;"	f	file:
-ACCEPTABLE	libhttpd\protocol.c	633;"	d	file:
-DEC	libhttpd\protocol.c	200;"	d	file:
-URL_XALPHAS	libhttpd\protocol.c	618;"	d	file:
-URL_XPALPHAS	libhttpd\protocol.c	619;"	d	file:
-_DECODE_MAXVAL	libhttpd\protocol.c	201;"	d	file:
-_httpd_catFile	libhttpd\protocol.c	/^_httpd_catFile(request * r, const char *path)$/;"	f
-_httpd_checkLastModified	libhttpd\protocol.c	/^_httpd_checkLastModified(request * r, int modTime)$/;"	f
-_httpd_decode	libhttpd\protocol.c	/^_httpd_decode(bufcoded, bufplain, outbufsize)$/;"	f
-_httpd_escape	libhttpd\protocol.c	/^_httpd_escape(str)$/;"	f
-_httpd_findContentDir	libhttpd\protocol.c	/^_httpd_findContentDir(server, dir, createFlag)$/;"	f
-_httpd_findContentEntry	libhttpd\protocol.c	/^_httpd_findContentEntry(request * r, httpDir * dir, char *entryName)$/;"	f
-_httpd_formatTimeString	libhttpd\protocol.c	/^_httpd_formatTimeString(char *ptr, int clock)$/;"	f
-_httpd_freeVariables	libhttpd\protocol.c	/^_httpd_freeVariables(var)$/;"	f
-_httpd_from_hex	libhttpd\protocol.c	/^_httpd_from_hex(char c)$/;"	f
-_httpd_net_read	libhttpd\protocol.c	/^_httpd_net_read(sock, buf, len)$/;"	f
-_httpd_net_write	libhttpd\protocol.c	/^_httpd_net_write(sock, buf, len)$/;"	f
-_httpd_readBuf	libhttpd\protocol.c	/^_httpd_readBuf(request * r, char *destBuf, int len)$/;"	f
-_httpd_readChar	libhttpd\protocol.c	/^_httpd_readChar(request * r, char *cp)$/;"	f
-_httpd_readLine	libhttpd\protocol.c	/^_httpd_readLine(request * r, char *destBuf, int len)$/;"	f
-_httpd_sanitiseUrl	libhttpd\protocol.c	/^_httpd_sanitiseUrl(url)$/;"	f
-_httpd_send304	libhttpd\protocol.c	/^_httpd_send304(httpd * server, request * r)$/;"	f
-_httpd_send403	libhttpd\protocol.c	/^_httpd_send403(httpd * server, request * r)$/;"	f
-_httpd_send404	libhttpd\protocol.c	/^_httpd_send404(httpd * server, request * r)$/;"	f
-_httpd_sendDirectoryEntry	libhttpd\protocol.c	/^_httpd_sendDirectoryEntry(httpd * server, request * r, httpContent * entry, char *entryName)$/;"	f
-_httpd_sendFile	libhttpd\protocol.c	/^_httpd_sendFile(httpd * server, request * r, char *path)$/;"	f
-_httpd_sendHeaders	libhttpd\protocol.c	/^_httpd_sendHeaders(request * r, int contentLength, int modTime)$/;"	f
-_httpd_sendStatic	libhttpd\protocol.c	/^_httpd_sendStatic(httpd * server, request * r, char *data)$/;"	f
-_httpd_sendText	libhttpd\protocol.c	/^_httpd_sendText(request * r, char *msg)$/;"	f
-_httpd_storeData	libhttpd\protocol.c	/^_httpd_storeData(request * r, char *query)$/;"	f
-_httpd_unescape	libhttpd\protocol.c	/^_httpd_unescape(str)$/;"	f
-_httpd_writeAccessLog	libhttpd\protocol.c	/^_httpd_writeAccessLog(httpd * server, request * r)$/;"	f
-_httpd_writeErrorLog	libhttpd\protocol.c	/^_httpd_writeErrorLog(httpd * server, request * r, char *level, char *message)$/;"	f
-hex	libhttpd\protocol.c	/^static char *hex = "0123456789ABCDEF";$/;"	v	file:
-isAcceptable	libhttpd\protocol.c	/^static unsigned char isAcceptable[96] =$/;"	v	file:
-LIBHTTPD_VENDOR	libhttpd\version.c	/^        LIBHTTPD_VENDOR[] =   "Hughes Technologies Pty Ltd";$/;"	v
-LIBHTTPD_VERSION	libhttpd\version.c	/^char    LIBHTTPD_VERSION[] =  "1.4-wifidog",$/;"	v
-_GNU_SOURCE	src\auth.c	28;"	d	file:
-authenticate_client	src\auth.c	/^authenticate_client(request * r)$/;"	f
-logout_client	src\auth.c	/^logout_client(t_client * client)$/;"	f
-thread_client_timeout_check	src\auth.c	/^thread_client_timeout_check(const void *arg)$/;"	f
-AUTH_ALLOWED	src\auth.h	/^    AUTH_ALLOWED = 1, \/**< Client was granted access by the auth server *\/$/;"	e	enum:__anon9
-AUTH_DENIED	src\auth.h	/^    AUTH_DENIED = 0, \/**< Client was denied by the auth server *\/$/;"	e	enum:__anon9
-AUTH_ERROR	src\auth.h	/^    AUTH_ERROR = -1, \/**< An error occured during the validation process*\/$/;"	e	enum:__anon9
-AUTH_LOCKED	src\auth.h	/^    AUTH_LOCKED = 254 \/**< Account has been locked *\/$/;"	e	enum:__anon9
-AUTH_VALIDATION	src\auth.h	/^    AUTH_VALIDATION = 5, \/**< A misnomer.  Client is in 15 min probation to validate his new account *\/$/;"	e	enum:__anon9
-AUTH_VALIDATION_FAILED	src\auth.h	/^    AUTH_VALIDATION_FAILED = 6, \/**< Client had X minutes to validate account by email and didn't = too late *\/$/;"	e	enum:__anon9
-_AUTH_H_	src\auth.h	29;"	d
-_t_authresponse	src\auth.h	/^typedef struct _t_authresponse {$/;"	s
-authcode	src\auth.h	/^    t_authcode authcode; \/**< Authentication code returned by the server *\/$/;"	m	struct:_t_authresponse
-t_authcode	src\auth.h	/^} t_authcode;$/;"	t	typeref:enum:__anon9
-t_authresponse	src\auth.h	/^} t_authresponse;$/;"	t	typeref:struct:_t_authresponse
-_connect_auth_server	src\centralserver.c	/^_connect_auth_server(int level)$/;"	f
-auth_server_request	src\centralserver.c	/^auth_server_request(t_authresponse * authresponse, const char *request_type, const char *ip, const char *mac,$/;"	f
-connect_auth_server	src\centralserver.c	/^connect_auth_server()$/;"	f
-GATEWAY_MESSAGE_ACCOUNT_LOGGED_OUT	src\centralserver.h	47;"	d
-GATEWAY_MESSAGE_ACCOUNT_VALIDATION_FAILED	src\centralserver.h	45;"	d
-GATEWAY_MESSAGE_ACTIVATE_ACCOUNT	src\centralserver.h	43;"	d
-GATEWAY_MESSAGE_DENIED	src\centralserver.h	41;"	d
-REQUEST_TYPE_COUNTERS	src\centralserver.h	38;"	d
-REQUEST_TYPE_LOGIN	src\centralserver.h	34;"	d
-REQUEST_TYPE_LOGOUT	src\centralserver.h	36;"	d
-_CENTRALSERVER_H_	src\centralserver.h	29;"	d
-_GNU_SOURCE	src\client_list.c	27;"	d	file:
-client_dup	src\client_list.c	/^client_dup(const t_client * src)$/;"	f
-client_free_node	src\client_list.c	/^client_free_node(t_client * client)$/;"	f
-client_get_first_client	src\client_list.c	/^client_get_first_client(void)$/;"	f
-client_get_new	src\client_list.c	/^client_get_new(void)$/;"	f
-client_id	src\client_list.c	/^static volatile unsigned long long client_id = 1;$/;"	v	file:
-client_id_mutex	src\client_list.c	/^static pthread_mutex_t client_id_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
-client_list_add	src\client_list.c	/^client_list_add(const char *ip, const char *mac, const char *token)$/;"	f
-client_list_delete	src\client_list.c	/^client_list_delete(t_client * client)$/;"	f
-client_list_destroy	src\client_list.c	/^client_list_destroy(t_client * list)$/;"	f
-client_list_dup	src\client_list.c	/^client_list_dup(t_client ** dest)$/;"	f
-client_list_find	src\client_list.c	/^client_list_find(const char *ip, const char *mac)$/;"	f
-client_list_find_by_client	src\client_list.c	/^client_list_find_by_client(t_client * client)$/;"	f
-client_list_find_by_ip	src\client_list.c	/^client_list_find_by_ip(const char *ip)$/;"	f
-client_list_find_by_mac	src\client_list.c	/^client_list_find_by_mac(const char *mac)$/;"	f
-client_list_find_by_token	src\client_list.c	/^client_list_find_by_token(const char *token)$/;"	f
-client_list_init	src\client_list.c	/^client_list_init(void)$/;"	f
-client_list_insert_client	src\client_list.c	/^client_list_insert_client(t_client * client)$/;"	f
-client_list_mutex	src\client_list.c	/^pthread_mutex_t client_list_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
-client_list_remove	src\client_list.c	/^client_list_remove(t_client * client)$/;"	f
-firstclient	src\client_list.c	/^static t_client *firstclient = NULL;$/;"	v	file:
-LOCK_CLIENT_LIST	src\client_list.h	113;"	d
-UNLOCK_CLIENT_LIST	src\client_list.h	119;"	d
-_CLIENT_LIST_H_	src\client_list.h	29;"	d
-_t_client	src\client_list.h	/^typedef struct _t_client {$/;"	s
-_t_counters	src\client_list.h	/^typedef struct _t_counters {$/;"	s
-counters	src\client_list.h	/^    t_counters counters;                \/**< @brief Counters for input\/output of$/;"	m	struct:_t_client
-fd	src\client_list.h	/^    int fd;                             \/**< @brief Client HTTP socket (valid only$/;"	m	struct:_t_client
-fw_connection_state	src\client_list.h	/^    int fw_connection_state;     \/**< @brief Connection state in the$/;"	m	struct:_t_client
-id	src\client_list.h	/^    unsigned long long id;           \/**< @brief Unique ID per client *\/$/;"	m	struct:_t_client
-incoming	src\client_list.h	/^    unsigned long long incoming;        \/**< @brief Incoming data total*\/$/;"	m	struct:_t_counters
-incoming_delta	src\client_list.h	/^    unsigned long long incoming_delta;                    \/**< @brief Incoming data after last report*\/$/;"	m	struct:_t_counters
-incoming_history	src\client_list.h	/^    unsigned long long incoming_history;        \/**< @brief Incoming data before wifidog restarted*\/$/;"	m	struct:_t_counters
-ip	src\client_list.h	/^    char *ip;                           \/**< @brief Client Ip address *\/$/;"	m	struct:_t_client
-last_updated	src\client_list.h	/^    time_t last_updated;        \/**< @brief Last update of the counters *\/$/;"	m	struct:_t_counters
-mac	src\client_list.h	/^    char *mac;                          \/**< @brief Client Mac address *\/$/;"	m	struct:_t_client
-next	src\client_list.h	/^    struct _t_client *next;             \/**< @brief Pointer to the next client *\/$/;"	m	struct:_t_client	typeref:struct:_t_client::_t_client
-outgoing	src\client_list.h	/^    unsigned long long outgoing;        \/**< @brief Outgoing data total*\/$/;"	m	struct:_t_counters
-outgoing_delta	src\client_list.h	/^    unsigned long long outgoing_delta;                    \/**< @brief Outgoing data after last report*\/$/;"	m	struct:_t_counters
-outgoing_history	src\client_list.h	/^    unsigned long long outgoing_history;        \/**< @brief Outgoing data before wifidog restarted*\/$/;"	m	struct:_t_counters
-t_client	src\client_list.h	/^} t_client;$/;"	t	typeref:struct:_t_client
-t_counters	src\client_list.h	/^} t_counters;$/;"	t	typeref:struct:_t_counters
-token	src\client_list.h	/^    char *token;                        \/**< @brief Client token *\/$/;"	m	struct:_t_client
-parse_commandline	src\commandline.c	/^parse_commandline(int argc, char **argv)$/;"	f
-restart_orig_pid	src\commandline.c	/^pid_t restart_orig_pid = 0;$/;"	v
-restartargv	src\commandline.c	/^char ** restartargv = NULL;$/;"	v
-usage	src\commandline.c	/^usage(void)$/;"	f	file:
-_COMMANDLINE_H_	src\commandline.h	29;"	d
-MAX_BUF	src\common.h	31;"	d
-_COMMON_H_	src\common.h	28;"	d
-OpCodes	src\conf.c	/^} OpCodes;$/;"	t	typeref:enum:__anon10	file:
-TO_NEXT_WORD	src\conf.c	416;"	d	file:
-_GNU_SOURCE	src\conf.c	29;"	d	file:
-_parse_firewall_rule	src\conf.c	/^_parse_firewall_rule(const char *ruleset, char *leftover)$/;"	f	file:
-add_popular_server	src\conf.c	/^add_popular_server(const char *server)$/;"	f	file:
-check_mac_format	src\conf.c	/^check_mac_format(char *possiblemac)$/;"	f
-config	src\conf.c	/^static s_config config;$/;"	v	file:
-config_get_config	src\conf.c	/^config_get_config(void)$/;"	f
-config_init	src\conf.c	/^config_init(void)$/;"	f
-config_init_override	src\conf.c	/^config_init_override(void)$/;"	f
-config_mutex	src\conf.c	/^pthread_mutex_t config_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
-config_notnull	src\conf.c	/^config_notnull(const void *parm, const char *parmname)$/;"	f	file:
-config_parse_token	src\conf.c	/^config_parse_token(const char *cp, const char *filename, int linenum)$/;"	f	file:
-config_read	src\conf.c	/^config_read(const char *filename)$/;"	f
-config_validate	src\conf.c	/^config_validate(void)$/;"	f
-get_auth_server	src\conf.c	/^get_auth_server(void)$/;"	f
-get_ruleset	src\conf.c	/^get_ruleset(const char *ruleset)$/;"	f
-keywords	src\conf.c	/^} keywords[] = {$/;"	v	typeref:struct:__anon11	file:
-mark_auth_server_bad	src\conf.c	/^mark_auth_server_bad(t_auth_serv * bad_server)$/;"	f
-missing_parms	src\conf.c	/^static int missing_parms;$/;"	v	file:
-name	src\conf.c	/^    const char *name;$/;"	m	struct:__anon11	file:
-oAuthServAuthScriptPathFragment	src\conf.c	/^    oAuthServAuthScriptPathFragment,$/;"	e	enum:__anon10	file:
-oAuthServHTTPPort	src\conf.c	/^    oAuthServHTTPPort,$/;"	e	enum:__anon10	file:
-oAuthServHostname	src\conf.c	/^    oAuthServHostname,$/;"	e	enum:__anon10	file:
-oAuthServLoginScriptPathFragment	src\conf.c	/^    oAuthServLoginScriptPathFragment,$/;"	e	enum:__anon10	file:
-oAuthServMsgScriptPathFragment	src\conf.c	/^    oAuthServMsgScriptPathFragment,$/;"	e	enum:__anon10	file:
-oAuthServPath	src\conf.c	/^    oAuthServPath,$/;"	e	enum:__anon10	file:
-oAuthServPingScriptPathFragment	src\conf.c	/^    oAuthServPingScriptPathFragment,$/;"	e	enum:__anon10	file:
-oAuthServPortalScriptPathFragment	src\conf.c	/^    oAuthServPortalScriptPathFragment,$/;"	e	enum:__anon10	file:
-oAuthServSSLAvailable	src\conf.c	/^    oAuthServSSLAvailable,$/;"	e	enum:__anon10	file:
-oAuthServSSLPort	src\conf.c	/^    oAuthServSSLPort,$/;"	e	enum:__anon10	file:
-oAuthServer	src\conf.c	/^    oAuthServer,$/;"	e	enum:__anon10	file:
-oBadOption	src\conf.c	/^    oBadOption,$/;"	e	enum:__anon10	file:
-oCheckInterval	src\conf.c	/^    oCheckInterval,$/;"	e	enum:__anon10	file:
-oClientTimeout	src\conf.c	/^    oClientTimeout,$/;"	e	enum:__anon10	file:
-oDaemon	src\conf.c	/^    oDaemon,$/;"	e	enum:__anon10	file:
-oDebugLevel	src\conf.c	/^    oDebugLevel,$/;"	e	enum:__anon10	file:
-oDeltaTraffic	src\conf.c	/^    oDeltaTraffic,$/;"	e	enum:__anon10	file:
-oExternalInterface	src\conf.c	/^    oExternalInterface,$/;"	e	enum:__anon10	file:
-oFirewallRule	src\conf.c	/^    oFirewallRule,$/;"	e	enum:__anon10	file:
-oFirewallRuleSet	src\conf.c	/^    oFirewallRuleSet,$/;"	e	enum:__anon10	file:
-oGatewayAddress	src\conf.c	/^    oGatewayAddress,$/;"	e	enum:__anon10	file:
-oGatewayID	src\conf.c	/^    oGatewayID,$/;"	e	enum:__anon10	file:
-oGatewayInterface	src\conf.c	/^    oGatewayInterface,$/;"	e	enum:__anon10	file:
-oGatewayPort	src\conf.c	/^    oGatewayPort,$/;"	e	enum:__anon10	file:
-oHTTPDMaxConn	src\conf.c	/^    oHTTPDMaxConn,$/;"	e	enum:__anon10	file:
-oHTTPDName	src\conf.c	/^    oHTTPDName,$/;"	e	enum:__anon10	file:
-oHTTPDPassword	src\conf.c	/^    oHTTPDPassword,$/;"	e	enum:__anon10	file:
-oHTTPDRealm	src\conf.c	/^    oHTTPDRealm,$/;"	e	enum:__anon10	file:
-oHTTPDUsername	src\conf.c	/^    oHTTPDUsername,$/;"	e	enum:__anon10	file:
-oHtmlMessageFile	src\conf.c	/^    oHtmlMessageFile,$/;"	e	enum:__anon10	file:
-oPopularServers	src\conf.c	/^    oPopularServers,$/;"	e	enum:__anon10	file:
-oProxyPort	src\conf.c	/^    oProxyPort,$/;"	e	enum:__anon10	file:
-oSSLAllowedCipherList	src\conf.c	/^    oSSLAllowedCipherList,$/;"	e	enum:__anon10	file:
-oSSLCertPath	src\conf.c	/^    oSSLCertPath,$/;"	e	enum:__anon10	file:
-oSSLPeerVerification	src\conf.c	/^    oSSLPeerVerification,$/;"	e	enum:__anon10	file:
-oSSLUseSNI	src\conf.c	/^    oSSLUseSNI,$/;"	e	enum:__anon10	file:
-oSyslogFacility	src\conf.c	/^    oSyslogFacility,$/;"	e	enum:__anon10	file:
-oTrustedMACList	src\conf.c	/^    oTrustedMACList,$/;"	e	enum:__anon10	file:
-oWdctlSocket	src\conf.c	/^    oWdctlSocket,$/;"	e	enum:__anon10	file:
-opcode	src\conf.c	/^    OpCodes opcode;$/;"	m	struct:__anon11	file:
-parse_auth_server	src\conf.c	/^parse_auth_server(FILE * file, const char *filename, int *linenum)$/;"	f	file:
-parse_boolean_value	src\conf.c	/^parse_boolean_value(char *line)$/;"	f	file:
-parse_firewall_ruleset	src\conf.c	/^parse_firewall_ruleset(const char *ruleset, FILE * file, const char *filename, int *linenum)$/;"	f	file:
-parse_popular_servers	src\conf.c	/^parse_popular_servers(const char *ptr)$/;"	f	file:
-parse_trusted_mac_list	src\conf.c	/^parse_trusted_mac_list(const char *ptr)$/;"	f	file:
-validate_popular_servers	src\conf.c	/^validate_popular_servers(void)$/;"	f	file:
-DEFAULT_ARPTABLE	src\conf.h	69;"	d
-DEFAULT_AUTHSERVAUTHPATHFRAGMENT	src\conf.h	64;"	d
-DEFAULT_AUTHSERVLOGINPATHFRAGMENT	src\conf.h	60;"	d
-DEFAULT_AUTHSERVMSGPATHFRAGMENT	src\conf.h	62;"	d
-DEFAULT_AUTHSERVPATH	src\conf.h	59;"	d
-DEFAULT_AUTHSERVPINGPATHFRAGMENT	src\conf.h	63;"	d
-DEFAULT_AUTHSERVPORT	src\conf.h	54;"	d
-DEFAULT_AUTHSERVPORTALPATHFRAGMENT	src\conf.h	61;"	d
-DEFAULT_AUTHSERVSSLAVAILABLE	src\conf.h	57;"	d
-DEFAULT_AUTHSERVSSLCERTPATH	src\conf.h	65;"	d
-DEFAULT_AUTHSERVSSLPEERVER	src\conf.h	67;"	d
-DEFAULT_AUTHSERVSSLPORT	src\conf.h	55;"	d
-DEFAULT_AUTHSERVSSLSNI	src\conf.h	70;"	d
-DEFAULT_CHECKINTERVAL	src\conf.h	49;"	d
-DEFAULT_CLIENTTIMEOUT	src\conf.h	48;"	d
-DEFAULT_CONFIGFILE	src\conf.h	36;"	d
-DEFAULT_CONFIGFILE	src\conf.h	39;"	d
-DEFAULT_DAEMON	src\conf.h	42;"	d
-DEFAULT_DEBUGLEVEL	src\conf.h	43;"	d
-DEFAULT_DELTATRAFFIC	src\conf.h	68;"	d
-DEFAULT_GATEWAYID	src\conf.h	45;"	d
-DEFAULT_GATEWAYPORT	src\conf.h	46;"	d
-DEFAULT_HTMLMSGFILE	src\conf.h	37;"	d
-DEFAULT_HTMLMSGFILE	src\conf.h	40;"	d
-DEFAULT_HTTPDMAXCONN	src\conf.h	44;"	d
-DEFAULT_HTTPDNAME	src\conf.h	47;"	d
-DEFAULT_INTERNAL_SOCK	src\conf.h	53;"	d
-DEFAULT_LOG_SYSLOG	src\conf.h	50;"	d
-DEFAULT_SYSLOG_FACILITY	src\conf.h	51;"	d
-DEFAULT_WDCTL_SOCK	src\conf.h	52;"	d
-FWRULESET_AUTH_IS_DOWN	src\conf.h	78;"	d
-FWRULESET_GLOBAL	src\conf.h	75;"	d
-FWRULESET_KNOWN_USERS	src\conf.h	77;"	d
-FWRULESET_LOCKED_USERS	src\conf.h	80;"	d
-FWRULESET_UNKNOWN_USERS	src\conf.h	79;"	d
-FWRULESET_VALIDATING_USERS	src\conf.h	76;"	d
-LOCK_CONFIG	src\conf.h	228;"	d
-TARGET_ACCEPT	src\conf.h	/^    TARGET_ACCEPT,$/;"	e	enum:__anon12
-TARGET_DROP	src\conf.h	/^    TARGET_DROP,$/;"	e	enum:__anon12
-TARGET_LOG	src\conf.h	/^    TARGET_LOG,$/;"	e	enum:__anon12
-TARGET_REJECT	src\conf.h	/^    TARGET_REJECT,$/;"	e	enum:__anon12
-TARGET_ULOG	src\conf.h	/^    TARGET_ULOG$/;"	e	enum:__anon12
-UNLOCK_CONFIG	src\conf.h	234;"	d
-_CONFIG_H_	src\conf.h	29;"	d
-_auth_serv_t	src\conf.h	/^typedef struct _auth_serv_t {$/;"	s
-_firewall_rule_t	src\conf.h	/^typedef struct _firewall_rule_t {$/;"	s
-_firewall_ruleset_t	src\conf.h	/^typedef struct _firewall_ruleset_t {$/;"	s
-_popular_server_t	src\conf.h	/^typedef struct _popular_server_t {$/;"	s
-_trusted_mac_t	src\conf.h	/^typedef struct _trusted_mac_t {$/;"	s
-arp_table_path	src\conf.h	/^    char *arp_table_path; \/**< @brief Path to custom ARP table, formatted$/;"	m	struct:__anon13
-auth_servers	src\conf.h	/^    t_auth_serv *auth_servers;  \/**< @brief Auth servers list *\/$/;"	m	struct:__anon13
-authserv_auth_script_path_fragment	src\conf.h	/^    char *authserv_auth_script_path_fragment;   \/**< @brief This is the script that talks the wifidog gateway protocol. *\/$/;"	m	struct:_auth_serv_t
-authserv_hostname	src\conf.h	/^    char *authserv_hostname;    \/**< @brief Hostname of the central server *\/$/;"	m	struct:_auth_serv_t
-authserv_http_port	src\conf.h	/^    int authserv_http_port;     \/**< @brief Http port the central server$/;"	m	struct:_auth_serv_t
-authserv_login_script_path_fragment	src\conf.h	/^    char *authserv_login_script_path_fragment;  \/**< @brief This is the script the user will be sent to for login. *\/$/;"	m	struct:_auth_serv_t
-authserv_msg_script_path_fragment	src\conf.h	/^    char *authserv_msg_script_path_fragment;    \/**< @brief This is the script the user will be sent to upon error to read a readable message. *\/$/;"	m	struct:_auth_serv_t
-authserv_path	src\conf.h	/^    char *authserv_path;        \/**< @brief Path where wifidog resides *\/$/;"	m	struct:_auth_serv_t
-authserv_ping_script_path_fragment	src\conf.h	/^    char *authserv_ping_script_path_fragment;   \/**< @brief This is the ping heartbeating script. *\/$/;"	m	struct:_auth_serv_t
-authserv_portal_script_path_fragment	src\conf.h	/^    char *authserv_portal_script_path_fragment; \/**< @brief This is the script the user will be sent to after a successfull login. *\/$/;"	m	struct:_auth_serv_t
-authserv_ssl_port	src\conf.h	/^    int authserv_ssl_port;      \/**< @brief Https port the central server$/;"	m	struct:_auth_serv_t
-authserv_use_ssl	src\conf.h	/^    int authserv_use_ssl;       \/**< @brief Use SSL or not *\/$/;"	m	struct:_auth_serv_t
-checkinterval	src\conf.h	/^    int checkinterval;          \/**< @brief Frequency the the client timeout check$/;"	m	struct:__anon13
-clienttimeout	src\conf.h	/^    int clienttimeout;          \/**< @brief How many CheckIntervals before a client$/;"	m	struct:__anon13
-configfile	src\conf.h	/^    char *configfile;       \/**< @brief name of the config file *\/$/;"	m	struct:__anon13
-daemon	src\conf.h	/^    int daemon;                 \/**< @brief if daemon > 0, use daemon mode *\/$/;"	m	struct:__anon13
-deltatraffic	src\conf.h	/^    int deltatraffic;                   \/**< @brief reset each user's traffic (Outgoing and Incoming) value after each Auth operation. *\/$/;"	m	struct:__anon13
-external_interface	src\conf.h	/^    char *external_interface;   \/**< @brief External network interface name for$/;"	m	struct:__anon13
-gw_address	src\conf.h	/^    char *gw_address;           \/**< @brief Internal IP address for our web$/;"	m	struct:__anon13
-gw_id	src\conf.h	/^    char *gw_id;                \/**< @brief ID of the Gateway, sent to central$/;"	m	struct:__anon13
-gw_interface	src\conf.h	/^    char *gw_interface;         \/**< @brief Interface we will accept connections on *\/$/;"	m	struct:__anon13
-gw_port	src\conf.h	/^    int gw_port;                \/**< @brief Port the webserver will run on *\/$/;"	m	struct:__anon13
-hostname	src\conf.h	/^    char *hostname;$/;"	m	struct:_popular_server_t
-htmlmsgfile	src\conf.h	/^    char *htmlmsgfile;          \/**< @brief name of the HTML file used for messages *\/$/;"	m	struct:__anon13
-httpdmaxconn	src\conf.h	/^    int httpdmaxconn;           \/**< @brief Used by libhttpd, not sure what it$/;"	m	struct:__anon13
-httpdname	src\conf.h	/^    char *httpdname;            \/**< @brief Name the web server will return when$/;"	m	struct:__anon13
-httpdpassword	src\conf.h	/^    char *httpdpassword;        \/**< @brief Password for HTTP authentication *\/$/;"	m	struct:__anon13
-httpdrealm	src\conf.h	/^    char *httpdrealm;           \/**< @brief HTTP Authentication realm *\/$/;"	m	struct:__anon13
-httpdusername	src\conf.h	/^    char *httpdusername;        \/**< @brief Username for HTTP authentication *\/$/;"	m	struct:__anon13
-internal_sock	src\conf.h	/^    char *internal_sock;                \/**< @brief internal path to socket *\/$/;"	m	struct:__anon13
-last_ip	src\conf.h	/^    char *last_ip;      \/**< @brief Last ip used by authserver *\/$/;"	m	struct:_auth_serv_t
-mac	src\conf.h	/^    char *mac;$/;"	m	struct:_trusted_mac_t
-mask	src\conf.h	/^    char *mask;                 \/**< @brief Mask for the rule *destination* *\/$/;"	m	struct:_firewall_rule_t
-mask_is_ipset	src\conf.h	/^    int mask_is_ipset; \/**< @brief *destination* is ipset  *\/$/;"	m	struct:_firewall_rule_t
-name	src\conf.h	/^    char *name;$/;"	m	struct:_firewall_ruleset_t
-next	src\conf.h	/^    struct _auth_serv_t *next;$/;"	m	struct:_auth_serv_t	typeref:struct:_auth_serv_t::_auth_serv_t
-next	src\conf.h	/^    struct _firewall_rule_t *next;$/;"	m	struct:_firewall_rule_t	typeref:struct:_firewall_rule_t::_firewall_rule_t
-next	src\conf.h	/^    struct _firewall_ruleset_t *next;$/;"	m	struct:_firewall_ruleset_t	typeref:struct:_firewall_ruleset_t::_firewall_ruleset_t
-next	src\conf.h	/^    struct _popular_server_t *next;$/;"	m	struct:_popular_server_t	typeref:struct:_popular_server_t::_popular_server_t
-next	src\conf.h	/^    struct _trusted_mac_t *next;$/;"	m	struct:_trusted_mac_t	typeref:struct:_trusted_mac_t::_trusted_mac_t
-pidfile	src\conf.h	/^    char *pidfile;            \/**< @brief pid file path of wifidog *\/$/;"	m	struct:__anon13
-popular_servers	src\conf.h	/^    t_popular_server *popular_servers; \/**< @brief list of popular servers *\/$/;"	m	struct:__anon13
-port	src\conf.h	/^    char *port;                 \/**< @brief Port to block\/allow *\/$/;"	m	struct:_firewall_rule_t
-protocol	src\conf.h	/^    char *protocol;             \/**< @brief tcp, udp, etc ... *\/$/;"	m	struct:_firewall_rule_t
-proxy_port	src\conf.h	/^    int proxy_port;             \/**< @brief Transparent proxy port (0 to disable) *\/$/;"	m	struct:__anon13
-rules	src\conf.h	/^    t_firewall_rule *rules;$/;"	m	struct:_firewall_ruleset_t
-rulesets	src\conf.h	/^    t_firewall_ruleset *rulesets;       \/**< @brief firewall rules *\/$/;"	m	struct:__anon13
-s_config	src\conf.h	/^} s_config;$/;"	t	typeref:struct:__anon13
-ssl_certs	src\conf.h	/^    char *ssl_certs;            \/**< @brief Path to SSL certs for auth server$/;"	m	struct:__anon13
-ssl_cipher_list	src\conf.h	/^    char *ssl_cipher_list;  \/**< @brief List of SSL ciphers allowed. Optional. *\/$/;"	m	struct:__anon13
-ssl_use_sni	src\conf.h	/^    int ssl_use_sni;            \/**< @brief boolean, whether to enable$/;"	m	struct:__anon13
-ssl_verify	src\conf.h	/^    int ssl_verify;             \/**< @brief boolean, whether to enable$/;"	m	struct:__anon13
-t_auth_serv	src\conf.h	/^} t_auth_serv;$/;"	t	typeref:struct:_auth_serv_t
-t_firewall_rule	src\conf.h	/^} t_firewall_rule;$/;"	t	typeref:struct:_firewall_rule_t
-t_firewall_ruleset	src\conf.h	/^} t_firewall_ruleset;$/;"	t	typeref:struct:_firewall_ruleset_t
-t_firewall_target	src\conf.h	/^} t_firewall_target;$/;"	t	typeref:enum:__anon12
-t_popular_server	src\conf.h	/^} t_popular_server;$/;"	t	typeref:struct:_popular_server_t
-t_trusted_mac	src\conf.h	/^} t_trusted_mac;$/;"	t	typeref:struct:_trusted_mac_t
-target	src\conf.h	/^    t_firewall_target target;   \/**< @brief t_firewall_target *\/$/;"	m	struct:_firewall_rule_t
-trustedmaclist	src\conf.h	/^    t_trusted_mac *trustedmaclist; \/**< @brief list of trusted macs *\/$/;"	m	struct:__anon13
-wdctl_sock	src\conf.h	/^    char *wdctl_sock;           \/**< @brief wdctl path to socket *\/$/;"	m	struct:__anon13
-_debug	src\debug.c	/^_debug(const char *filename, int line, int level, const char *format, ...)$/;"	f
-debugconf	src\debug.c	/^debugconf_t debugconf = {$/;"	v
-_DEBUG_H_	src\debug.h	28;"	d
-_debug_conf	src\debug.h	/^typedef struct _debug_conf {$/;"	s
-debug	src\debug.h	44;"	d
-debugconf_t	src\debug.h	/^} debugconf_t;$/;"	t	typeref:struct:_debug_conf
-debuglevel	src\debug.h	/^    int debuglevel;      \/**< @brief Debug information verbosity *\/$/;"	m	struct:_debug_conf
-log_stderr	src\debug.h	/^    int log_stderr;      \/**< @brief Output log to stdout *\/$/;"	m	struct:_debug_conf
-log_syslog	src\debug.h	/^    int log_syslog;      \/**< @brief Output log to syslog *\/$/;"	m	struct:_debug_conf
-syslog_facility	src\debug.h	/^    int syslog_facility; \/**< @brief facility to use when using syslog for logging *\/$/;"	m	struct:_debug_conf
-_GNU_SOURCE	src\firewall.c	29;"	d	file:
-_fw_deny_raw	src\firewall.c	/^_fw_deny_raw(const char *ip, const char *mac, const int mark)$/;"	f	file:
-arp_get	src\firewall.c	/^arp_get(const char *req_ip)$/;"	f
-fw_allow	src\firewall.c	/^fw_allow(t_client * client, int new_fw_connection_state)$/;"	f
-fw_allow_host	src\firewall.c	/^fw_allow_host(const char *host)$/;"	f
-fw_clear_authservers	src\firewall.c	/^fw_clear_authservers(void)$/;"	f
-fw_deny	src\firewall.c	/^fw_deny(t_client * client)$/;"	f
-fw_destroy	src\firewall.c	/^fw_destroy(void)$/;"	f
-fw_init	src\firewall.c	/^fw_init(void)$/;"	f
-fw_set_authdown	src\firewall.c	/^fw_set_authdown(void)$/;"	f
-fw_set_authservers	src\firewall.c	/^fw_set_authservers(void)$/;"	f
-fw_set_authup	src\firewall.c	/^fw_set_authup(void)$/;"	f
-fw_sync_with_authserver	src\firewall.c	/^fw_sync_with_authserver(void)$/;"	f
-FW_MARK_AUTH_IS_DOWN	src\firewall.h	/^    FW_MARK_AUTH_IS_DOWN = 253, \/**< @brief The auth servers are down *\/$/;"	e	enum:_t_fw_marks
-FW_MARK_KNOWN	src\firewall.h	/^    FW_MARK_KNOWN = 2,  \/**< @brief The client is known to the firewall *\/$/;"	e	enum:_t_fw_marks
-FW_MARK_LOCKED	src\firewall.h	/^    FW_MARK_LOCKED = 254 \/**< @brief The client has been locked out *\/$/;"	e	enum:_t_fw_marks
-FW_MARK_NONE	src\firewall.h	/^    FW_MARK_NONE = 0, \/**< @brief No mark set. *\/$/;"	e	enum:_t_fw_marks
-FW_MARK_PROBATION	src\firewall.h	/^    FW_MARK_PROBATION = 1, \/**< @brief The client is in probation period and must be authenticated $/;"	e	enum:_t_fw_marks
-_FIREWALL_H_	src\firewall.h	29;"	d
-_t_fw_marks	src\firewall.h	/^typedef enum _t_fw_marks {$/;"	g
-t_fw_marks	src\firewall.h	/^} t_fw_marks;$/;"	t	typeref:enum:_t_fw_marks
-_GNU_SOURCE	src\fw_iptables.c	29;"	d	file:
-fw_quiet	src\fw_iptables.c	/^static int fw_quiet = 0;$/;"	v	file:
-iptables_compile	src\fw_iptables.c	/^iptables_compile(const char *table, const char *chain, const t_firewall_rule * rule)$/;"	f	file:
-iptables_do_command	src\fw_iptables.c	/^iptables_do_command(const char *format, ...)$/;"	f	file:
-iptables_fw_access	src\fw_iptables.c	/^iptables_fw_access(fw_access_t type, const char *ip, const char *mac, int tag)$/;"	f
-iptables_fw_access_host	src\fw_iptables.c	/^iptables_fw_access_host(fw_access_t type, const char *host)$/;"	f
-iptables_fw_auth_reachable	src\fw_iptables.c	/^iptables_fw_auth_reachable(void)$/;"	f
-iptables_fw_auth_unreachable	src\fw_iptables.c	/^iptables_fw_auth_unreachable(int tag)$/;"	f
-iptables_fw_clear_authservers	src\fw_iptables.c	/^iptables_fw_clear_authservers(void)$/;"	f
-iptables_fw_counters_update	src\fw_iptables.c	/^iptables_fw_counters_update(void)$/;"	f
-iptables_fw_destroy	src\fw_iptables.c	/^iptables_fw_destroy(void)$/;"	f
-iptables_fw_destroy_mention	src\fw_iptables.c	/^iptables_fw_destroy_mention(const char *table, const char *chain, const char *mention)$/;"	f
-iptables_fw_init	src\fw_iptables.c	/^iptables_fw_init(void)$/;"	f
-iptables_fw_set_authservers	src\fw_iptables.c	/^iptables_fw_set_authservers(void)$/;"	f
-iptables_insert_gateway_id	src\fw_iptables.c	/^iptables_insert_gateway_id(char **input)$/;"	f	file:
-iptables_load_ruleset	src\fw_iptables.c	/^iptables_load_ruleset(const char *table, const char *ruleset, const char *chain)$/;"	f	file:
-CHAIN_AUTHSERVERS	src\fw_iptables.h	39;"	d
-CHAIN_AUTH_IS_DOWN	src\fw_iptables.h	46;"	d
-CHAIN_GLOBAL	src\fw_iptables.h	40;"	d
-CHAIN_INCOMING	src\fw_iptables.h	38;"	d
-CHAIN_KNOWN	src\fw_iptables.h	42;"	d
-CHAIN_LOCKED	src\fw_iptables.h	44;"	d
-CHAIN_OUTGOING	src\fw_iptables.h	35;"	d
-CHAIN_TO_INTERNET	src\fw_iptables.h	36;"	d
-CHAIN_TO_ROUTER	src\fw_iptables.h	37;"	d
-CHAIN_TRUSTED	src\fw_iptables.h	45;"	d
-CHAIN_UNKNOWN	src\fw_iptables.h	43;"	d
-CHAIN_VALIDATE	src\fw_iptables.h	41;"	d
-FW_ACCESS_ALLOW	src\fw_iptables.h	/^    FW_ACCESS_ALLOW,$/;"	e	enum:fw_access_t_
-FW_ACCESS_DENY	src\fw_iptables.h	/^    FW_ACCESS_DENY$/;"	e	enum:fw_access_t_
-_FW_IPTABLES_H_	src\fw_iptables.h	29;"	d
-fw_access_t	src\fw_iptables.h	/^} fw_access_t;$/;"	t	typeref:enum:fw_access_t_
-fw_access_t_	src\fw_iptables.h	/^typedef enum fw_access_t_ {$/;"	g
-append_x_restartargv	src\gateway.c	/^append_x_restartargv(void)$/;"	f
-get_clients_from_parent	src\gateway.c	/^get_clients_from_parent(void)$/;"	f
-gw_main	src\gateway.c	/^gw_main(int argc, char **argv)$/;"	f
-init_signals	src\gateway.c	/^init_signals(void)$/;"	f	file:
-main_loop	src\gateway.c	/^main_loop(void)$/;"	f	file:
-sigchld_handler	src\gateway.c	/^sigchld_handler(int s)$/;"	f
-started_time	src\gateway.c	/^time_t started_time = 0;$/;"	v
-termination_handler	src\gateway.c	/^termination_handler(int s)$/;"	f
-tid_fw_counter	src\gateway.c	/^static pthread_t tid_fw_counter = 0;$/;"	v	file:
-tid_ping	src\gateway.c	/^static pthread_t tid_ping = 0;$/;"	v	file:
-webserver	src\gateway.c	/^httpd * webserver = NULL;$/;"	v
-_GATEWAY_H_	src\gateway.h	29;"	d
-_GNU_SOURCE	src\http.c	31;"	d	file:
-http_callback_404	src\http.c	/^http_callback_404(httpd * webserver, request * r, int error_code)$/;"	f
-http_callback_about	src\http.c	/^http_callback_about(httpd * webserver, request * r)$/;"	f
-http_callback_auth	src\http.c	/^http_callback_auth(httpd * webserver, request * r)$/;"	f
-http_callback_disconnect	src\http.c	/^http_callback_disconnect(httpd * webserver, request * r)$/;"	f
-http_callback_status	src\http.c	/^http_callback_status(httpd * webserver, request * r)$/;"	f
-http_callback_wifidog	src\http.c	/^http_callback_wifidog(httpd * webserver, request * r)$/;"	f
-http_send_redirect	src\http.c	/^http_send_redirect(request * r, const char *url, const char *text)$/;"	f
-http_send_redirect_to_auth	src\http.c	/^http_send_redirect_to_auth(request * r, const char *urlFragment, const char *text)$/;"	f
-send_http_page	src\http.c	/^send_http_page(request * r, const char *title, const char *message)$/;"	f
-_HTTP_H_	src\http.h	28;"	d
-_GNU_SOURCE	src\httpd_thread.c	28;"	d	file:
-thread_httpd	src\httpd_thread.c	/^thread_httpd(void *args)$/;"	f
-_HTTPD_THREAD_H_	src\httpd_thread.h	28;"	d
-main	src\main.c	/^main(int argc, char **argv)$/;"	f
-_GNU_SOURCE	src\ping_thread.c	30;"	d	file:
-ping	src\ping_thread.c	/^ping(void)$/;"	f	file:
-thread_ping	src\ping_thread.c	/^thread_ping(void *arg)$/;"	f
-MINIMUM_STARTED_TIME	src\ping_thread.h	31;"	d
-_PING_THREAD_H_	src\ping_thread.h	29;"	d
-_pstr_grow	src\pstring.c	/^_pstr_grow(pstr_t *pstr)$/;"	f	file:
-pstr_append_sprintf	src\pstring.c	/^pstr_append_sprintf(pstr_t *pstr, const char *fmt, ...)$/;"	f
-pstr_cat	src\pstring.c	/^pstr_cat(pstr_t *pstr, const char *string)$/;"	f
-pstr_new	src\pstring.c	/^pstr_new(void)$/;"	f
-pstr_to_string	src\pstring.c	/^pstr_to_string(pstr_t *pstr)$/;"	f
-_PSTRING_H_	src\pstring.h	28;"	d
-buf	src\pstring.h	/^    char *buf;   \/**< @brief Buffer used to hold string. Pointer subject to change. *\/$/;"	m	struct:pstr
-len	src\pstring.h	/^    size_t len;  \/**< @brief Current length of the string. *\/$/;"	m	struct:pstr
-pstr	src\pstring.h	/^struct pstr {$/;"	s
-pstr_t	src\pstring.h	/^typedef struct pstr pstr_t;  \/**< @brief pstr_t is a type for a struct pstr. *\/$/;"	t	typeref:struct:pstr
-size	src\pstring.h	/^    size_t size; \/**< @brief Current maximum size of the buffer. *\/$/;"	m	struct:pstr
-_GNU_SOURCE	src\safe.c	29;"	d	file:
-_fd_list	src\safe.c	/^typedef struct _fd_list {$/;"	s	file:
-cleanup_fds	src\safe.c	/^cleanup_fds(void)$/;"	f	file:
-fd	src\safe.c	/^    int fd;                 \/**< @brief file descriptor *\/$/;"	m	struct:_fd_list	file:
-fd_list	src\safe.c	/^static fd_list_t *fd_list = NULL;$/;"	v	file:
-fd_list_t	src\safe.c	/^} fd_list_t;$/;"	t	typeref:struct:_fd_list	file:
-next	src\safe.c	/^    struct _fd_list *next;  \/**< @brief linked list pointer *\/$/;"	m	struct:_fd_list	typeref:struct:_fd_list::_fd_list	file:
-register_fd_cleanup_on_fork	src\safe.c	/^register_fd_cleanup_on_fork(const int fd)$/;"	f
-safe_asprintf	src\safe.c	/^safe_asprintf(char **strp, const char *fmt, ...)$/;"	f
-safe_fork	src\safe.c	/^safe_fork(void)$/;"	f
-safe_malloc	src\safe.c	/^safe_malloc(size_t size)$/;"	f
-safe_realloc	src\safe.c	/^safe_realloc(void *ptr, size_t newsize)$/;"	f
-safe_strdup	src\safe.c	/^safe_strdup(const char *s)$/;"	f
-safe_vasprintf	src\safe.c	/^safe_vasprintf(char **strp, const char *fmt, va_list ap)$/;"	f
-_SAFE_H_	src\safe.h	29;"	d
-LOCK_CYASSL_CTX	src\simple_http.c	141;"	d	file:
-UNLOCK_CYASSL_CTX	src\simple_http.c	147;"	d	file:
-cyassl_ctx	src\simple_http.c	/^static CYASSL_CTX *cyassl_ctx = NULL;$/;"	v	file:
-cyassl_ctx_mutex	src\simple_http.c	/^static pthread_mutex_t cyassl_ctx_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
-get_cyassl_ctx	src\simple_http.c	/^get_cyassl_ctx(const char *hostname)$/;"	f	file:
-http_get	src\simple_http.c	/^http_get(const int sockfd, const char *req)$/;"	f
-https_get	src\simple_http.c	/^https_get(const int sockfd, const char *req, const char *hostname)$/;"	f
-_SIMPLE_HTTP_H_	src\simple_http.h	23;"	d
-LOCK_GHBN	src\util.c	63;"	d	file:
-UNLOCK_GHBN	src\util.c	69;"	d	file:
-WD_SHELL_PATH	src\util.c	77;"	d	file:
-WD_SHELL_PATH	src\util.c	79;"	d	file:
-_GNU_SOURCE	src\util.c	29;"	d	file:
-close_icmp_socket	src\util.c	/^close_icmp_socket(void)$/;"	f
-execute	src\util.c	/^execute(const char *cmd_line, int quiet)$/;"	f
-get_ext_iface	src\util.c	/^get_ext_iface(void)$/;"	f
-get_iface_ip	src\util.c	/^get_iface_ip(const char *ifname)$/;"	f
-get_iface_mac	src\util.c	/^get_iface_mac(const char *ifname)$/;"	f
-ghbn_mutex	src\util.c	/^static pthread_mutex_t ghbn_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
-icmp_fd	src\util.c	/^static int icmp_fd;$/;"	v	file:
-icmp_ping	src\util.c	/^icmp_ping(const char *host)$/;"	f
-init_icmp_socket	src\util.c	/^init_icmp_socket(void)$/;"	f
-rand16	src\util.c	/^rand16(void)$/;"	f	file:
-save_pid_file	src\util.c	/^save_pid_file(const char *pf)$/;"	f
-wd_gethostbyname	src\util.c	/^wd_gethostbyname(const char *name)$/;"	f
-EXT_INTERFACE_DETECT_RETRY_INTERVAL	src\util.h	35;"	d
-NUM_EXT_INTERFACE_DETECT_RETRY	src\util.h	32;"	d
-_UTIL_H_	src\util.h	28;"	d
-_GNU_SOURCE	src\wd_util.c	28;"	d	file:
-get_status_text	src\wd_util.c	/^get_status_text()$/;"	f
-is_auth_online	src\wd_util.c	/^is_auth_online()$/;"	f
-is_online	src\wd_util.c	/^is_online()$/;"	f
-last_auth_offline_time	src\wd_util.c	/^static time_t last_auth_offline_time = 0;$/;"	v	file:
-last_auth_online_time	src\wd_util.c	/^static time_t last_auth_online_time = 0;$/;"	v	file:
-last_offline_time	src\wd_util.c	/^static time_t last_offline_time = 0;$/;"	v	file:
-last_online_time	src\wd_util.c	/^static time_t last_online_time = 0;$/;"	v	file:
-mark_auth_offline	src\wd_util.c	/^mark_auth_offline()$/;"	f
-mark_auth_online	src\wd_util.c	/^mark_auth_online()$/;"	f
-mark_offline	src\wd_util.c	/^mark_offline()$/;"	f
-mark_online	src\wd_util.c	/^mark_online()$/;"	f
-served_this_session	src\wd_util.c	/^long served_this_session = 0;$/;"	v
-_WD_UTIL_H_	src\wd_util.h	28;"	d
-_GNU_SOURCE	src\wdctl.c	27;"	d	file:
-config	src\wdctl.c	/^static s_config config;$/;"	v	file:
-connect_to_server	src\wdctl.c	/^connect_to_server(const char *sock_name)$/;"	f	file:
-init_config	src\wdctl.c	/^init_config(void)$/;"	f	file:
-main	src\wdctl.c	/^main(int argc, char **argv)$/;"	f
-parse_commandline	src\wdctl.c	/^parse_commandline(int argc, char **argv)$/;"	f
-send_request	src\wdctl.c	/^send_request(int sock, const char *request)$/;"	f	file:
-usage	src\wdctl.c	/^usage(void)$/;"	f	file:
-wdctl_reset	src\wdctl.c	/^wdctl_reset(void)$/;"	f
-wdctl_restart	src\wdctl.c	/^wdctl_restart(void)$/;"	f	file:
-wdctl_status	src\wdctl.c	/^wdctl_status(void)$/;"	f	file:
-wdctl_stop	src\wdctl.c	/^wdctl_stop(void)$/;"	f	file:
-DEFAULT_SOCK	src\wdctl.h	30;"	d
-WDCTL_KILL	src\wdctl.h	35;"	d
-WDCTL_RESTART	src\wdctl.h	36;"	d
-WDCTL_STATUS	src\wdctl.h	33;"	d
-WDCTL_STOP	src\wdctl.h	34;"	d
-WDCTL_UNDEF	src\wdctl.h	32;"	d
-_WDCTL_H_	src\wdctl.h	28;"	d
-command	src\wdctl.h	/^    int command;$/;"	m	struct:__anon14
-param	src\wdctl.h	/^    char *param;$/;"	m	struct:__anon14
-s_config	src\wdctl.h	/^} s_config;$/;"	t	typeref:struct:__anon14
-socket	src\wdctl.h	/^    char *socket;$/;"	m	struct:__anon14
-_GNU_SOURCE	src\wdctl_thread.c	27;"	d	file:
-create_unix_socket	src\wdctl_thread.c	/^create_unix_socket(const char *sock_name)$/;"	f	file:
-thread_wdctl	src\wdctl_thread.c	/^thread_wdctl(void *arg)$/;"	f
-thread_wdctl_handler	src\wdctl_thread.c	/^thread_wdctl_handler(void *arg)$/;"	f	file:
-wdctl_reset	src\wdctl_thread.c	/^wdctl_reset(int fd, const char *arg)$/;"	f	file:
-wdctl_restart	src\wdctl_thread.c	/^wdctl_restart(int afd)$/;"	f	file:
-wdctl_socket_server	src\wdctl_thread.c	/^static int wdctl_socket_server;$/;"	v	file:
-wdctl_status	src\wdctl_thread.c	/^wdctl_status(int fd)$/;"	f	file:
-wdctl_stop	src\wdctl_thread.c	/^wdctl_stop(int fd)$/;"	f	file:
-write_to_socket	src\wdctl_thread.c	/^write_to_socket(int fd, char *text, size_t len)$/;"	f	file:
-DEFAULT_WDCTL_SOCK	src\wdctl_thread.h	30;"	d
-_WDCTL_THREAD_H_	src\wdctl_thread.h	28;"	d
 !_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
 !_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
-!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 !_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMTAR	Makefile	/^AMTAR = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run tar$/;"	m
+AM_RECURSIVE_TARGETS	Makefile	/^AM_RECURSIVE_TARGETS = $(RECURSIVE_TARGETS:-recursive=) \\$/;"	m
+AR	Makefile	/^AR = mips-openwrt-linux-ar$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run automake-1.11$/;"	m
+AUTOMAKE_OPTIONS	Makefile	/^AUTOMAKE_OPTIONS = foreign$/;"	m
+AWK	Makefile	/^AWK = mawk$/;"	m
+BUILDROOT	Makefile	/^BUILDROOT = $/;"	m
+CC	Makefile	/^CC = mips-openwrt-linux-gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES = wifidog.spec wifidog-msg.html$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = config.h$/;"	m
+CPP	Makefile	/^CPP = mips-openwrt-linux-gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CXX	Makefile	/^CXX = mips-openwrt-linux-g++$/;"	m
+CXXCPP	Makefile	/^CXXCPP = mips-openwrt-linux-g++ -E$/;"	m
+CXXDEPMODE	Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+DATA	Makefile	/^DATA = $(doc_DATA)$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_ARCHIVES	Makefile	/^DIST_ARCHIVES = $(distdir).tar.gz$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(am__configure_deps) $(srcdir)\/Makefile.am \\$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SUBDIRS	Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DOT	Makefile	/^DOT = $/;"	m
+DOXYGEN	Makefile	/^DOXYGEN = $/;"	m
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EXTRA_DIST	Makefile	/^EXTRA_DIST = \\$/;"	m
+FGREP	Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+GZIP_ENV	Makefile	/^GZIP_ENV = --best$/;"	m
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+LD	Makefile	/^LD = \/home\/liping\/openwrt\/staging_dir\/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2\/mips-openwrt-linux-uclibc\/bin\/ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = -lnsl -lpthread $/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+MAINT	Makefile	/^MAINT = #$/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run makeinfo$/;"	m
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+NM	Makefile	/^NM = \/home\/liping\/openwrt\/staging_dir\/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2\/bin\/mips-openwrt-linux-nm -B$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP = mips-openwrt-linux-objdump$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+PACKAGE	Makefile	/^PACKAGE = wifidog$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = $/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = $/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = $/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = $/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+RANLIB	Makefile	/^RANLIB = mips-openwrt-linux-ranlib$/;"	m
+RECURSIVE_CLEAN_TARGETS	Makefile	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_TARGETS	Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive dvi-recursive \\$/;"	m
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SOURCES	Makefile	/^SOURCES =$/;"	m
+STRIP	Makefile	/^STRIP = mips-openwrt-linux-strip$/;"	m
+SUBDIRS	Makefile	/^SUBDIRS = libhttpd src . doc $/;"	m
+VERSION	Makefile	/^VERSION = 1.3.0$/;"	m
+WIFIDOG_MAJOR_VERSION	Makefile	/^WIFIDOG_MAJOR_VERSION = 1$/;"	m
+WIFIDOG_MICRO_VERSION	Makefile	/^WIFIDOG_MICRO_VERSION = 0$/;"	m
+WIFIDOG_MINOR_VERSION	Makefile	/^WIFIDOG_MINOR_VERSION = 3$/;"	m
+WIFIDOG_VERSION	Makefile	/^WIFIDOG_VERSION = 1.3.0$/;"	m
+abs_builddir	Makefile	/^abs_builddir = \/home\/liping\/wifidog-gateway$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/liping\/wifidog-gateway$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/liping\/wifidog-gateway$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/liping\/wifidog-gateway$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = $/;"	m
+ac_ct_CXX	Makefile	/^ac_ct_CXX = $/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = $/;"	m
+am__CONFIG_DISTCLEAN_FILES	Makefile	/^am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \\$/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.in$/;"	m
+am__base_list	Makefile	/^am__base_list = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__install_max	Makefile	/^am__install_max = 40$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(docdir)"$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__nobase_list	Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_strip	Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip_setup	Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__relativize	Makefile	/^am__relativize = \\$/;"	m
+am__remove_distdir	Makefile	/^am__remove_distdir = \\$/;"	m
+am__strip_dir	Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tar	Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__vpath_adj	Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+build	Makefile	/^build = x86_64-unknown-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = x86_64$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = x86_64-unknown-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = unknown$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+distcleancheck_listfiles	Makefile	/^distcleancheck_listfiles = find . -type f -print$/;"	m
+distdir	Makefile	/^distdir = $(PACKAGE)-$(VERSION)$/;"	m
+distuninstallcheck_listfiles	Makefile	/^distuninstallcheck_listfiles = find . -type f -print$/;"	m
+doc_DATA	Makefile	/^doc_DATA = \\$/;"	m
+docdir	Makefile	/^docdir = ${prefix}\/share\/doc\/wifidog-1.3.0$/;"	m
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+enable_dot	Makefile	/^enable_dot = no$/;"	m
+enable_html_docs	Makefile	/^enable_html_docs = yes$/;"	m
+enable_latex_docs	Makefile	/^enable_latex_docs = no$/;"	m
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+host	Makefile	/^host = mips-openwrt-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = mips-openwrt-linux$/;"	m
+host_cpu	Makefile	/^host_cpu = mips$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = mips-openwrt-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = openwrt$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+lt_ECHO	Makefile	/^lt_ECHO = echo$/;"	m
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mkdir_p	Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/wifidog$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/wifidog$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/wifidog$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/wifidog$/;"	m
+prefix	Makefile	/^prefix = \/home\/liping\/wifidog-gateway\/install$/;"	m
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+srcdir	Makefile	/^srcdir = .$/;"	m
+subdir	Makefile	/^subdir = .$/;"	m
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | GZIP=$(GZIP_ENV) gzip -c >$(distdir).tar.gz$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | bzip2 -9 -c >$(distdir).tar.bz2$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | compress -c >$(distdir).tar.Z$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | lzma -9 -c >$(distdir).tar.lzma$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | xz -c >$(distdir).tar.xz$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+top_build_prefix	Makefile	/^top_build_prefix = $/;"	m
+top_builddir	Makefile	/^top_builddir = .$/;"	m
+top_distdir	Makefile	/^top_distdir = $(distdir)$/;"	m
+top_srcdir	Makefile	/^top_srcdir = .$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+HAVE_DLFCN_H	config.h	11;"	d
+HAVE_INTTYPES_H	config.h	14;"	d
+HAVE_LIBNSL	config.h	17;"	d
+HAVE_LIBPTHREAD	config.h	20;"	d
+HAVE_MEMORY_H	config.h	26;"	d
+HAVE_STDARG_H	config.h	32;"	d
+HAVE_STDINT_H	config.h	35;"	d
+HAVE_STDLIB_H	config.h	38;"	d
+HAVE_STRINGS_H	config.h	41;"	d
+HAVE_STRING_H	config.h	44;"	d
+HAVE_SYS_STAT_H	config.h	47;"	d
+HAVE_SYS_TYPES_H	config.h	50;"	d
+HAVE_UNISTD_H	config.h	53;"	d
+LT_OBJDIR	config.h	57;"	d
+PACKAGE	config.h	60;"	d
+PACKAGE_BUGREPORT	config.h	63;"	d
+PACKAGE_NAME	config.h	66;"	d
+PACKAGE_STRING	config.h	69;"	d
+PACKAGE_TARNAME	config.h	72;"	d
+PACKAGE_URL	config.h	75;"	d
+PACKAGE_VERSION	config.h	78;"	d
+STDC_HEADERS	config.h	81;"	d
+VERSION	config.h	87;"	d
+WORDS_BIGENDIAN	config.h	93;"	d
+WORDS_BIGENDIAN	config.h	97;"	d
+as_fn_append	config.status	/^  as_fn_append ()$/;"	f
+as_fn_arith	config.status	/^  as_fn_arith ()$/;"	f
+as_fn_error	config.status	/^as_fn_error ()$/;"	f
+as_fn_exit	config.status	/^as_fn_exit ()$/;"	f
+as_fn_mkdir_p	config.status	/^as_fn_mkdir_p ()$/;"	f
+as_fn_set_status	config.status	/^as_fn_set_status ()$/;"	f
+as_fn_unset	config.status	/^as_fn_unset ()$/;"	f
+func_append	config.status	/^func_append ()$/;"	f
+func_arith	config.status	/^func_arith ()$/;"	f
+func_basename	config.status	/^func_basename ()$/;"	f
+func_dirname	config.status	/^func_dirname ()$/;"	f
+func_dirname_and_basename	config.status	/^func_dirname_and_basename ()$/;"	f
+func_len	config.status	/^func_len ()$/;"	f
+func_lo2o	config.status	/^func_lo2o ()$/;"	f
+func_opt_split	config.status	/^func_opt_split ()$/;"	f
+func_stripname	config.status	/^func_stripname ()$/;"	f
+func_xform	config.status	/^func_xform ()$/;"	f
+main	config/config.guess	/^		main()$/;"	f
+main	config/config.guess	/^	main ()$/;"	f
+main	config/config.guess	/^main ()$/;"	f
+func_check_version_match	config/ltmain.sh	/^func_check_version_match ()$/;"	f
+func_config	config/ltmain.sh	/^func_config ()$/;"	f
+func_dirname_and_basename	config/ltmain.sh	/^func_dirname_and_basename ()$/;"	f
+func_echo	config/ltmain.sh	/^func_echo ()$/;"	f
+func_emit_cwrapperexe_src	config/ltmain.sh	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_wrapper	config/ltmain.sh	/^func_emit_wrapper ()$/;"	f
+func_emit_wrapper_part1	config/ltmain.sh	/^func_emit_wrapper_part1 ()$/;"	f
+func_emit_wrapper_part2	config/ltmain.sh	/^func_emit_wrapper_part2 ()$/;"	f
+func_enable_tag	config/ltmain.sh	/^func_enable_tag ()$/;"	f
+func_error	config/ltmain.sh	/^func_error ()$/;"	f
+func_execute_cmds	config/ltmain.sh	/^func_execute_cmds ()$/;"	f
+func_extract_an_archive	config/ltmain.sh	/^func_extract_an_archive ()$/;"	f
+func_extract_archives	config/ltmain.sh	/^func_extract_archives ()$/;"	f
+func_fatal_configuration	config/ltmain.sh	/^func_fatal_configuration ()$/;"	f
+func_fatal_error	config/ltmain.sh	/^func_fatal_error ()$/;"	f
+func_fatal_help	config/ltmain.sh	/^func_fatal_help ()$/;"	f
+func_features	config/ltmain.sh	/^func_features ()$/;"	f
+func_generate_dlsyms	config/ltmain.sh	/^func_generate_dlsyms ()$/;"	f
+func_grep	config/ltmain.sh	/^func_grep ()$/;"	f
+func_help	config/ltmain.sh	/^func_help ()$/;"	f
+func_infer_tag	config/ltmain.sh	/^func_infer_tag ()$/;"	f
+func_lalib_p	config/ltmain.sh	/^func_lalib_p ()$/;"	f
+func_lalib_unsafe_p	config/ltmain.sh	/^func_lalib_unsafe_p ()$/;"	f
+func_ltwrapper_executable_p	config/ltmain.sh	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_p	config/ltmain.sh	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_script_p	config/ltmain.sh	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_scriptname	config/ltmain.sh	/^func_ltwrapper_scriptname ()$/;"	f
+func_missing_arg	config/ltmain.sh	/^func_missing_arg ()$/;"	f
+func_mkdir_p	config/ltmain.sh	/^func_mkdir_p ()$/;"	f
+func_mktempdir	config/ltmain.sh	/^func_mktempdir ()$/;"	f
+func_mode_compile	config/ltmain.sh	/^func_mode_compile ()$/;"	f
+func_mode_execute	config/ltmain.sh	/^func_mode_execute ()$/;"	f
+func_mode_finish	config/ltmain.sh	/^func_mode_finish ()$/;"	f
+func_mode_help	config/ltmain.sh	/^func_mode_help ()$/;"	f
+func_mode_install	config/ltmain.sh	/^func_mode_install ()$/;"	f
+func_mode_link	config/ltmain.sh	/^func_mode_link ()$/;"	f
+func_mode_uninstall	config/ltmain.sh	/^func_mode_uninstall ()$/;"	f
+func_quote_for_eval	config/ltmain.sh	/^func_quote_for_eval ()$/;"	f
+func_quote_for_expand	config/ltmain.sh	/^func_quote_for_expand ()$/;"	f
+func_show_eval	config/ltmain.sh	/^func_show_eval ()$/;"	f
+func_show_eval_locale	config/ltmain.sh	/^func_show_eval_locale ()$/;"	f
+func_source	config/ltmain.sh	/^func_source ()$/;"	f
+func_to_host_path	config/ltmain.sh	/^func_to_host_path ()$/;"	f
+func_to_host_pathlist	config/ltmain.sh	/^func_to_host_pathlist ()$/;"	f
+func_usage	config/ltmain.sh	/^func_usage ()$/;"	f
+func_verbose	config/ltmain.sh	/^func_verbose ()$/;"	f
+func_version	config/ltmain.sh	/^func_version ()$/;"	f
+func_warning	config/ltmain.sh	/^func_warning ()$/;"	f
+func_win32_libid	config/ltmain.sh	/^func_win32_libid ()$/;"	f
+func_write_libtool_object	config/ltmain.sh	/^func_write_libtool_object ()$/;"	f
+CyaSSL_Init	configure	/^                CyaSSL_Init();$/;"	f
+ac_fn_c_check_func	configure	/^ac_fn_c_check_func ()$/;"	f
+ac_fn_c_check_header_compile	configure	/^ac_fn_c_check_header_compile ()$/;"	f
+ac_fn_c_check_header_mongrel	configure	/^ac_fn_c_check_header_mongrel ()$/;"	f
+ac_fn_c_try_compile	configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_cpp	configure	/^ac_fn_c_try_cpp ()$/;"	f
+ac_fn_c_try_link	configure	/^ac_fn_c_try_link ()$/;"	f
+ac_fn_c_try_run	configure	/^ac_fn_c_try_run ()$/;"	f
+ac_fn_cxx_try_compile	configure	/^ac_fn_cxx_try_compile ()$/;"	f
+ac_fn_cxx_try_cpp	configure	/^ac_fn_cxx_try_cpp ()$/;"	f
+ac_fn_cxx_try_link	configure	/^ac_fn_cxx_try_link ()$/;"	f
+as_fn_append	configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	configure	/^as_fn_error ()$/;"	f
+as_fn_exit	configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	configure	/^as_fn_unset ()$/;"	f
+func_append	configure	/^func_append ()$/;"	f
+func_arith	configure	/^func_arith ()$/;"	f
+func_basename	configure	/^func_basename ()$/;"	f
+func_dirname	configure	/^func_dirname ()$/;"	f
+func_dirname_and_basename	configure	/^func_dirname_and_basename ()$/;"	f
+func_len	configure	/^func_len ()$/;"	f
+func_lo2o	configure	/^func_lo2o ()$/;"	f
+func_opt_split	configure	/^func_opt_split ()$/;"	f
+func_stripname	configure	/^func_stripname ()$/;"	f
+func_xform	configure	/^func_xform ()$/;"	f
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+PKG_FIXUP	contrib/airos/wifidog/Makefile	/^PKG_FIXUP = libtool$/;"	m
+PKG_MD5SUM	contrib/airos/wifidog/Makefile	/^PKG_MD5SUM:=$/;"	m
+PKG_NAME	contrib/airos/wifidog/Makefile	/^PKG_NAME:=wifidog$/;"	m
+PKG_RELEASE	contrib/airos/wifidog/Makefile	/^PKG_RELEASE:=1$/;"	m
+PKG_SOURCE	contrib/airos/wifidog/Makefile	/^PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz$/;"	m
+PKG_SOURCE_URL	contrib/airos/wifidog/Makefile	/^PKG_SOURCE_URL:= @SF\/$(PKG_NAME)$/;"	m
+PKG_VERSION	contrib/airos/wifidog/Makefile	/^PKG_VERSION:=20090925$/;"	m
+Package	contrib/airos/wifidog/Makefile	/^define Package\/wifidog$/;"	m
+Package	contrib/airos/wifidog/Makefile	/^define Package\/wifidog\/conffiles$/;"	m
+Package	contrib/airos/wifidog/Makefile	/^define Package\/wifidog\/description$/;"	m
+Package	contrib/airos/wifidog/Makefile	/^define Package\/wifidog\/install$/;"	m
+Package	contrib/airos/wifidog/Makefile	/^define Package\/wifidog\/postinst$/;"	m
+-prefix	contrib/build-deb/rules	/^	.\/configure --prefix=\/usr$/;"	m
+PKG_FIXUP	contrib/build-openwrt-kamikazeipk/wifidog/Makefile	/^PKG_FIXUP = libtool$/;"	m
+PKG_MD5SUM	contrib/build-openwrt-kamikazeipk/wifidog/Makefile	/^PKG_MD5SUM:=$/;"	m
+PKG_NAME	contrib/build-openwrt-kamikazeipk/wifidog/Makefile	/^PKG_NAME:=wifidog$/;"	m
+PKG_RELEASE	contrib/build-openwrt-kamikazeipk/wifidog/Makefile	/^PKG_RELEASE:=1$/;"	m
+PKG_SOURCE	contrib/build-openwrt-kamikazeipk/wifidog/Makefile	/^PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz$/;"	m
+PKG_SOURCE_URL	contrib/build-openwrt-kamikazeipk/wifidog/Makefile	/^PKG_SOURCE_URL:= @SF\/$(PKG_NAME)$/;"	m
+PKG_VERSION	contrib/build-openwrt-kamikazeipk/wifidog/Makefile	/^PKG_VERSION:=20090925$/;"	m
+Package	contrib/build-openwrt-kamikazeipk/wifidog/Makefile	/^define Package\/wifidog$/;"	m
+Package	contrib/build-openwrt-kamikazeipk/wifidog/Makefile	/^define Package\/wifidog\/conffiles$/;"	m
+Package	contrib/build-openwrt-kamikazeipk/wifidog/Makefile	/^define Package\/wifidog\/description$/;"	m
+Package	contrib/build-openwrt-kamikazeipk/wifidog/Makefile	/^define Package\/wifidog\/install$/;"	m
+PKG_FIXUP	contrib/build-openwrt-kamikazeipk8.09up/wifidog/Makefile	/^PKG_FIXUP = libtool$/;"	m
+PKG_MD5SUM	contrib/build-openwrt-kamikazeipk8.09up/wifidog/Makefile	/^PKG_MD5SUM:=$/;"	m
+PKG_NAME	contrib/build-openwrt-kamikazeipk8.09up/wifidog/Makefile	/^PKG_NAME:=wifidog$/;"	m
+PKG_RELEASE	contrib/build-openwrt-kamikazeipk8.09up/wifidog/Makefile	/^PKG_RELEASE:=1$/;"	m
+PKG_SOURCE	contrib/build-openwrt-kamikazeipk8.09up/wifidog/Makefile	/^PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz$/;"	m
+PKG_SOURCE_URL	contrib/build-openwrt-kamikazeipk8.09up/wifidog/Makefile	/^PKG_SOURCE_URL:= @SF\/$(PKG_NAME)$/;"	m
+PKG_VERSION	contrib/build-openwrt-kamikazeipk8.09up/wifidog/Makefile	/^PKG_VERSION:=20090925$/;"	m
+Package	contrib/build-openwrt-kamikazeipk8.09up/wifidog/Makefile	/^define Package\/wifidog$/;"	m
+Package	contrib/build-openwrt-kamikazeipk8.09up/wifidog/Makefile	/^define Package\/wifidog\/conffiles$/;"	m
+Package	contrib/build-openwrt-kamikazeipk8.09up/wifidog/Makefile	/^define Package\/wifidog\/description$/;"	m
+Package	contrib/build-openwrt-kamikazeipk8.09up/wifidog/Makefile	/^define Package\/wifidog\/install$/;"	m
+ERR	contrib/build-openwrt-whiterussianipk/wifidog/Makefile	/^	        ERR := $(Please set TOPDIR to OpenWRT SDK's buildroot)$/;"	m
+PKG_BUILD_DIR	contrib/build-openwrt-whiterussianipk/wifidog/Makefile	/^PKG_BUILD_DIR:=$(BUILD_DIR)\/$(PKG_NAME)-$(PKG_VERSION)$/;"	m
+PKG_CAT	contrib/build-openwrt-whiterussianipk/wifidog/Makefile	/^PKG_CAT:=zcat$/;"	m
+PKG_INSTALL_DIR	contrib/build-openwrt-whiterussianipk/wifidog/Makefile	/^PKG_INSTALL_DIR:=$(PKG_BUILD_DIR)\/ipkg-install$/;"	m
+PKG_MD5SUM	contrib/build-openwrt-whiterussianipk/wifidog/Makefile	/^PKG_MD5SUM:=$/;"	m
+PKG_NAME	contrib/build-openwrt-whiterussianipk/wifidog/Makefile	/^PKG_NAME:=wifidog$/;"	m
+PKG_RELEASE	contrib/build-openwrt-whiterussianipk/wifidog/Makefile	/^PKG_RELEASE:=1$/;"	m
+PKG_SOURCE	contrib/build-openwrt-whiterussianipk/wifidog/Makefile	/^PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz$/;"	m
+PKG_SOURCE_URL	contrib/build-openwrt-whiterussianipk/wifidog/Makefile	/^PKG_SOURCE_URL:= @SF\/$(PKG_NAME)$/;"	m
+PKG_VERSION	contrib/build-openwrt-whiterussianipk/wifidog/Makefile	/^PKG_VERSION:=20090925$/;"	m
+get_argparser	contrib/load-tester/common.py	/^def get_argparser():$/;"	f
+get_ip_address	contrib/load-tester/common.py	/^def get_ip_address(ifname):$/;"	f
+get_mac_address	contrib/load-tester/common.py	/^def get_mac_address(ifname):$/;"	f
+PORT	contrib/load-tester/fire_requests.py	/^PORT = "2060"$/;"	v
+args	contrib/load-tester/fire_requests.py	/^    args = parser.parse_args()$/;"	v
+main	contrib/load-tester/fire_requests.py	/^def main(targetIF, prefix, maxI):$/;"	f
+main_single	contrib/load-tester/fire_requests.py	/^def main_single(target, prefix, i):$/;"	f
+p	contrib/load-tester/fire_requests.py	/^    p = Pool(int(args.process_count))$/;"	v
+parser	contrib/load-tester/fire_requests.py	/^    parser = common.get_argparser()$/;"	v
+partial	contrib/load-tester/fire_requests.py	/^    partial = functools.partial($/;"	v
+target	contrib/load-tester/fire_requests.py	/^    target = common.get_ip_address(args.target_interface)$/;"	v
+args	contrib/load-tester/fire_wdctl.py	/^    args = parser.parse_args()$/;"	v
+main_single	contrib/load-tester/fire_wdctl.py	/^def main_single(target, prefix, i):$/;"	f
+p	contrib/load-tester/fire_wdctl.py	/^    p = Pool(int(args.process_count))$/;"	v
+parser	contrib/load-tester/fire_wdctl.py	/^    parser = common.get_argparser()$/;"	v
+partial	contrib/load-tester/fire_wdctl.py	/^    partial = functools.partial($/;"	v
+target	contrib/load-tester/fire_wdctl.py	/^    target = common.get_ip_address(args.target_interface)$/;"	v
+start	contrib/load-tester/generate_interfaces.sh	/^function start() {$/;"	f
+stop	contrib/load-tester/generate_interfaces.sh	/^function stop() {$/;"	f
+AuthHandler	contrib/load-tester/mock_auth.py	/^class AuthHandler(BaseHTTPRequestHandler):$/;"	c
+do_GET	contrib/load-tester/mock_auth.py	/^    def do_GET(self):$/;"	m	class:AuthHandler
+main	contrib/load-tester/mock_auth.py	/^def main():$/;"	f
+getdatum	contrib/load-tester/plot_memory.sh	/^function getdatum {$/;"	f
+main	contrib/load-tester/plot_memory.sh	/^function main {$/;"	f
+plot	contrib/load-tester/plot_memory.sh	/^function plot {$/;"	f
+cleanup	contrib/load-tester/run.sh	/^function cleanup() {$/;"	f
+main	contrib/load-tester/run.sh	/^function main() {$/;"	f
+ACLOCAL	doc/Makefile	/^ACLOCAL = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_M4	doc/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMTAR	doc/Makefile	/^AMTAR = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run tar$/;"	m
+AM_RECURSIVE_TARGETS	doc/Makefile	/^AM_RECURSIVE_TARGETS = $(RECURSIVE_TARGETS:-recursive=) \\$/;"	m
+AR	doc/Makefile	/^AR = mips-openwrt-linux-ar$/;"	m
+AUTOCONF	doc/Makefile	/^AUTOCONF = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run autoconf$/;"	m
+AUTOHEADER	doc/Makefile	/^AUTOHEADER = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run autoheader$/;"	m
+AUTOMAKE	doc/Makefile	/^AUTOMAKE = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run automake-1.11$/;"	m
+AWK	doc/Makefile	/^AWK = mawk$/;"	m
+BUILDROOT	doc/Makefile	/^BUILDROOT = $/;"	m
+CC	doc/Makefile	/^CC = mips-openwrt-linux-gcc$/;"	m
+CCDEPMODE	doc/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CFLAGS	doc/Makefile	/^CFLAGS = -g -O2$/;"	m
+CONFIG_CLEAN_FILES	doc/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	doc/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	doc/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CPP	doc/Makefile	/^CPP = mips-openwrt-linux-gcc -E$/;"	m
+CPPFLAGS	doc/Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	doc/Makefile	/^CTAGS = ctags$/;"	m
+CXX	doc/Makefile	/^CXX = mips-openwrt-linux-g++$/;"	m
+CXXCPP	doc/Makefile	/^CXXCPP = mips-openwrt-linux-g++ -E$/;"	m
+CXXDEPMODE	doc/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	doc/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CYGPATH_W	doc/Makefile	/^CYGPATH_W = echo$/;"	m
+DEFS	doc/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	doc/Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	doc/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	doc/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_SOURCES	doc/Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SUBDIRS	doc/Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DOT	doc/Makefile	/^DOT = $/;"	m
+DOXYGEN	doc/Makefile	/^DOXYGEN = $/;"	m
+DSYMUTIL	doc/Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	doc/Makefile	/^DUMPBIN = $/;"	m
+ECHO_C	doc/Makefile	/^ECHO_C = $/;"	m
+ECHO_N	doc/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	doc/Makefile	/^ECHO_T = $/;"	m
+EGREP	doc/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ETAGS	doc/Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	doc/Makefile	/^EXEEXT = $/;"	m
+EXTRA_DIST	doc/Makefile	/^EXTRA_DIST = \\$/;"	m
+FGREP	doc/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+GREP	doc/Makefile	/^GREP = \/bin\/grep$/;"	m
+INSTALL	doc/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	doc/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	doc/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	doc/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	doc/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	doc/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+LD	doc/Makefile	/^LD = \/home\/liping\/openwrt\/staging_dir\/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2\/mips-openwrt-linux-uclibc\/bin\/ld$/;"	m
+LDFLAGS	doc/Makefile	/^LDFLAGS = $/;"	m
+LIBOBJS	doc/Makefile	/^LIBOBJS = $/;"	m
+LIBS	doc/Makefile	/^LIBS = -lnsl -lpthread $/;"	m
+LIBTOOL	doc/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIPO	doc/Makefile	/^LIPO = $/;"	m
+LN_S	doc/Makefile	/^LN_S = ln -s$/;"	m
+LTLIBOBJS	doc/Makefile	/^LTLIBOBJS = $/;"	m
+MAINT	doc/Makefile	/^MAINT = #$/;"	m
+MAKEINFO	doc/Makefile	/^MAKEINFO = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run makeinfo$/;"	m
+MKDIR_P	doc/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+NM	doc/Makefile	/^NM = \/home\/liping\/openwrt\/staging_dir\/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2\/bin\/mips-openwrt-linux-nm -B$/;"	m
+NMEDIT	doc/Makefile	/^NMEDIT = $/;"	m
+NORMAL_INSTALL	doc/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	doc/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+OBJDUMP	doc/Makefile	/^OBJDUMP = mips-openwrt-linux-objdump$/;"	m
+OBJEXT	doc/Makefile	/^OBJEXT = o$/;"	m
+OTOOL	doc/Makefile	/^OTOOL = $/;"	m
+OTOOL64	doc/Makefile	/^OTOOL64 = $/;"	m
+PACKAGE	doc/Makefile	/^PACKAGE = wifidog$/;"	m
+PACKAGE_BUGREPORT	doc/Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_NAME	doc/Makefile	/^PACKAGE_NAME = $/;"	m
+PACKAGE_STRING	doc/Makefile	/^PACKAGE_STRING = $/;"	m
+PACKAGE_TARNAME	doc/Makefile	/^PACKAGE_TARNAME = $/;"	m
+PACKAGE_URL	doc/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	doc/Makefile	/^PACKAGE_VERSION = $/;"	m
+PATH_SEPARATOR	doc/Makefile	/^PATH_SEPARATOR = :$/;"	m
+POST_INSTALL	doc/Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	doc/Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	doc/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	doc/Makefile	/^PRE_UNINSTALL = :$/;"	m
+RANLIB	doc/Makefile	/^RANLIB = mips-openwrt-linux-ranlib$/;"	m
+RECURSIVE_CLEAN_TARGETS	doc/Makefile	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_TARGETS	doc/Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive dvi-recursive \\$/;"	m
+SED	doc/Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	doc/Makefile	/^SET_MAKE = $/;"	m
+SHELL	doc/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SOURCES	doc/Makefile	/^SOURCES =$/;"	m
+STRIP	doc/Makefile	/^STRIP = mips-openwrt-linux-strip$/;"	m
+SUBDIRS	doc/Makefile	/^SUBDIRS = $/;"	m
+VERSION	doc/Makefile	/^VERSION = 1.3.0$/;"	m
+WIFIDOG_MAJOR_VERSION	doc/Makefile	/^WIFIDOG_MAJOR_VERSION = 1$/;"	m
+WIFIDOG_MICRO_VERSION	doc/Makefile	/^WIFIDOG_MICRO_VERSION = 0$/;"	m
+WIFIDOG_MINOR_VERSION	doc/Makefile	/^WIFIDOG_MINOR_VERSION = 3$/;"	m
+WIFIDOG_VERSION	doc/Makefile	/^WIFIDOG_VERSION = 1.3.0$/;"	m
+abs_builddir	doc/Makefile	/^abs_builddir = \/home\/liping\/wifidog-gateway\/doc$/;"	m
+abs_srcdir	doc/Makefile	/^abs_srcdir = \/home\/liping\/wifidog-gateway\/doc$/;"	m
+abs_top_builddir	doc/Makefile	/^abs_top_builddir = \/home\/liping\/wifidog-gateway$/;"	m
+abs_top_srcdir	doc/Makefile	/^abs_top_srcdir = \/home\/liping\/wifidog-gateway$/;"	m
+ac_ct_CC	doc/Makefile	/^ac_ct_CC = $/;"	m
+ac_ct_CXX	doc/Makefile	/^ac_ct_CXX = $/;"	m
+ac_ct_DUMPBIN	doc/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+am__aclocal_m4_deps	doc/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.in$/;"	m
+am__cd	doc/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	doc/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__include	doc/Makefile	/^am__include = include$/;"	m
+am__leading_dot	doc/Makefile	/^am__leading_dot = .$/;"	m
+am__quote	doc/Makefile	/^am__quote = $/;"	m
+am__relativize	doc/Makefile	/^am__relativize = \\$/;"	m
+am__tar	doc/Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	doc/Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+bindir	doc/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+build	doc/Makefile	/^build = x86_64-unknown-linux-gnu$/;"	m
+build_alias	doc/Makefile	/^build_alias = $/;"	m
+build_cpu	doc/Makefile	/^build_cpu = x86_64$/;"	m
+build_os	doc/Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	doc/Makefile	/^build_triplet = x86_64-unknown-linux-gnu$/;"	m
+build_vendor	doc/Makefile	/^build_vendor = unknown$/;"	m
+builddir	doc/Makefile	/^builddir = .$/;"	m
+datadir	doc/Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	doc/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+docdir	doc/Makefile	/^docdir = ${prefix}\/share\/doc\/wifidog-1.3.0$/;"	m
+dvidir	doc/Makefile	/^dvidir = ${docdir}$/;"	m
+enable_dot	doc/Makefile	/^enable_dot = no$/;"	m
+enable_html_docs	doc/Makefile	/^enable_html_docs = yes$/;"	m
+enable_latex_docs	doc/Makefile	/^enable_latex_docs = no$/;"	m
+exec_prefix	doc/Makefile	/^exec_prefix = ${prefix}$/;"	m
+host	doc/Makefile	/^host = mips-openwrt-linux-gnu$/;"	m
+host_alias	doc/Makefile	/^host_alias = mips-openwrt-linux$/;"	m
+host_cpu	doc/Makefile	/^host_cpu = mips$/;"	m
+host_os	doc/Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	doc/Makefile	/^host_triplet = mips-openwrt-linux-gnu$/;"	m
+host_vendor	doc/Makefile	/^host_vendor = openwrt$/;"	m
+htmldir	doc/Makefile	/^htmldir = ${docdir}$/;"	m
+includedir	doc/Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	doc/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+install_sh	doc/Makefile	/^install_sh = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/install-sh$/;"	m
+install_sh_DATA	doc/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	doc/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	doc/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+libdir	doc/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	doc/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+localedir	doc/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	doc/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+lt_ECHO	doc/Makefile	/^lt_ECHO = echo$/;"	m
+mandir	doc/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mkdir_p	doc/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	doc/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+oldincludedir	doc/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+pdfdir	doc/Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	doc/Makefile	/^pkgdatadir = $(datadir)\/wifidog$/;"	m
+pkgincludedir	doc/Makefile	/^pkgincludedir = $(includedir)\/wifidog$/;"	m
+pkglibdir	doc/Makefile	/^pkglibdir = $(libdir)\/wifidog$/;"	m
+pkglibexecdir	doc/Makefile	/^pkglibexecdir = $(libexecdir)\/wifidog$/;"	m
+prefix	doc/Makefile	/^prefix = \/home\/liping\/wifidog-gateway\/install$/;"	m
+program_transform_name	doc/Makefile	/^program_transform_name = s,x,x,$/;"	m
+psdir	doc/Makefile	/^psdir = ${docdir}$/;"	m
+sbindir	doc/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sharedstatedir	doc/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+srcdir	doc/Makefile	/^srcdir = .$/;"	m
+subdir	doc/Makefile	/^subdir = doc$/;"	m
+sysconfdir	doc/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+target_alias	doc/Makefile	/^target_alias = $/;"	m
+top_build_prefix	doc/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	doc/Makefile	/^top_builddir = ..$/;"	m
+top_srcdir	doc/Makefile	/^top_srcdir = ..$/;"	m
+transform	doc/Makefile	/^transform = $(program_transform_name)$/;"	m
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+HTTP_ACL_DENY	install/include/wifidog/httpd.h	87;"	d
+HTTP_ACL_PERMIT	install/include/wifidog/httpd.h	86;"	d
+HTTP_ANY_ADDR	install/include/wifidog/httpd.h	64;"	d
+HTTP_C_FUNCT	install/include/wifidog/httpd.h	73;"	d
+HTTP_C_WILDCARD	install/include/wifidog/httpd.h	77;"	d
+HTTP_EMBER_FUNCT	install/include/wifidog/httpd.h	74;"	d
+HTTP_FALSE	install/include/wifidog/httpd.h	70;"	d
+HTTP_FILE	install/include/wifidog/httpd.h	72;"	d
+HTTP_GET	install/include/wifidog/httpd.h	66;"	d
+HTTP_IP_ADDR_LEN	install/include/wifidog/httpd.h	61;"	d
+HTTP_MAX_AUTH	install/include/wifidog/httpd.h	60;"	d
+HTTP_MAX_HEADERS	install/include/wifidog/httpd.h	59;"	d
+HTTP_MAX_LEN	install/include/wifidog/httpd.h	57;"	d
+HTTP_MAX_URL	install/include/wifidog/httpd.h	58;"	d
+HTTP_METHOD_ERROR	install/include/wifidog/httpd.h	79;"	d
+HTTP_PORT	install/include/wifidog/httpd.h	56;"	d
+HTTP_POST	install/include/wifidog/httpd.h	67;"	d
+HTTP_READ_BUF_LEN	install/include/wifidog/httpd.h	63;"	d
+HTTP_STATIC	install/include/wifidog/httpd.h	75;"	d
+HTTP_TIME_STRING_LEN	install/include/wifidog/httpd.h	62;"	d
+HTTP_TRUE	install/include/wifidog/httpd.h	69;"	d
+HTTP_WILDCARD	install/include/wifidog/httpd.h	76;"	d
+LIB_HTTPD_H	install/include/wifidog/httpd.h	32;"	d
+__ANSI_PROTO	install/include/wifidog/httpd.h	38;"	d
+__ANSI_PROTO	install/include/wifidog/httpd.h	40;"	d
+_httpd_content	install/include/wifidog/httpd.h	/^    typedef struct _httpd_content {$/;"	s
+_httpd_dir	install/include/wifidog/httpd.h	/^    typedef struct _httpd_dir {$/;"	s
+_httpd_var	install/include/wifidog/httpd.h	/^    typedef struct _httpd_var {$/;"	s
+accessLog	install/include/wifidog/httpd.h	/^        FILE *accessLog, *errorLog;$/;"	m	struct:__anon9
+action	install/include/wifidog/httpd.h	/^        char len, action;$/;"	m	struct:ip_acl_s
+addr	install/include/wifidog/httpd.h	/^        int addr;$/;"	m	struct:ip_acl_s
+authLength	install/include/wifidog/httpd.h	/^        int method, contentLength, authLength;$/;"	m	struct:__anon7
+authPassword	install/include/wifidog/httpd.h	/^        char authPassword[HTTP_MAX_AUTH];$/;"	m	struct:__anon7
+authUser	install/include/wifidog/httpd.h	/^        char authUser[HTTP_MAX_AUTH];$/;"	m	struct:__anon7
+children	install/include/wifidog/httpd.h	/^        struct _httpd_dir *children, *next;$/;"	m	struct:_httpd_dir	typeref:struct:_httpd_dir::_httpd_dir
+clientAddr	install/include/wifidog/httpd.h	/^        char readBuf[HTTP_READ_BUF_LEN + 1], *readBufPtr, clientAddr[HTTP_IP_ADDR_LEN];$/;"	m	struct:__anon10
+clientSock	install/include/wifidog/httpd.h	/^        int clientSock, readBufRemain;$/;"	m	struct:__anon10
+content	install/include/wifidog/httpd.h	/^        httpContent *content;$/;"	m	struct:__anon8
+content	install/include/wifidog/httpd.h	/^        httpDir *content;$/;"	m	struct:__anon9
+contentLength	install/include/wifidog/httpd.h	/^        int method, contentLength, authLength;$/;"	m	struct:__anon7
+contentType	install/include/wifidog/httpd.h	/^        char headersSent, headers[HTTP_MAX_HEADERS], response[HTTP_MAX_URL], contentType[HTTP_MAX_URL];$/;"	m	struct:__anon8
+data	install/include/wifidog/httpd.h	/^        char *data, *path;$/;"	m	struct:_httpd_content
+defaultAcl	install/include/wifidog/httpd.h	/^        httpAcl *defaultAcl;$/;"	m	struct:__anon9
+entries	install/include/wifidog/httpd.h	/^        struct _httpd_content *entries;$/;"	m	struct:_httpd_dir	typeref:struct:_httpd_dir::_httpd_content
+errorFunction304	install/include/wifidog/httpd.h	/^        void (*errorFunction304) (), (*errorFunction403) (), (*errorFunction404) ();$/;"	m	struct:__anon9
+errorLog	install/include/wifidog/httpd.h	/^        FILE *accessLog, *errorLog;$/;"	m	struct:__anon9
+fileBasePath	install/include/wifidog/httpd.h	/^        char fileBasePath[HTTP_MAX_URL], *host;$/;"	m	struct:__anon9
+function	install/include/wifidog/httpd.h	/^        void (*function) ();$/;"	m	struct:_httpd_content
+headers	install/include/wifidog/httpd.h	/^        char headersSent, headers[HTTP_MAX_HEADERS], response[HTTP_MAX_URL], contentType[HTTP_MAX_URL];$/;"	m	struct:__anon8
+headersSent	install/include/wifidog/httpd.h	/^        char headersSent, headers[HTTP_MAX_HEADERS], response[HTTP_MAX_URL], contentType[HTTP_MAX_URL];$/;"	m	struct:__anon8
+host	install/include/wifidog/httpd.h	/^        char fileBasePath[HTTP_MAX_URL], *host;$/;"	m	struct:__anon9
+host	install/include/wifidog/httpd.h	/^        char path[HTTP_MAX_URL], query[HTTP_MAX_URL], host[HTTP_MAX_URL],       \/* acv@acv.ca\/wifidog: Added decoding$/;"	m	struct:__anon7
+httpAcl	install/include/wifidog/httpd.h	/^    } httpAcl;$/;"	t	typeref:struct:ip_acl_s
+httpContent	install/include/wifidog/httpd.h	/^    } httpContent;$/;"	t	typeref:struct:_httpd_content
+httpDir	install/include/wifidog/httpd.h	/^    } httpDir;$/;"	t	typeref:struct:_httpd_dir
+httpReq	install/include/wifidog/httpd.h	/^    } httpReq;$/;"	t	typeref:struct:__anon7
+httpRes	install/include/wifidog/httpd.h	/^    } httpRes;$/;"	t	typeref:struct:__anon8
+httpVar	install/include/wifidog/httpd.h	/^    } httpVar;$/;"	t	typeref:struct:_httpd_var
+httpd	install/include/wifidog/httpd.h	/^    } httpd;$/;"	t	typeref:struct:__anon9
+httpdRequestContentLength	install/include/wifidog/httpd.h	84;"	d
+httpdRequestContentType	install/include/wifidog/httpd.h	83;"	d
+httpdRequestMethod	install/include/wifidog/httpd.h	81;"	d
+httpdRequestPath	install/include/wifidog/httpd.h	82;"	d
+ifModified	install/include/wifidog/httpd.h	/^         ifModified[HTTP_MAX_URL];$/;"	m	struct:__anon7
+indexFlag	install/include/wifidog/httpd.h	/^        int type, indexFlag;$/;"	m	struct:_httpd_content
+ip_acl_s	install/include/wifidog/httpd.h	/^    typedef struct ip_acl_s {$/;"	s
+lastError	install/include/wifidog/httpd.h	/^        int port, serverSock, startTime, lastError;$/;"	m	struct:__anon9
+len	install/include/wifidog/httpd.h	/^        char len, action;$/;"	m	struct:ip_acl_s
+method	install/include/wifidog/httpd.h	/^        int method, contentLength, authLength;$/;"	m	struct:__anon7
+name	install/include/wifidog/httpd.h	/^        char *name, *value;$/;"	m	struct:_httpd_var
+name	install/include/wifidog/httpd.h	/^        char *name;$/;"	m	struct:_httpd_content
+name	install/include/wifidog/httpd.h	/^        char *name;$/;"	m	struct:_httpd_dir
+next	install/include/wifidog/httpd.h	/^        struct _httpd_content *next;$/;"	m	struct:_httpd_content	typeref:struct:_httpd_content::_httpd_content
+next	install/include/wifidog/httpd.h	/^        struct _httpd_dir *children, *next;$/;"	m	struct:_httpd_dir	typeref:struct:_httpd_dir::
+next	install/include/wifidog/httpd.h	/^        struct ip_acl_s *next;$/;"	m	struct:ip_acl_s	typeref:struct:ip_acl_s::ip_acl_s
+nextValue	install/include/wifidog/httpd.h	/^        struct _httpd_var *nextValue, *nextVariable;$/;"	m	struct:_httpd_var	typeref:struct:_httpd_var::_httpd_var
+nextVariable	install/include/wifidog/httpd.h	/^        struct _httpd_var *nextValue, *nextVariable;$/;"	m	struct:_httpd_var	typeref:struct:_httpd_var::
+path	install/include/wifidog/httpd.h	/^        char *data, *path;$/;"	m	struct:_httpd_content
+path	install/include/wifidog/httpd.h	/^        char path[HTTP_MAX_URL], query[HTTP_MAX_URL], host[HTTP_MAX_URL],       \/* acv@acv.ca\/wifidog: Added decoding$/;"	m	struct:__anon7
+port	install/include/wifidog/httpd.h	/^        int port, serverSock, startTime, lastError;$/;"	m	struct:__anon9
+preload	install/include/wifidog/httpd.h	/^        int (*preload) ();$/;"	m	struct:_httpd_content
+query	install/include/wifidog/httpd.h	/^        char path[HTTP_MAX_URL], query[HTTP_MAX_URL], host[HTTP_MAX_URL],       \/* acv@acv.ca\/wifidog: Added decoding$/;"	m	struct:__anon7
+readBuf	install/include/wifidog/httpd.h	/^        char readBuf[HTTP_READ_BUF_LEN + 1], *readBufPtr, clientAddr[HTTP_IP_ADDR_LEN];$/;"	m	struct:__anon10
+readBufPtr	install/include/wifidog/httpd.h	/^        char readBuf[HTTP_READ_BUF_LEN + 1], *readBufPtr, clientAddr[HTTP_IP_ADDR_LEN];$/;"	m	struct:__anon10
+readBufRemain	install/include/wifidog/httpd.h	/^        int clientSock, readBufRemain;$/;"	m	struct:__anon10
+request	install/include/wifidog/httpd.h	/^        httpReq request;$/;"	m	struct:__anon10
+request	install/include/wifidog/httpd.h	/^    } request;$/;"	t	typeref:struct:__anon10
+response	install/include/wifidog/httpd.h	/^        char headersSent, headers[HTTP_MAX_HEADERS], response[HTTP_MAX_URL], contentType[HTTP_MAX_URL];$/;"	m	struct:__anon8
+response	install/include/wifidog/httpd.h	/^        httpRes response;$/;"	m	struct:__anon10
+responseLength	install/include/wifidog/httpd.h	/^        int responseLength;$/;"	m	struct:__anon8
+serverSock	install/include/wifidog/httpd.h	/^        int port, serverSock, startTime, lastError;$/;"	m	struct:__anon9
+startTime	install/include/wifidog/httpd.h	/^        int port, serverSock, startTime, lastError;$/;"	m	struct:__anon9
+type	install/include/wifidog/httpd.h	/^        int type, indexFlag;$/;"	m	struct:_httpd_content
+value	install/include/wifidog/httpd.h	/^        char *name, *value;$/;"	m	struct:_httpd_var
+variables	install/include/wifidog/httpd.h	/^        httpVar *variables;$/;"	m	struct:__anon10
+ACLOCAL	libhttpd/Makefile	/^ACLOCAL = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_M4	libhttpd/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMTAR	libhttpd/Makefile	/^AMTAR = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run tar$/;"	m
+AM_CPPFLAGS	libhttpd/Makefile	/^AM_CPPFLAGS = \\$/;"	m
+AR	libhttpd/Makefile	/^AR = mips-openwrt-linux-ar$/;"	m
+AUTOCONF	libhttpd/Makefile	/^AUTOCONF = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run autoconf$/;"	m
+AUTOHEADER	libhttpd/Makefile	/^AUTOHEADER = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run autoheader$/;"	m
+AUTOMAKE	libhttpd/Makefile	/^AUTOMAKE = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run automake-1.11$/;"	m
+AWK	libhttpd/Makefile	/^AWK = mawk$/;"	m
+BUILDROOT	libhttpd/Makefile	/^BUILDROOT = $/;"	m
+CC	libhttpd/Makefile	/^CC = mips-openwrt-linux-gcc$/;"	m
+CCDEPMODE	libhttpd/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	libhttpd/Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	libhttpd/Makefile	/^CFLAGS = -g -O2$/;"	m
+COMPILE	libhttpd/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	libhttpd/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	libhttpd/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	libhttpd/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CPP	libhttpd/Makefile	/^CPP = mips-openwrt-linux-gcc -E$/;"	m
+CPPFLAGS	libhttpd/Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	libhttpd/Makefile	/^CTAGS = ctags$/;"	m
+CXX	libhttpd/Makefile	/^CXX = mips-openwrt-linux-g++$/;"	m
+CXXCPP	libhttpd/Makefile	/^CXXCPP = mips-openwrt-linux-g++ -E$/;"	m
+CXXDEPMODE	libhttpd/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	libhttpd/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CYGPATH_W	libhttpd/Makefile	/^CYGPATH_W = echo$/;"	m
+DEFAULT_INCLUDES	libhttpd/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFS	libhttpd/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	libhttpd/Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	libhttpd/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	libhttpd/Makefile	/^DIST_COMMON = README $(noinst_HEADERS) $(pkginclude_HEADERS) \\$/;"	m
+DIST_SOURCES	libhttpd/Makefile	/^DIST_SOURCES = $(libhttpd_la_SOURCES)$/;"	m
+DOT	libhttpd/Makefile	/^DOT = $/;"	m
+DOXYGEN	libhttpd/Makefile	/^DOXYGEN = $/;"	m
+DSYMUTIL	libhttpd/Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	libhttpd/Makefile	/^DUMPBIN = $/;"	m
+ECHO_C	libhttpd/Makefile	/^ECHO_C = $/;"	m
+ECHO_N	libhttpd/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	libhttpd/Makefile	/^ECHO_T = $/;"	m
+EGREP	libhttpd/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ETAGS	libhttpd/Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	libhttpd/Makefile	/^EXEEXT = $/;"	m
+EXTRA_DIST	libhttpd/Makefile	/^EXTRA_DIST = README$/;"	m
+FGREP	libhttpd/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+GREP	libhttpd/Makefile	/^GREP = \/bin\/grep$/;"	m
+HEADERS	libhttpd/Makefile	/^HEADERS = $(noinst_HEADERS) $(pkginclude_HEADERS)$/;"	m
+INSTALL	libhttpd/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	libhttpd/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	libhttpd/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	libhttpd/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	libhttpd/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	libhttpd/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+LD	libhttpd/Makefile	/^LD = \/home\/liping\/openwrt\/staging_dir\/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2\/mips-openwrt-linux-uclibc\/bin\/ld$/;"	m
+LDFLAGS	libhttpd/Makefile	/^LDFLAGS = $/;"	m
+LIBOBJS	libhttpd/Makefile	/^LIBOBJS = $/;"	m
+LIBS	libhttpd/Makefile	/^LIBS = -lnsl -lpthread $/;"	m
+LIBTOOL	libhttpd/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LINK	libhttpd/Makefile	/^LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LIPO	libhttpd/Makefile	/^LIPO = $/;"	m
+LN_S	libhttpd/Makefile	/^LN_S = ln -s$/;"	m
+LTCOMPILE	libhttpd/Makefile	/^LTCOMPILE = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTLIBOBJS	libhttpd/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBRARIES	libhttpd/Makefile	/^LTLIBRARIES = $(lib_LTLIBRARIES)$/;"	m
+MAINT	libhttpd/Makefile	/^MAINT = #$/;"	m
+MAKEINFO	libhttpd/Makefile	/^MAKEINFO = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run makeinfo$/;"	m
+MKDIR_P	libhttpd/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+NM	libhttpd/Makefile	/^NM = \/home\/liping\/openwrt\/staging_dir\/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2\/bin\/mips-openwrt-linux-nm -B$/;"	m
+NMEDIT	libhttpd/Makefile	/^NMEDIT = $/;"	m
+NORMAL_INSTALL	libhttpd/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	libhttpd/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+OBJDUMP	libhttpd/Makefile	/^OBJDUMP = mips-openwrt-linux-objdump$/;"	m
+OBJEXT	libhttpd/Makefile	/^OBJEXT = o$/;"	m
+OTOOL	libhttpd/Makefile	/^OTOOL = $/;"	m
+OTOOL64	libhttpd/Makefile	/^OTOOL64 = $/;"	m
+PACKAGE	libhttpd/Makefile	/^PACKAGE = wifidog$/;"	m
+PACKAGE_BUGREPORT	libhttpd/Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_NAME	libhttpd/Makefile	/^PACKAGE_NAME = $/;"	m
+PACKAGE_STRING	libhttpd/Makefile	/^PACKAGE_STRING = $/;"	m
+PACKAGE_TARNAME	libhttpd/Makefile	/^PACKAGE_TARNAME = $/;"	m
+PACKAGE_URL	libhttpd/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	libhttpd/Makefile	/^PACKAGE_VERSION = $/;"	m
+PATH_SEPARATOR	libhttpd/Makefile	/^PATH_SEPARATOR = :$/;"	m
+POST_INSTALL	libhttpd/Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	libhttpd/Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	libhttpd/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	libhttpd/Makefile	/^PRE_UNINSTALL = :$/;"	m
+RANLIB	libhttpd/Makefile	/^RANLIB = mips-openwrt-linux-ranlib$/;"	m
+SED	libhttpd/Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	libhttpd/Makefile	/^SET_MAKE = $/;"	m
+SHELL	libhttpd/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SOURCES	libhttpd/Makefile	/^SOURCES = $(libhttpd_la_SOURCES)$/;"	m
+STRIP	libhttpd/Makefile	/^STRIP = mips-openwrt-linux-strip$/;"	m
+VERSION	libhttpd/Makefile	/^VERSION = 1.3.0$/;"	m
+WIFIDOG_MAJOR_VERSION	libhttpd/Makefile	/^WIFIDOG_MAJOR_VERSION = 1$/;"	m
+WIFIDOG_MICRO_VERSION	libhttpd/Makefile	/^WIFIDOG_MICRO_VERSION = 0$/;"	m
+WIFIDOG_MINOR_VERSION	libhttpd/Makefile	/^WIFIDOG_MINOR_VERSION = 3$/;"	m
+WIFIDOG_VERSION	libhttpd/Makefile	/^WIFIDOG_VERSION = 1.3.0$/;"	m
+abs_builddir	libhttpd/Makefile	/^abs_builddir = \/home\/liping\/wifidog-gateway\/libhttpd$/;"	m
+abs_srcdir	libhttpd/Makefile	/^abs_srcdir = \/home\/liping\/wifidog-gateway\/libhttpd$/;"	m
+abs_top_builddir	libhttpd/Makefile	/^abs_top_builddir = \/home\/liping\/wifidog-gateway$/;"	m
+abs_top_srcdir	libhttpd/Makefile	/^abs_top_srcdir = \/home\/liping\/wifidog-gateway$/;"	m
+ac_ct_CC	libhttpd/Makefile	/^ac_ct_CC = $/;"	m
+ac_ct_CXX	libhttpd/Makefile	/^ac_ct_CXX = $/;"	m
+ac_ct_DUMPBIN	libhttpd/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+am__aclocal_m4_deps	libhttpd/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.in$/;"	m
+am__base_list	libhttpd/Makefile	/^am__base_list = \\$/;"	m
+am__cd	libhttpd/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	libhttpd/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	libhttpd/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	libhttpd/Makefile	/^am__include = include$/;"	m
+am__install_max	libhttpd/Makefile	/^am__install_max = 40$/;"	m
+am__installdirs	libhttpd/Makefile	/^am__installdirs = "$(DESTDIR)$(libdir)" "$(DESTDIR)$(pkgincludedir)"$/;"	m
+am__leading_dot	libhttpd/Makefile	/^am__leading_dot = .$/;"	m
+am__mv	libhttpd/Makefile	/^am__mv = mv -f$/;"	m
+am__nobase_list	libhttpd/Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_strip	libhttpd/Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip_setup	libhttpd/Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__quote	libhttpd/Makefile	/^am__quote = $/;"	m
+am__strip_dir	libhttpd/Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tar	libhttpd/Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	libhttpd/Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__vpath_adj	libhttpd/Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	libhttpd/Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_libhttpd_la_OBJECTS	libhttpd/Makefile	/^am_libhttpd_la_OBJECTS = protocol.lo api.lo version.lo ip_acl.lo$/;"	m
+bindir	libhttpd/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+build	libhttpd/Makefile	/^build = x86_64-unknown-linux-gnu$/;"	m
+build_alias	libhttpd/Makefile	/^build_alias = $/;"	m
+build_cpu	libhttpd/Makefile	/^build_cpu = x86_64$/;"	m
+build_os	libhttpd/Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	libhttpd/Makefile	/^build_triplet = x86_64-unknown-linux-gnu$/;"	m
+build_vendor	libhttpd/Makefile	/^build_vendor = unknown$/;"	m
+builddir	libhttpd/Makefile	/^builddir = .$/;"	m
+datadir	libhttpd/Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	libhttpd/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+depcomp	libhttpd/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/config\/depcomp$/;"	m
+docdir	libhttpd/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE}$/;"	m
+dvidir	libhttpd/Makefile	/^dvidir = ${docdir}$/;"	m
+enable_dot	libhttpd/Makefile	/^enable_dot = no$/;"	m
+enable_html_docs	libhttpd/Makefile	/^enable_html_docs = yes$/;"	m
+enable_latex_docs	libhttpd/Makefile	/^enable_latex_docs = no$/;"	m
+exec_prefix	libhttpd/Makefile	/^exec_prefix = ${prefix}$/;"	m
+host	libhttpd/Makefile	/^host = mips-openwrt-linux-gnu$/;"	m
+host_alias	libhttpd/Makefile	/^host_alias = mips-openwrt-linux$/;"	m
+host_cpu	libhttpd/Makefile	/^host_cpu = mips$/;"	m
+host_os	libhttpd/Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	libhttpd/Makefile	/^host_triplet = mips-openwrt-linux-gnu$/;"	m
+host_vendor	libhttpd/Makefile	/^host_vendor = openwrt$/;"	m
+htmldir	libhttpd/Makefile	/^htmldir = ${docdir}$/;"	m
+includedir	libhttpd/Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	libhttpd/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+install_sh	libhttpd/Makefile	/^install_sh = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/install-sh$/;"	m
+install_sh_DATA	libhttpd/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	libhttpd/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	libhttpd/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+lib_LTLIBRARIES	libhttpd/Makefile	/^lib_LTLIBRARIES = libhttpd.la$/;"	m
+libdir	libhttpd/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	libhttpd/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libhttpd_la_LIBADD	libhttpd/Makefile	/^libhttpd_la_LIBADD =$/;"	m
+libhttpd_la_OBJECTS	libhttpd/Makefile	/^libhttpd_la_OBJECTS = $(am_libhttpd_la_OBJECTS)$/;"	m
+libhttpd_la_SOURCES	libhttpd/Makefile	/^libhttpd_la_SOURCES = protocol.c \\$/;"	m
+localedir	libhttpd/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	libhttpd/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+lt_ECHO	libhttpd/Makefile	/^lt_ECHO = echo$/;"	m
+mandir	libhttpd/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mkdir_p	libhttpd/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	libhttpd/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+noinst_HEADERS	libhttpd/Makefile	/^noinst_HEADERS = httpd_priv.h$/;"	m
+oldincludedir	libhttpd/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+pdfdir	libhttpd/Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	libhttpd/Makefile	/^pkgdatadir = $(datadir)\/wifidog$/;"	m
+pkginclude_HEADERS	libhttpd/Makefile	/^pkginclude_HEADERS = httpd.h$/;"	m
+pkgincludedir	libhttpd/Makefile	/^pkgincludedir = $(includedir)\/wifidog$/;"	m
+pkglibdir	libhttpd/Makefile	/^pkglibdir = $(libdir)\/wifidog$/;"	m
+pkglibexecdir	libhttpd/Makefile	/^pkglibexecdir = $(libexecdir)\/wifidog$/;"	m
+prefix	libhttpd/Makefile	/^prefix = \/home\/liping\/wifidog-gateway\/install$/;"	m
+program_transform_name	libhttpd/Makefile	/^program_transform_name = s,x,x,$/;"	m
+psdir	libhttpd/Makefile	/^psdir = ${docdir}$/;"	m
+sbindir	libhttpd/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sharedstatedir	libhttpd/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+srcdir	libhttpd/Makefile	/^srcdir = .$/;"	m
+subdir	libhttpd/Makefile	/^subdir = libhttpd$/;"	m
+sysconfdir	libhttpd/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+target_alias	libhttpd/Makefile	/^target_alias = $/;"	m
+top_build_prefix	libhttpd/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	libhttpd/Makefile	/^top_builddir = ..$/;"	m
+top_srcdir	libhttpd/Makefile	/^top_srcdir = ..$/;"	m
+transform	libhttpd/Makefile	/^transform = $(program_transform_name)$/;"	m
+httpdAddCContent	libhttpd/api.c	/^httpdAddCContent(server, dir, name, indexFlag, preload, function)$/;"	f
+httpdAddCWildcardContent	libhttpd/api.c	/^httpdAddCWildcardContent(server, dir, preload, function)$/;"	f
+httpdAddFileContent	libhttpd/api.c	/^httpdAddFileContent(server, dir, name, indexFlag, preload, path)$/;"	f
+httpdAddHeader	libhttpd/api.c	/^httpdAddHeader(request * r, const char *msg)$/;"	f
+httpdAddStaticContent	libhttpd/api.c	/^httpdAddStaticContent(server, dir, name, indexFlag, preload, data)$/;"	f
+httpdAddVariable	libhttpd/api.c	/^httpdAddVariable(request * r, const char *name, const char *value)$/;"	f
+httpdAddWildcardContent	libhttpd/api.c	/^httpdAddWildcardContent(server, dir, preload, path)$/;"	f
+httpdAuthenticate	libhttpd/api.c	/^httpdAuthenticate(request * r, const char *realm)$/;"	f
+httpdCreate	libhttpd/api.c	/^httpdCreate(host, port)$/;"	f
+httpdDestroy	libhttpd/api.c	/^httpdDestroy(server)$/;"	f
+httpdDumpVariables	libhttpd/api.c	/^httpdDumpVariables(request * r)$/;"	f
+httpdEndRequest	libhttpd/api.c	/^httpdEndRequest(request * r)$/;"	f
+httpdForceAuthenticate	libhttpd/api.c	/^httpdForceAuthenticate(request * r, const char *realm)$/;"	f
+httpdFreeVariables	libhttpd/api.c	/^httpdFreeVariables(request * r)$/;"	f
+httpdGetConnection	libhttpd/api.c	/^httpdGetConnection(server, timeout)$/;"	f
+httpdGetNextVariableByPrefix	libhttpd/api.c	/^httpdGetNextVariableByPrefix(curVar, prefix)$/;"	f
+httpdGetVariableByName	libhttpd/api.c	/^httpdGetVariableByName(request * r, const char *name)$/;"	f
+httpdGetVariableByPrefix	libhttpd/api.c	/^httpdGetVariableByPrefix(request * r, const char *prefix)$/;"	f
+httpdGetVariableByPrefixedName	libhttpd/api.c	/^httpdGetVariableByPrefixedName(request * r, const char *prefix, const char *name)$/;"	f
+httpdOutput	libhttpd/api.c	/^httpdOutput(request * r, const char *msg)$/;"	f
+httpdPrintf	libhttpd/api.c	/^httpdPrintf(request * r, const char *fmt, ...)$/;"	f
+httpdProcessRequest	libhttpd/api.c	/^httpdProcessRequest(httpd * server, request * r)$/;"	f
+httpdReadRequest	libhttpd/api.c	/^httpdReadRequest(httpd * server, request * r)$/;"	f
+httpdRequestMethodName	libhttpd/api.c	/^httpdRequestMethodName(request * r)$/;"	f
+httpdSendFile	libhttpd/api.c	/^httpdSendFile(httpd * server, request * r, const char *path)$/;"	f
+httpdSendHeaders	libhttpd/api.c	/^httpdSendHeaders(request * r)$/;"	f
+httpdSetAccessLog	libhttpd/api.c	/^httpdSetAccessLog(server, fp)$/;"	f
+httpdSetContentType	libhttpd/api.c	/^httpdSetContentType(request * r, const char *type)$/;"	f
+httpdSetCookie	libhttpd/api.c	/^httpdSetCookie(request * r, const char *name, const char *value)$/;"	f
+httpdSetErrorFunction	libhttpd/api.c	/^httpdSetErrorFunction(httpd * server, int error, void (*function) ())$/;"	f
+httpdSetErrorLog	libhttpd/api.c	/^httpdSetErrorLog(server, fp)$/;"	f
+httpdSetFileBase	libhttpd/api.c	/^httpdSetFileBase(server, path)$/;"	f
+httpdSetResponse	libhttpd/api.c	/^httpdSetResponse(request * r, const char *msg)$/;"	f
+httpdSetVariableValue	libhttpd/api.c	/^httpdSetVariableValue(request * r, const char *name, const char *value)$/;"	f
+httpdUrlEncode	libhttpd/api.c	/^httpdUrlEncode(str)$/;"	f
+HTTP_ACL_DENY	libhttpd/httpd.h	87;"	d
+HTTP_ACL_PERMIT	libhttpd/httpd.h	86;"	d
+HTTP_ANY_ADDR	libhttpd/httpd.h	64;"	d
+HTTP_C_FUNCT	libhttpd/httpd.h	73;"	d
+HTTP_C_WILDCARD	libhttpd/httpd.h	77;"	d
+HTTP_EMBER_FUNCT	libhttpd/httpd.h	74;"	d
+HTTP_FALSE	libhttpd/httpd.h	70;"	d
+HTTP_FILE	libhttpd/httpd.h	72;"	d
+HTTP_GET	libhttpd/httpd.h	66;"	d
+HTTP_IP_ADDR_LEN	libhttpd/httpd.h	61;"	d
+HTTP_MAX_AUTH	libhttpd/httpd.h	60;"	d
+HTTP_MAX_HEADERS	libhttpd/httpd.h	59;"	d
+HTTP_MAX_LEN	libhttpd/httpd.h	57;"	d
+HTTP_MAX_URL	libhttpd/httpd.h	58;"	d
+HTTP_METHOD_ERROR	libhttpd/httpd.h	79;"	d
+HTTP_PORT	libhttpd/httpd.h	56;"	d
+HTTP_POST	libhttpd/httpd.h	67;"	d
+HTTP_READ_BUF_LEN	libhttpd/httpd.h	63;"	d
+HTTP_STATIC	libhttpd/httpd.h	75;"	d
+HTTP_TIME_STRING_LEN	libhttpd/httpd.h	62;"	d
+HTTP_TRUE	libhttpd/httpd.h	69;"	d
+HTTP_WILDCARD	libhttpd/httpd.h	76;"	d
+LIB_HTTPD_H	libhttpd/httpd.h	32;"	d
+__ANSI_PROTO	libhttpd/httpd.h	38;"	d
+__ANSI_PROTO	libhttpd/httpd.h	40;"	d
+_httpd_content	libhttpd/httpd.h	/^    typedef struct _httpd_content {$/;"	s
+_httpd_dir	libhttpd/httpd.h	/^    typedef struct _httpd_dir {$/;"	s
+_httpd_var	libhttpd/httpd.h	/^    typedef struct _httpd_var {$/;"	s
+accessLog	libhttpd/httpd.h	/^        FILE *accessLog, *errorLog;$/;"	m	struct:__anon13
+action	libhttpd/httpd.h	/^        char len, action;$/;"	m	struct:ip_acl_s
+addr	libhttpd/httpd.h	/^        int addr;$/;"	m	struct:ip_acl_s
+authLength	libhttpd/httpd.h	/^        int method, contentLength, authLength;$/;"	m	struct:__anon11
+authPassword	libhttpd/httpd.h	/^        char authPassword[HTTP_MAX_AUTH];$/;"	m	struct:__anon11
+authUser	libhttpd/httpd.h	/^        char authUser[HTTP_MAX_AUTH];$/;"	m	struct:__anon11
+children	libhttpd/httpd.h	/^        struct _httpd_dir *children, *next;$/;"	m	struct:_httpd_dir	typeref:struct:_httpd_dir::_httpd_dir
+clientAddr	libhttpd/httpd.h	/^        char readBuf[HTTP_READ_BUF_LEN + 1], *readBufPtr, clientAddr[HTTP_IP_ADDR_LEN];$/;"	m	struct:__anon14
+clientSock	libhttpd/httpd.h	/^        int clientSock, readBufRemain;$/;"	m	struct:__anon14
+content	libhttpd/httpd.h	/^        httpContent *content;$/;"	m	struct:__anon12
+content	libhttpd/httpd.h	/^        httpDir *content;$/;"	m	struct:__anon13
+contentLength	libhttpd/httpd.h	/^        int method, contentLength, authLength;$/;"	m	struct:__anon11
+contentType	libhttpd/httpd.h	/^        char headersSent, headers[HTTP_MAX_HEADERS], response[HTTP_MAX_URL], contentType[HTTP_MAX_URL];$/;"	m	struct:__anon12
+data	libhttpd/httpd.h	/^        char *data, *path;$/;"	m	struct:_httpd_content
+defaultAcl	libhttpd/httpd.h	/^        httpAcl *defaultAcl;$/;"	m	struct:__anon13
+entries	libhttpd/httpd.h	/^        struct _httpd_content *entries;$/;"	m	struct:_httpd_dir	typeref:struct:_httpd_dir::_httpd_content
+errorFunction304	libhttpd/httpd.h	/^        void (*errorFunction304) (), (*errorFunction403) (), (*errorFunction404) ();$/;"	m	struct:__anon13
+errorLog	libhttpd/httpd.h	/^        FILE *accessLog, *errorLog;$/;"	m	struct:__anon13
+fileBasePath	libhttpd/httpd.h	/^        char fileBasePath[HTTP_MAX_URL], *host;$/;"	m	struct:__anon13
+function	libhttpd/httpd.h	/^        void (*function) ();$/;"	m	struct:_httpd_content
+headers	libhttpd/httpd.h	/^        char headersSent, headers[HTTP_MAX_HEADERS], response[HTTP_MAX_URL], contentType[HTTP_MAX_URL];$/;"	m	struct:__anon12
+headersSent	libhttpd/httpd.h	/^        char headersSent, headers[HTTP_MAX_HEADERS], response[HTTP_MAX_URL], contentType[HTTP_MAX_URL];$/;"	m	struct:__anon12
+host	libhttpd/httpd.h	/^        char fileBasePath[HTTP_MAX_URL], *host;$/;"	m	struct:__anon13
+host	libhttpd/httpd.h	/^        char path[HTTP_MAX_URL], query[HTTP_MAX_URL], host[HTTP_MAX_URL],       \/* acv@acv.ca\/wifidog: Added decoding$/;"	m	struct:__anon11
+httpAcl	libhttpd/httpd.h	/^    } httpAcl;$/;"	t	typeref:struct:ip_acl_s
+httpContent	libhttpd/httpd.h	/^    } httpContent;$/;"	t	typeref:struct:_httpd_content
+httpDir	libhttpd/httpd.h	/^    } httpDir;$/;"	t	typeref:struct:_httpd_dir
+httpReq	libhttpd/httpd.h	/^    } httpReq;$/;"	t	typeref:struct:__anon11
+httpRes	libhttpd/httpd.h	/^    } httpRes;$/;"	t	typeref:struct:__anon12
+httpVar	libhttpd/httpd.h	/^    } httpVar;$/;"	t	typeref:struct:_httpd_var
+httpd	libhttpd/httpd.h	/^    } httpd;$/;"	t	typeref:struct:__anon13
+httpdRequestContentLength	libhttpd/httpd.h	84;"	d
+httpdRequestContentType	libhttpd/httpd.h	83;"	d
+httpdRequestMethod	libhttpd/httpd.h	81;"	d
+httpdRequestPath	libhttpd/httpd.h	82;"	d
+ifModified	libhttpd/httpd.h	/^         ifModified[HTTP_MAX_URL];$/;"	m	struct:__anon11
+indexFlag	libhttpd/httpd.h	/^        int type, indexFlag;$/;"	m	struct:_httpd_content
+ip_acl_s	libhttpd/httpd.h	/^    typedef struct ip_acl_s {$/;"	s
+lastError	libhttpd/httpd.h	/^        int port, serverSock, startTime, lastError;$/;"	m	struct:__anon13
+len	libhttpd/httpd.h	/^        char len, action;$/;"	m	struct:ip_acl_s
+method	libhttpd/httpd.h	/^        int method, contentLength, authLength;$/;"	m	struct:__anon11
+name	libhttpd/httpd.h	/^        char *name, *value;$/;"	m	struct:_httpd_var
+name	libhttpd/httpd.h	/^        char *name;$/;"	m	struct:_httpd_content
+name	libhttpd/httpd.h	/^        char *name;$/;"	m	struct:_httpd_dir
+next	libhttpd/httpd.h	/^        struct _httpd_content *next;$/;"	m	struct:_httpd_content	typeref:struct:_httpd_content::_httpd_content
+next	libhttpd/httpd.h	/^        struct _httpd_dir *children, *next;$/;"	m	struct:_httpd_dir	typeref:struct:_httpd_dir::
+next	libhttpd/httpd.h	/^        struct ip_acl_s *next;$/;"	m	struct:ip_acl_s	typeref:struct:ip_acl_s::ip_acl_s
+nextValue	libhttpd/httpd.h	/^        struct _httpd_var *nextValue, *nextVariable;$/;"	m	struct:_httpd_var	typeref:struct:_httpd_var::_httpd_var
+nextVariable	libhttpd/httpd.h	/^        struct _httpd_var *nextValue, *nextVariable;$/;"	m	struct:_httpd_var	typeref:struct:_httpd_var::
+path	libhttpd/httpd.h	/^        char *data, *path;$/;"	m	struct:_httpd_content
+path	libhttpd/httpd.h	/^        char path[HTTP_MAX_URL], query[HTTP_MAX_URL], host[HTTP_MAX_URL],       \/* acv@acv.ca\/wifidog: Added decoding$/;"	m	struct:__anon11
+port	libhttpd/httpd.h	/^        int port, serverSock, startTime, lastError;$/;"	m	struct:__anon13
+preload	libhttpd/httpd.h	/^        int (*preload) ();$/;"	m	struct:_httpd_content
+query	libhttpd/httpd.h	/^        char path[HTTP_MAX_URL], query[HTTP_MAX_URL], host[HTTP_MAX_URL],       \/* acv@acv.ca\/wifidog: Added decoding$/;"	m	struct:__anon11
+readBuf	libhttpd/httpd.h	/^        char readBuf[HTTP_READ_BUF_LEN + 1], *readBufPtr, clientAddr[HTTP_IP_ADDR_LEN];$/;"	m	struct:__anon14
+readBufPtr	libhttpd/httpd.h	/^        char readBuf[HTTP_READ_BUF_LEN + 1], *readBufPtr, clientAddr[HTTP_IP_ADDR_LEN];$/;"	m	struct:__anon14
+readBufRemain	libhttpd/httpd.h	/^        int clientSock, readBufRemain;$/;"	m	struct:__anon14
+request	libhttpd/httpd.h	/^        httpReq request;$/;"	m	struct:__anon14
+request	libhttpd/httpd.h	/^    } request;$/;"	t	typeref:struct:__anon14
+response	libhttpd/httpd.h	/^        char headersSent, headers[HTTP_MAX_HEADERS], response[HTTP_MAX_URL], contentType[HTTP_MAX_URL];$/;"	m	struct:__anon12
+response	libhttpd/httpd.h	/^        httpRes response;$/;"	m	struct:__anon14
+responseLength	libhttpd/httpd.h	/^        int responseLength;$/;"	m	struct:__anon12
+serverSock	libhttpd/httpd.h	/^        int port, serverSock, startTime, lastError;$/;"	m	struct:__anon13
+startTime	libhttpd/httpd.h	/^        int port, serverSock, startTime, lastError;$/;"	m	struct:__anon13
+type	libhttpd/httpd.h	/^        int type, indexFlag;$/;"	m	struct:_httpd_content
+value	libhttpd/httpd.h	/^        char *name, *value;$/;"	m	struct:_httpd_var
+variables	libhttpd/httpd.h	/^        httpVar *variables;$/;"	m	struct:__anon14
+LEVEL_ERROR	libhttpd/httpd_priv.h	47;"	d
+LEVEL_NOTICE	libhttpd/httpd_priv.h	46;"	d
+LIB_HTTPD_H_PRIV	libhttpd/httpd_priv.h	32;"	d
+__ANSI_PROTO	libhttpd/httpd_priv.h	36;"	d
+__ANSI_PROTO	libhttpd/httpd_priv.h	38;"	d
+_isInCidrBlock	libhttpd/ip_acl.c	/^_isInCidrBlock(httpd * server, request * r, int addr1, int len1, int addr2, int len2)$/;"	f	file:
+httpdAddAcl	libhttpd/ip_acl.c	/^httpdAddAcl(server, acl, cidr, action)$/;"	f
+httpdCheckAcl	libhttpd/ip_acl.c	/^httpdCheckAcl(httpd * server, request * r, httpAcl * acl)$/;"	f
+httpdSetDefaultAcl	libhttpd/ip_acl.c	/^httpdSetDefaultAcl(server, acl)$/;"	f
+scanCidr	libhttpd/ip_acl.c	/^scanCidr(val, result, length)$/;"	f	file:
+ACCEPTABLE	libhttpd/protocol.c	633;"	d	file:
+DEC	libhttpd/protocol.c	200;"	d	file:
+URL_XALPHAS	libhttpd/protocol.c	618;"	d	file:
+URL_XPALPHAS	libhttpd/protocol.c	619;"	d	file:
+_DECODE_MAXVAL	libhttpd/protocol.c	201;"	d	file:
+_httpd_catFile	libhttpd/protocol.c	/^_httpd_catFile(request * r, const char *path)$/;"	f
+_httpd_checkLastModified	libhttpd/protocol.c	/^_httpd_checkLastModified(request * r, int modTime)$/;"	f
+_httpd_decode	libhttpd/protocol.c	/^_httpd_decode(bufcoded, bufplain, outbufsize)$/;"	f
+_httpd_escape	libhttpd/protocol.c	/^_httpd_escape(str)$/;"	f
+_httpd_findContentDir	libhttpd/protocol.c	/^_httpd_findContentDir(server, dir, createFlag)$/;"	f
+_httpd_findContentEntry	libhttpd/protocol.c	/^_httpd_findContentEntry(request * r, httpDir * dir, char *entryName)$/;"	f
+_httpd_formatTimeString	libhttpd/protocol.c	/^_httpd_formatTimeString(char *ptr, int clock)$/;"	f
+_httpd_freeVariables	libhttpd/protocol.c	/^_httpd_freeVariables(var)$/;"	f
+_httpd_from_hex	libhttpd/protocol.c	/^_httpd_from_hex(char c)$/;"	f
+_httpd_net_read	libhttpd/protocol.c	/^_httpd_net_read(sock, buf, len)$/;"	f
+_httpd_net_write	libhttpd/protocol.c	/^_httpd_net_write(sock, buf, len)$/;"	f
+_httpd_readBuf	libhttpd/protocol.c	/^_httpd_readBuf(request * r, char *destBuf, int len)$/;"	f
+_httpd_readChar	libhttpd/protocol.c	/^_httpd_readChar(request * r, char *cp)$/;"	f
+_httpd_readLine	libhttpd/protocol.c	/^_httpd_readLine(request * r, char *destBuf, int len)$/;"	f
+_httpd_sanitiseUrl	libhttpd/protocol.c	/^_httpd_sanitiseUrl(url)$/;"	f
+_httpd_send304	libhttpd/protocol.c	/^_httpd_send304(httpd * server, request * r)$/;"	f
+_httpd_send403	libhttpd/protocol.c	/^_httpd_send403(httpd * server, request * r)$/;"	f
+_httpd_send404	libhttpd/protocol.c	/^_httpd_send404(httpd * server, request * r)$/;"	f
+_httpd_sendDirectoryEntry	libhttpd/protocol.c	/^_httpd_sendDirectoryEntry(httpd * server, request * r, httpContent * entry, char *entryName)$/;"	f
+_httpd_sendFile	libhttpd/protocol.c	/^_httpd_sendFile(httpd * server, request * r, char *path)$/;"	f
+_httpd_sendHeaders	libhttpd/protocol.c	/^_httpd_sendHeaders(request * r, int contentLength, int modTime)$/;"	f
+_httpd_sendStatic	libhttpd/protocol.c	/^_httpd_sendStatic(httpd * server, request * r, char *data)$/;"	f
+_httpd_sendText	libhttpd/protocol.c	/^_httpd_sendText(request * r, char *msg)$/;"	f
+_httpd_storeData	libhttpd/protocol.c	/^_httpd_storeData(request * r, char *query)$/;"	f
+_httpd_unescape	libhttpd/protocol.c	/^_httpd_unescape(str)$/;"	f
+_httpd_writeAccessLog	libhttpd/protocol.c	/^_httpd_writeAccessLog(httpd * server, request * r)$/;"	f
+_httpd_writeErrorLog	libhttpd/protocol.c	/^_httpd_writeErrorLog(httpd * server, request * r, char *level, char *message)$/;"	f
+hex	libhttpd/protocol.c	/^static char *hex = "0123456789ABCDEF";$/;"	v	file:
+isAcceptable	libhttpd/protocol.c	/^static unsigned char isAcceptable[96] =$/;"	v	file:
+LIBHTTPD_VENDOR	libhttpd/version.c	/^        LIBHTTPD_VENDOR[] =   "Hughes Technologies Pty Ltd";$/;"	v
+LIBHTTPD_VERSION	libhttpd/version.c	/^char    LIBHTTPD_VERSION[] =  "1.4-wifidog",$/;"	v
+func_append	libtool	/^func_append ()$/;"	f
+func_arith	libtool	/^func_arith ()$/;"	f
+func_basename	libtool	/^func_basename ()$/;"	f
+func_check_version_match	libtool	/^func_check_version_match ()$/;"	f
+func_config	libtool	/^func_config ()$/;"	f
+func_dirname	libtool	/^func_dirname ()$/;"	f
+func_dirname_and_basename	libtool	/^func_dirname_and_basename ()$/;"	f
+func_echo	libtool	/^func_echo ()$/;"	f
+func_emit_cwrapperexe_src	libtool	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_wrapper	libtool	/^func_emit_wrapper ()$/;"	f
+func_emit_wrapper_part1	libtool	/^func_emit_wrapper_part1 ()$/;"	f
+func_emit_wrapper_part2	libtool	/^func_emit_wrapper_part2 ()$/;"	f
+func_enable_tag	libtool	/^func_enable_tag ()$/;"	f
+func_error	libtool	/^func_error ()$/;"	f
+func_execute_cmds	libtool	/^func_execute_cmds ()$/;"	f
+func_extract_an_archive	libtool	/^func_extract_an_archive ()$/;"	f
+func_extract_archives	libtool	/^func_extract_archives ()$/;"	f
+func_fatal_configuration	libtool	/^func_fatal_configuration ()$/;"	f
+func_fatal_error	libtool	/^func_fatal_error ()$/;"	f
+func_fatal_help	libtool	/^func_fatal_help ()$/;"	f
+func_features	libtool	/^func_features ()$/;"	f
+func_generate_dlsyms	libtool	/^func_generate_dlsyms ()$/;"	f
+func_grep	libtool	/^func_grep ()$/;"	f
+func_help	libtool	/^func_help ()$/;"	f
+func_infer_tag	libtool	/^func_infer_tag ()$/;"	f
+func_lalib_p	libtool	/^func_lalib_p ()$/;"	f
+func_lalib_unsafe_p	libtool	/^func_lalib_unsafe_p ()$/;"	f
+func_len	libtool	/^func_len ()$/;"	f
+func_lo2o	libtool	/^func_lo2o ()$/;"	f
+func_ltwrapper_executable_p	libtool	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_p	libtool	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_script_p	libtool	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_scriptname	libtool	/^func_ltwrapper_scriptname ()$/;"	f
+func_missing_arg	libtool	/^func_missing_arg ()$/;"	f
+func_mkdir_p	libtool	/^func_mkdir_p ()$/;"	f
+func_mktempdir	libtool	/^func_mktempdir ()$/;"	f
+func_mode_compile	libtool	/^func_mode_compile ()$/;"	f
+func_mode_execute	libtool	/^func_mode_execute ()$/;"	f
+func_mode_finish	libtool	/^func_mode_finish ()$/;"	f
+func_mode_help	libtool	/^func_mode_help ()$/;"	f
+func_mode_install	libtool	/^func_mode_install ()$/;"	f
+func_mode_link	libtool	/^func_mode_link ()$/;"	f
+func_mode_uninstall	libtool	/^func_mode_uninstall ()$/;"	f
+func_opt_split	libtool	/^func_opt_split ()$/;"	f
+func_quote_for_eval	libtool	/^func_quote_for_eval ()$/;"	f
+func_quote_for_expand	libtool	/^func_quote_for_expand ()$/;"	f
+func_show_eval	libtool	/^func_show_eval ()$/;"	f
+func_show_eval_locale	libtool	/^func_show_eval_locale ()$/;"	f
+func_source	libtool	/^func_source ()$/;"	f
+func_stripname	libtool	/^func_stripname ()$/;"	f
+func_to_host_path	libtool	/^func_to_host_path ()$/;"	f
+func_to_host_pathlist	libtool	/^func_to_host_pathlist ()$/;"	f
+func_usage	libtool	/^func_usage ()$/;"	f
+func_verbose	libtool	/^func_verbose ()$/;"	f
+func_version	libtool	/^func_version ()$/;"	f
+func_warning	libtool	/^func_warning ()$/;"	f
+func_win32_libid	libtool	/^func_win32_libid ()$/;"	f
+func_write_libtool_object	libtool	/^func_write_libtool_object ()$/;"	f
+func_xform	libtool	/^func_xform ()$/;"	f
+module_exists	scripts/init.d/wifidog	/^    module_exists () {$/;"	f
+module_in_memory	scripts/init.d/wifidog	/^    module_in_memory () {$/;"	f
+test_ipt_REDIRECT	scripts/init.d/wifidog	/^    test_ipt_REDIRECT () {$/;"	f
+test_ipt_mac	scripts/init.d/wifidog	/^    test_ipt_mac () {$/;"	f
+test_ipt_mark	scripts/init.d/wifidog	/^    test_ipt_mark () {$/;"	f
+ACLOCAL	src/Makefile	/^ACLOCAL = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_M4	src/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMTAR	src/Makefile	/^AMTAR = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run tar$/;"	m
+AM_CPPFLAGS	src/Makefile	/^AM_CPPFLAGS = \\$/;"	m
+AR	src/Makefile	/^AR = mips-openwrt-linux-ar$/;"	m
+ARFLAGS	src/Makefile	/^ARFLAGS = cru$/;"	m
+AUTOCONF	src/Makefile	/^AUTOCONF = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run autoconf$/;"	m
+AUTOHEADER	src/Makefile	/^AUTOHEADER = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run autoheader$/;"	m
+AUTOMAKE	src/Makefile	/^AUTOMAKE = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run automake-1.11$/;"	m
+AWK	src/Makefile	/^AWK = mawk$/;"	m
+BUILDROOT	src/Makefile	/^BUILDROOT = $/;"	m
+CC	src/Makefile	/^CC = mips-openwrt-linux-gcc$/;"	m
+CCDEPMODE	src/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	src/Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	src/Makefile	/^CFLAGS = -g -O2$/;"	m
+COMPILE	src/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	src/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	src/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	src/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CPP	src/Makefile	/^CPP = mips-openwrt-linux-gcc -E$/;"	m
+CPPFLAGS	src/Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	src/Makefile	/^CTAGS = ctags$/;"	m
+CXX	src/Makefile	/^CXX = mips-openwrt-linux-g++$/;"	m
+CXXCPP	src/Makefile	/^CXXCPP = mips-openwrt-linux-g++ -E$/;"	m
+CXXDEPMODE	src/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	src/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CYGPATH_W	src/Makefile	/^CYGPATH_W = echo$/;"	m
+DEFAULT_INCLUDES	src/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFS	src/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	src/Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	src/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	src/Makefile	/^DIST_COMMON = $(noinst_HEADERS) $(srcdir)\/Makefile.am \\$/;"	m
+DIST_SOURCES	src/Makefile	/^DIST_SOURCES = $(libgateway_a_SOURCES) $(wdctl_SOURCES) \\$/;"	m
+DOT	src/Makefile	/^DOT = $/;"	m
+DOXYGEN	src/Makefile	/^DOXYGEN = $/;"	m
+DSYMUTIL	src/Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	src/Makefile	/^DUMPBIN = $/;"	m
+ECHO_C	src/Makefile	/^ECHO_C = $/;"	m
+ECHO_N	src/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	src/Makefile	/^ECHO_T = $/;"	m
+EGREP	src/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ETAGS	src/Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	src/Makefile	/^EXEEXT = $/;"	m
+FGREP	src/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+GREP	src/Makefile	/^GREP = \/bin\/grep$/;"	m
+HEADERS	src/Makefile	/^HEADERS = $(noinst_HEADERS)$/;"	m
+INSTALL	src/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	src/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	src/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	src/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	src/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	src/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+LD	src/Makefile	/^LD = \/home\/liping\/openwrt\/staging_dir\/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2\/mips-openwrt-linux-uclibc\/bin\/ld$/;"	m
+LDFLAGS	src/Makefile	/^LDFLAGS = $/;"	m
+LIBOBJS	src/Makefile	/^LIBOBJS = $/;"	m
+LIBRARIES	src/Makefile	/^LIBRARIES = $(noinst_LIBRARIES)$/;"	m
+LIBS	src/Makefile	/^LIBS = -lnsl -lpthread $/;"	m
+LIBTOOL	src/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LINK	src/Makefile	/^LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LIPO	src/Makefile	/^LIPO = $/;"	m
+LN_S	src/Makefile	/^LN_S = ln -s$/;"	m
+LTCOMPILE	src/Makefile	/^LTCOMPILE = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTLIBOBJS	src/Makefile	/^LTLIBOBJS = $/;"	m
+MAINT	src/Makefile	/^MAINT = #$/;"	m
+MAKEINFO	src/Makefile	/^MAKEINFO = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/missing --run makeinfo$/;"	m
+MKDIR_P	src/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+NM	src/Makefile	/^NM = \/home\/liping\/openwrt\/staging_dir\/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2\/bin\/mips-openwrt-linux-nm -B$/;"	m
+NMEDIT	src/Makefile	/^NMEDIT = $/;"	m
+NORMAL_INSTALL	src/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	src/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+OBJDUMP	src/Makefile	/^OBJDUMP = mips-openwrt-linux-objdump$/;"	m
+OBJEXT	src/Makefile	/^OBJEXT = o$/;"	m
+OTOOL	src/Makefile	/^OTOOL = $/;"	m
+OTOOL64	src/Makefile	/^OTOOL64 = $/;"	m
+PACKAGE	src/Makefile	/^PACKAGE = wifidog$/;"	m
+PACKAGE_BUGREPORT	src/Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_NAME	src/Makefile	/^PACKAGE_NAME = $/;"	m
+PACKAGE_STRING	src/Makefile	/^PACKAGE_STRING = $/;"	m
+PACKAGE_TARNAME	src/Makefile	/^PACKAGE_TARNAME = $/;"	m
+PACKAGE_URL	src/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	src/Makefile	/^PACKAGE_VERSION = $/;"	m
+PATH_SEPARATOR	src/Makefile	/^PATH_SEPARATOR = :$/;"	m
+POST_INSTALL	src/Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	src/Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	src/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	src/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	src/Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+RANLIB	src/Makefile	/^RANLIB = mips-openwrt-linux-ranlib$/;"	m
+SED	src/Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	src/Makefile	/^SET_MAKE = $/;"	m
+SHELL	src/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SOURCES	src/Makefile	/^SOURCES = $(libgateway_a_SOURCES) $(wdctl_SOURCES) $(wifidog_SOURCES)$/;"	m
+STRIP	src/Makefile	/^STRIP = mips-openwrt-linux-strip$/;"	m
+VERSION	src/Makefile	/^VERSION = 1.3.0$/;"	m
+WIFIDOG_MAJOR_VERSION	src/Makefile	/^WIFIDOG_MAJOR_VERSION = 1$/;"	m
+WIFIDOG_MICRO_VERSION	src/Makefile	/^WIFIDOG_MICRO_VERSION = 0$/;"	m
+WIFIDOG_MINOR_VERSION	src/Makefile	/^WIFIDOG_MINOR_VERSION = 3$/;"	m
+WIFIDOG_VERSION	src/Makefile	/^WIFIDOG_VERSION = 1.3.0$/;"	m
+abs_builddir	src/Makefile	/^abs_builddir = \/home\/liping\/wifidog-gateway\/src$/;"	m
+abs_srcdir	src/Makefile	/^abs_srcdir = \/home\/liping\/wifidog-gateway\/src$/;"	m
+abs_top_builddir	src/Makefile	/^abs_top_builddir = \/home\/liping\/wifidog-gateway$/;"	m
+abs_top_srcdir	src/Makefile	/^abs_top_srcdir = \/home\/liping\/wifidog-gateway$/;"	m
+ac_ct_CC	src/Makefile	/^ac_ct_CC = $/;"	m
+ac_ct_CXX	src/Makefile	/^ac_ct_CXX = $/;"	m
+ac_ct_DUMPBIN	src/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+am__aclocal_m4_deps	src/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.in$/;"	m
+am__cd	src/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	src/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	src/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	src/Makefile	/^am__include = include$/;"	m
+am__installdirs	src/Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__leading_dot	src/Makefile	/^am__leading_dot = .$/;"	m
+am__mv	src/Makefile	/^am__mv = mv -f$/;"	m
+am__quote	src/Makefile	/^am__quote = $/;"	m
+am__tar	src/Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	src/Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am_libgateway_a_OBJECTS	src/Makefile	/^am_libgateway_a_OBJECTS = commandline.$(OBJEXT) conf.$(OBJEXT) \\$/;"	m
+am_wdctl_OBJECTS	src/Makefile	/^am_wdctl_OBJECTS = wdctl.$(OBJEXT)$/;"	m
+am_wifidog_OBJECTS	src/Makefile	/^am_wifidog_OBJECTS = main.$(OBJEXT)$/;"	m
+bin_PROGRAMS	src/Makefile	/^bin_PROGRAMS = wifidog$(EXEEXT) wdctl$(EXEEXT)$/;"	m
+bindir	src/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+build	src/Makefile	/^build = x86_64-unknown-linux-gnu$/;"	m
+build_alias	src/Makefile	/^build_alias = $/;"	m
+build_cpu	src/Makefile	/^build_cpu = x86_64$/;"	m
+build_os	src/Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	src/Makefile	/^build_triplet = x86_64-unknown-linux-gnu$/;"	m
+build_vendor	src/Makefile	/^build_vendor = unknown$/;"	m
+builddir	src/Makefile	/^builddir = .$/;"	m
+datadir	src/Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	src/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+depcomp	src/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/config\/depcomp$/;"	m
+docdir	src/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE}$/;"	m
+dvidir	src/Makefile	/^dvidir = ${docdir}$/;"	m
+enable_dot	src/Makefile	/^enable_dot = no$/;"	m
+enable_html_docs	src/Makefile	/^enable_html_docs = yes$/;"	m
+enable_latex_docs	src/Makefile	/^enable_latex_docs = no$/;"	m
+exec_prefix	src/Makefile	/^exec_prefix = ${prefix}$/;"	m
+host	src/Makefile	/^host = mips-openwrt-linux-gnu$/;"	m
+host_alias	src/Makefile	/^host_alias = mips-openwrt-linux$/;"	m
+host_cpu	src/Makefile	/^host_cpu = mips$/;"	m
+host_os	src/Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	src/Makefile	/^host_triplet = mips-openwrt-linux-gnu$/;"	m
+host_vendor	src/Makefile	/^host_vendor = openwrt$/;"	m
+htmldir	src/Makefile	/^htmldir = ${docdir}$/;"	m
+includedir	src/Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	src/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+install_sh	src/Makefile	/^install_sh = ${SHELL} \/home\/liping\/wifidog-gateway\/config\/install-sh$/;"	m
+install_sh_DATA	src/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	src/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	src/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+libdir	src/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	src/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libgateway_a_AR	src/Makefile	/^libgateway_a_AR = $(AR) $(ARFLAGS)$/;"	m
+libgateway_a_LIBADD	src/Makefile	/^libgateway_a_LIBADD =$/;"	m
+libgateway_a_OBJECTS	src/Makefile	/^libgateway_a_OBJECTS = $(am_libgateway_a_OBJECTS)$/;"	m
+libgateway_a_SOURCES	src/Makefile	/^libgateway_a_SOURCES = commandline.c \\$/;"	m
+localedir	src/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	src/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+lt_ECHO	src/Makefile	/^lt_ECHO = echo$/;"	m
+mandir	src/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mkdir_p	src/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	src/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+noinst_HEADERS	src/Makefile	/^noinst_HEADERS = commandline.h \\$/;"	m
+noinst_LIBRARIES	src/Makefile	/^noinst_LIBRARIES = libgateway.a$/;"	m
+oldincludedir	src/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+pdfdir	src/Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	src/Makefile	/^pkgdatadir = $(datadir)\/wifidog$/;"	m
+pkgincludedir	src/Makefile	/^pkgincludedir = $(includedir)\/wifidog$/;"	m
+pkglibdir	src/Makefile	/^pkglibdir = $(libdir)\/wifidog$/;"	m
+pkglibexecdir	src/Makefile	/^pkglibexecdir = $(libexecdir)\/wifidog$/;"	m
+prefix	src/Makefile	/^prefix = \/home\/liping\/wifidog-gateway\/install$/;"	m
+program_transform_name	src/Makefile	/^program_transform_name = s,x,x,$/;"	m
+psdir	src/Makefile	/^psdir = ${docdir}$/;"	m
+sbindir	src/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sharedstatedir	src/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+srcdir	src/Makefile	/^srcdir = .$/;"	m
+subdir	src/Makefile	/^subdir = src$/;"	m
+sysconfdir	src/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+target_alias	src/Makefile	/^target_alias = $/;"	m
+top_build_prefix	src/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	src/Makefile	/^top_builddir = ..$/;"	m
+top_srcdir	src/Makefile	/^top_srcdir = ..$/;"	m
+transform	src/Makefile	/^transform = $(program_transform_name)$/;"	m
+wdctl_DEPENDENCIES	src/Makefile	/^wdctl_DEPENDENCIES = libgateway.a$/;"	m
+wdctl_LDADD	src/Makefile	/^wdctl_LDADD = libgateway.a$/;"	m
+wdctl_OBJECTS	src/Makefile	/^wdctl_OBJECTS = $(am_wdctl_OBJECTS)$/;"	m
+wdctl_SOURCES	src/Makefile	/^wdctl_SOURCES = wdctl.c$/;"	m
+wifidog_DEPENDENCIES	src/Makefile	/^wifidog_DEPENDENCIES = libgateway.a \\$/;"	m
+wifidog_LDADD	src/Makefile	/^wifidog_LDADD = libgateway.a $(top_builddir)\/libhttpd\/libhttpd.la$/;"	m
+wifidog_OBJECTS	src/Makefile	/^wifidog_OBJECTS = $(am_wifidog_OBJECTS)$/;"	m
+wifidog_SOURCES	src/Makefile	/^wifidog_SOURCES = main.c$/;"	m
+_GNU_SOURCE	src/auth.c	28;"	d	file:
+authenticate_client	src/auth.c	/^authenticate_client(request * r)$/;"	f
+logout_client	src/auth.c	/^logout_client(t_client * client)$/;"	f
+thread_client_timeout_check	src/auth.c	/^thread_client_timeout_check(const void *arg)$/;"	f
+AUTH_ALLOWED	src/auth.h	/^    AUTH_ALLOWED = 1, \/**< Client was granted access by the auth server *\/$/;"	e	enum:__anon1
+AUTH_DENIED	src/auth.h	/^    AUTH_DENIED = 0, \/**< Client was denied by the auth server *\/$/;"	e	enum:__anon1
+AUTH_ERROR	src/auth.h	/^    AUTH_ERROR = -1, \/**< An error occured during the validation process*\/$/;"	e	enum:__anon1
+AUTH_LOCKED	src/auth.h	/^    AUTH_LOCKED = 254 \/**< Account has been locked *\/$/;"	e	enum:__anon1
+AUTH_VALIDATION	src/auth.h	/^    AUTH_VALIDATION = 5, \/**< A misnomer.  Client is in 15 min probation to validate his new account *\/$/;"	e	enum:__anon1
+AUTH_VALIDATION_FAILED	src/auth.h	/^    AUTH_VALIDATION_FAILED = 6, \/**< Client had X minutes to validate account by email and didn't = too late *\/$/;"	e	enum:__anon1
+_AUTH_H_	src/auth.h	29;"	d
+_t_authresponse	src/auth.h	/^typedef struct _t_authresponse {$/;"	s
+authcode	src/auth.h	/^    t_authcode authcode; \/**< Authentication code returned by the server *\/$/;"	m	struct:_t_authresponse
+t_authcode	src/auth.h	/^} t_authcode;$/;"	t	typeref:enum:__anon1
+t_authresponse	src/auth.h	/^} t_authresponse;$/;"	t	typeref:struct:_t_authresponse
+_connect_auth_server	src/centralserver.c	/^_connect_auth_server(int level)$/;"	f
+auth_server_request	src/centralserver.c	/^auth_server_request(t_authresponse * authresponse, const char *request_type, const char *ip, const char *mac,$/;"	f
+connect_auth_server	src/centralserver.c	/^connect_auth_server()$/;"	f
+GATEWAY_MESSAGE_ACCOUNT_LOGGED_OUT	src/centralserver.h	47;"	d
+GATEWAY_MESSAGE_ACCOUNT_VALIDATION_FAILED	src/centralserver.h	45;"	d
+GATEWAY_MESSAGE_ACTIVATE_ACCOUNT	src/centralserver.h	43;"	d
+GATEWAY_MESSAGE_DENIED	src/centralserver.h	41;"	d
+REQUEST_TYPE_COUNTERS	src/centralserver.h	38;"	d
+REQUEST_TYPE_LOGIN	src/centralserver.h	34;"	d
+REQUEST_TYPE_LOGOUT	src/centralserver.h	36;"	d
+_CENTRALSERVER_H_	src/centralserver.h	29;"	d
+_GNU_SOURCE	src/client_list.c	27;"	d	file:
+client_dup	src/client_list.c	/^client_dup(const t_client * src)$/;"	f
+client_free_node	src/client_list.c	/^client_free_node(t_client * client)$/;"	f
+client_get_first_client	src/client_list.c	/^client_get_first_client(void)$/;"	f
+client_get_new	src/client_list.c	/^client_get_new(void)$/;"	f
+client_id	src/client_list.c	/^static volatile unsigned long long client_id = 1;$/;"	v	file:
+client_id_mutex	src/client_list.c	/^static pthread_mutex_t client_id_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+client_list_add	src/client_list.c	/^client_list_add(const char *ip, const char *mac, const char *token)$/;"	f
+client_list_delete	src/client_list.c	/^client_list_delete(t_client * client)$/;"	f
+client_list_destroy	src/client_list.c	/^client_list_destroy(t_client * list)$/;"	f
+client_list_dup	src/client_list.c	/^client_list_dup(t_client ** dest)$/;"	f
+client_list_find	src/client_list.c	/^client_list_find(const char *ip, const char *mac)$/;"	f
+client_list_find_by_client	src/client_list.c	/^client_list_find_by_client(t_client * client)$/;"	f
+client_list_find_by_ip	src/client_list.c	/^client_list_find_by_ip(const char *ip)$/;"	f
+client_list_find_by_mac	src/client_list.c	/^client_list_find_by_mac(const char *mac)$/;"	f
+client_list_find_by_token	src/client_list.c	/^client_list_find_by_token(const char *token)$/;"	f
+client_list_init	src/client_list.c	/^client_list_init(void)$/;"	f
+client_list_insert_client	src/client_list.c	/^client_list_insert_client(t_client * client)$/;"	f
+client_list_mutex	src/client_list.c	/^pthread_mutex_t client_list_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+client_list_remove	src/client_list.c	/^client_list_remove(t_client * client)$/;"	f
+firstclient	src/client_list.c	/^static t_client *firstclient = NULL;$/;"	v	file:
+LOCK_CLIENT_LIST	src/client_list.h	113;"	d
+UNLOCK_CLIENT_LIST	src/client_list.h	119;"	d
+_CLIENT_LIST_H_	src/client_list.h	29;"	d
+_t_client	src/client_list.h	/^typedef struct _t_client {$/;"	s
+_t_counters	src/client_list.h	/^typedef struct _t_counters {$/;"	s
+counters	src/client_list.h	/^    t_counters counters;                \/**< @brief Counters for input\/output of$/;"	m	struct:_t_client
+fd	src/client_list.h	/^    int fd;                             \/**< @brief Client HTTP socket (valid only$/;"	m	struct:_t_client
+fw_connection_state	src/client_list.h	/^    int fw_connection_state;     \/**< @brief Connection state in the$/;"	m	struct:_t_client
+id	src/client_list.h	/^    unsigned long long id;           \/**< @brief Unique ID per client *\/$/;"	m	struct:_t_client
+incoming	src/client_list.h	/^    unsigned long long incoming;        \/**< @brief Incoming data total*\/$/;"	m	struct:_t_counters
+incoming_delta	src/client_list.h	/^    unsigned long long incoming_delta;                    \/**< @brief Incoming data after last report*\/$/;"	m	struct:_t_counters
+incoming_history	src/client_list.h	/^    unsigned long long incoming_history;        \/**< @brief Incoming data before wifidog restarted*\/$/;"	m	struct:_t_counters
+ip	src/client_list.h	/^    char *ip;                           \/**< @brief Client Ip address *\/$/;"	m	struct:_t_client
+last_updated	src/client_list.h	/^    time_t last_updated;        \/**< @brief Last update of the counters *\/$/;"	m	struct:_t_counters
+mac	src/client_list.h	/^    char *mac;                          \/**< @brief Client Mac address *\/$/;"	m	struct:_t_client
+next	src/client_list.h	/^    struct _t_client *next;             \/**< @brief Pointer to the next client *\/$/;"	m	struct:_t_client	typeref:struct:_t_client::_t_client
+outgoing	src/client_list.h	/^    unsigned long long outgoing;        \/**< @brief Outgoing data total*\/$/;"	m	struct:_t_counters
+outgoing_delta	src/client_list.h	/^    unsigned long long outgoing_delta;                    \/**< @brief Outgoing data after last report*\/$/;"	m	struct:_t_counters
+outgoing_history	src/client_list.h	/^    unsigned long long outgoing_history;        \/**< @brief Outgoing data before wifidog restarted*\/$/;"	m	struct:_t_counters
+t_client	src/client_list.h	/^} t_client;$/;"	t	typeref:struct:_t_client
+t_counters	src/client_list.h	/^} t_counters;$/;"	t	typeref:struct:_t_counters
+token	src/client_list.h	/^    char *token;                        \/**< @brief Client token *\/$/;"	m	struct:_t_client
+parse_commandline	src/commandline.c	/^parse_commandline(int argc, char **argv)$/;"	f
+restart_orig_pid	src/commandline.c	/^pid_t restart_orig_pid = 0;$/;"	v
+restartargv	src/commandline.c	/^char ** restartargv = NULL;$/;"	v
+usage	src/commandline.c	/^usage(void)$/;"	f	file:
+_COMMANDLINE_H_	src/commandline.h	29;"	d
+MAX_BUF	src/common.h	31;"	d
+_COMMON_H_	src/common.h	28;"	d
+OpCodes	src/conf.c	/^} OpCodes;$/;"	t	typeref:enum:__anon2	file:
+TO_NEXT_WORD	src/conf.c	416;"	d	file:
+_GNU_SOURCE	src/conf.c	29;"	d	file:
+_parse_firewall_rule	src/conf.c	/^_parse_firewall_rule(const char *ruleset, char *leftover)$/;"	f	file:
+add_popular_server	src/conf.c	/^add_popular_server(const char *server)$/;"	f	file:
+check_mac_format	src/conf.c	/^check_mac_format(char *possiblemac)$/;"	f
+config	src/conf.c	/^static s_config config;$/;"	v	file:
+config_get_config	src/conf.c	/^config_get_config(void)$/;"	f
+config_init	src/conf.c	/^config_init(void)$/;"	f
+config_init_override	src/conf.c	/^config_init_override(void)$/;"	f
+config_mutex	src/conf.c	/^pthread_mutex_t config_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+config_notnull	src/conf.c	/^config_notnull(const void *parm, const char *parmname)$/;"	f	file:
+config_parse_token	src/conf.c	/^config_parse_token(const char *cp, const char *filename, int linenum)$/;"	f	file:
+config_read	src/conf.c	/^config_read(const char *filename)$/;"	f
+config_validate	src/conf.c	/^config_validate(void)$/;"	f
+get_auth_server	src/conf.c	/^get_auth_server(void)$/;"	f
+get_ruleset	src/conf.c	/^get_ruleset(const char *ruleset)$/;"	f
+keywords	src/conf.c	/^} keywords[] = {$/;"	v	typeref:struct:__anon3	file:
+mark_auth_server_bad	src/conf.c	/^mark_auth_server_bad(t_auth_serv * bad_server)$/;"	f
+missing_parms	src/conf.c	/^static int missing_parms;$/;"	v	file:
+name	src/conf.c	/^    const char *name;$/;"	m	struct:__anon3	file:
+oAuthServAuthScriptPathFragment	src/conf.c	/^    oAuthServAuthScriptPathFragment,$/;"	e	enum:__anon2	file:
+oAuthServHTTPPort	src/conf.c	/^    oAuthServHTTPPort,$/;"	e	enum:__anon2	file:
+oAuthServHostname	src/conf.c	/^    oAuthServHostname,$/;"	e	enum:__anon2	file:
+oAuthServLoginScriptPathFragment	src/conf.c	/^    oAuthServLoginScriptPathFragment,$/;"	e	enum:__anon2	file:
+oAuthServMsgScriptPathFragment	src/conf.c	/^    oAuthServMsgScriptPathFragment,$/;"	e	enum:__anon2	file:
+oAuthServPath	src/conf.c	/^    oAuthServPath,$/;"	e	enum:__anon2	file:
+oAuthServPingScriptPathFragment	src/conf.c	/^    oAuthServPingScriptPathFragment,$/;"	e	enum:__anon2	file:
+oAuthServPortalScriptPathFragment	src/conf.c	/^    oAuthServPortalScriptPathFragment,$/;"	e	enum:__anon2	file:
+oAuthServSSLAvailable	src/conf.c	/^    oAuthServSSLAvailable,$/;"	e	enum:__anon2	file:
+oAuthServSSLPort	src/conf.c	/^    oAuthServSSLPort,$/;"	e	enum:__anon2	file:
+oAuthServer	src/conf.c	/^    oAuthServer,$/;"	e	enum:__anon2	file:
+oBadOption	src/conf.c	/^    oBadOption,$/;"	e	enum:__anon2	file:
+oCheckInterval	src/conf.c	/^    oCheckInterval,$/;"	e	enum:__anon2	file:
+oClientTimeout	src/conf.c	/^    oClientTimeout,$/;"	e	enum:__anon2	file:
+oDaemon	src/conf.c	/^    oDaemon,$/;"	e	enum:__anon2	file:
+oDebugLevel	src/conf.c	/^    oDebugLevel,$/;"	e	enum:__anon2	file:
+oDeltaTraffic	src/conf.c	/^    oDeltaTraffic,$/;"	e	enum:__anon2	file:
+oExternalInterface	src/conf.c	/^    oExternalInterface,$/;"	e	enum:__anon2	file:
+oFirewallRule	src/conf.c	/^    oFirewallRule,$/;"	e	enum:__anon2	file:
+oFirewallRuleSet	src/conf.c	/^    oFirewallRuleSet,$/;"	e	enum:__anon2	file:
+oGatewayAddress	src/conf.c	/^    oGatewayAddress,$/;"	e	enum:__anon2	file:
+oGatewayID	src/conf.c	/^    oGatewayID,$/;"	e	enum:__anon2	file:
+oGatewayInterface	src/conf.c	/^    oGatewayInterface,$/;"	e	enum:__anon2	file:
+oGatewayPort	src/conf.c	/^    oGatewayPort,$/;"	e	enum:__anon2	file:
+oHTTPDMaxConn	src/conf.c	/^    oHTTPDMaxConn,$/;"	e	enum:__anon2	file:
+oHTTPDName	src/conf.c	/^    oHTTPDName,$/;"	e	enum:__anon2	file:
+oHTTPDPassword	src/conf.c	/^    oHTTPDPassword,$/;"	e	enum:__anon2	file:
+oHTTPDRealm	src/conf.c	/^    oHTTPDRealm,$/;"	e	enum:__anon2	file:
+oHTTPDUsername	src/conf.c	/^    oHTTPDUsername,$/;"	e	enum:__anon2	file:
+oHtmlMessageFile	src/conf.c	/^    oHtmlMessageFile,$/;"	e	enum:__anon2	file:
+oPopularServers	src/conf.c	/^    oPopularServers,$/;"	e	enum:__anon2	file:
+oProxyPort	src/conf.c	/^    oProxyPort,$/;"	e	enum:__anon2	file:
+oSSLAllowedCipherList	src/conf.c	/^    oSSLAllowedCipherList,$/;"	e	enum:__anon2	file:
+oSSLCertPath	src/conf.c	/^    oSSLCertPath,$/;"	e	enum:__anon2	file:
+oSSLPeerVerification	src/conf.c	/^    oSSLPeerVerification,$/;"	e	enum:__anon2	file:
+oSSLUseSNI	src/conf.c	/^    oSSLUseSNI,$/;"	e	enum:__anon2	file:
+oSyslogFacility	src/conf.c	/^    oSyslogFacility,$/;"	e	enum:__anon2	file:
+oTrustedMACList	src/conf.c	/^    oTrustedMACList,$/;"	e	enum:__anon2	file:
+oWdctlSocket	src/conf.c	/^    oWdctlSocket,$/;"	e	enum:__anon2	file:
+opcode	src/conf.c	/^    OpCodes opcode;$/;"	m	struct:__anon3	file:
+parse_auth_server	src/conf.c	/^parse_auth_server(FILE * file, const char *filename, int *linenum)$/;"	f	file:
+parse_boolean_value	src/conf.c	/^parse_boolean_value(char *line)$/;"	f	file:
+parse_firewall_ruleset	src/conf.c	/^parse_firewall_ruleset(const char *ruleset, FILE * file, const char *filename, int *linenum)$/;"	f	file:
+parse_popular_servers	src/conf.c	/^parse_popular_servers(const char *ptr)$/;"	f	file:
+parse_trusted_mac_list	src/conf.c	/^parse_trusted_mac_list(const char *ptr)$/;"	f	file:
+validate_popular_servers	src/conf.c	/^validate_popular_servers(void)$/;"	f	file:
+DEFAULT_ARPTABLE	src/conf.h	69;"	d
+DEFAULT_AUTHSERVAUTHPATHFRAGMENT	src/conf.h	64;"	d
+DEFAULT_AUTHSERVLOGINPATHFRAGMENT	src/conf.h	60;"	d
+DEFAULT_AUTHSERVMSGPATHFRAGMENT	src/conf.h	62;"	d
+DEFAULT_AUTHSERVPATH	src/conf.h	59;"	d
+DEFAULT_AUTHSERVPINGPATHFRAGMENT	src/conf.h	63;"	d
+DEFAULT_AUTHSERVPORT	src/conf.h	54;"	d
+DEFAULT_AUTHSERVPORTALPATHFRAGMENT	src/conf.h	61;"	d
+DEFAULT_AUTHSERVSSLAVAILABLE	src/conf.h	57;"	d
+DEFAULT_AUTHSERVSSLCERTPATH	src/conf.h	65;"	d
+DEFAULT_AUTHSERVSSLPEERVER	src/conf.h	67;"	d
+DEFAULT_AUTHSERVSSLPORT	src/conf.h	55;"	d
+DEFAULT_AUTHSERVSSLSNI	src/conf.h	70;"	d
+DEFAULT_CHECKINTERVAL	src/conf.h	49;"	d
+DEFAULT_CLIENTTIMEOUT	src/conf.h	48;"	d
+DEFAULT_CONFIGFILE	src/conf.h	36;"	d
+DEFAULT_CONFIGFILE	src/conf.h	39;"	d
+DEFAULT_DAEMON	src/conf.h	42;"	d
+DEFAULT_DEBUGLEVEL	src/conf.h	43;"	d
+DEFAULT_DELTATRAFFIC	src/conf.h	68;"	d
+DEFAULT_GATEWAYID	src/conf.h	45;"	d
+DEFAULT_GATEWAYPORT	src/conf.h	46;"	d
+DEFAULT_HTMLMSGFILE	src/conf.h	37;"	d
+DEFAULT_HTMLMSGFILE	src/conf.h	40;"	d
+DEFAULT_HTTPDMAXCONN	src/conf.h	44;"	d
+DEFAULT_HTTPDNAME	src/conf.h	47;"	d
+DEFAULT_INTERNAL_SOCK	src/conf.h	53;"	d
+DEFAULT_LOG_SYSLOG	src/conf.h	50;"	d
+DEFAULT_SYSLOG_FACILITY	src/conf.h	51;"	d
+DEFAULT_WDCTL_SOCK	src/conf.h	52;"	d
+FWRULESET_AUTH_IS_DOWN	src/conf.h	78;"	d
+FWRULESET_GLOBAL	src/conf.h	75;"	d
+FWRULESET_KNOWN_USERS	src/conf.h	77;"	d
+FWRULESET_LOCKED_USERS	src/conf.h	80;"	d
+FWRULESET_UNKNOWN_USERS	src/conf.h	79;"	d
+FWRULESET_VALIDATING_USERS	src/conf.h	76;"	d
+LOCK_CONFIG	src/conf.h	228;"	d
+TARGET_ACCEPT	src/conf.h	/^    TARGET_ACCEPT,$/;"	e	enum:__anon5
+TARGET_DROP	src/conf.h	/^    TARGET_DROP,$/;"	e	enum:__anon5
+TARGET_LOG	src/conf.h	/^    TARGET_LOG,$/;"	e	enum:__anon5
+TARGET_REJECT	src/conf.h	/^    TARGET_REJECT,$/;"	e	enum:__anon5
+TARGET_ULOG	src/conf.h	/^    TARGET_ULOG$/;"	e	enum:__anon5
+UNLOCK_CONFIG	src/conf.h	234;"	d
+_CONFIG_H_	src/conf.h	29;"	d
+_auth_serv_t	src/conf.h	/^typedef struct _auth_serv_t {$/;"	s
+_firewall_rule_t	src/conf.h	/^typedef struct _firewall_rule_t {$/;"	s
+_firewall_ruleset_t	src/conf.h	/^typedef struct _firewall_ruleset_t {$/;"	s
+_popular_server_t	src/conf.h	/^typedef struct _popular_server_t {$/;"	s
+_trusted_mac_t	src/conf.h	/^typedef struct _trusted_mac_t {$/;"	s
+arp_table_path	src/conf.h	/^    char *arp_table_path; \/**< @brief Path to custom ARP table, formatted$/;"	m	struct:__anon6
+auth_servers	src/conf.h	/^    t_auth_serv *auth_servers;  \/**< @brief Auth servers list *\/$/;"	m	struct:__anon6
+authserv_auth_script_path_fragment	src/conf.h	/^    char *authserv_auth_script_path_fragment;   \/**< @brief This is the script that talks the wifidog gateway protocol. *\/$/;"	m	struct:_auth_serv_t
+authserv_hostname	src/conf.h	/^    char *authserv_hostname;    \/**< @brief Hostname of the central server *\/$/;"	m	struct:_auth_serv_t
+authserv_http_port	src/conf.h	/^    int authserv_http_port;     \/**< @brief Http port the central server$/;"	m	struct:_auth_serv_t
+authserv_login_script_path_fragment	src/conf.h	/^    char *authserv_login_script_path_fragment;  \/**< @brief This is the script the user will be sent to for login. *\/$/;"	m	struct:_auth_serv_t
+authserv_msg_script_path_fragment	src/conf.h	/^    char *authserv_msg_script_path_fragment;    \/**< @brief This is the script the user will be sent to upon error to read a readable message. *\/$/;"	m	struct:_auth_serv_t
+authserv_path	src/conf.h	/^    char *authserv_path;        \/**< @brief Path where wifidog resides *\/$/;"	m	struct:_auth_serv_t
+authserv_ping_script_path_fragment	src/conf.h	/^    char *authserv_ping_script_path_fragment;   \/**< @brief This is the ping heartbeating script. *\/$/;"	m	struct:_auth_serv_t
+authserv_portal_script_path_fragment	src/conf.h	/^    char *authserv_portal_script_path_fragment; \/**< @brief This is the script the user will be sent to after a successfull login. *\/$/;"	m	struct:_auth_serv_t
+authserv_ssl_port	src/conf.h	/^    int authserv_ssl_port;      \/**< @brief Https port the central server$/;"	m	struct:_auth_serv_t
+authserv_use_ssl	src/conf.h	/^    int authserv_use_ssl;       \/**< @brief Use SSL or not *\/$/;"	m	struct:_auth_serv_t
+checkinterval	src/conf.h	/^    int checkinterval;          \/**< @brief Frequency the the client timeout check$/;"	m	struct:__anon6
+clienttimeout	src/conf.h	/^    int clienttimeout;          \/**< @brief How many CheckIntervals before a client$/;"	m	struct:__anon6
+configfile	src/conf.h	/^    char *configfile;       \/**< @brief name of the config file *\/$/;"	m	struct:__anon6
+daemon	src/conf.h	/^    int daemon;                 \/**< @brief if daemon > 0, use daemon mode *\/$/;"	m	struct:__anon6
+deltatraffic	src/conf.h	/^    int deltatraffic;                   \/**< @brief reset each user's traffic (Outgoing and Incoming) value after each Auth operation. *\/$/;"	m	struct:__anon6
+external_interface	src/conf.h	/^    char *external_interface;   \/**< @brief External network interface name for$/;"	m	struct:__anon6
+gw_address	src/conf.h	/^    char *gw_address;           \/**< @brief Internal IP address for our web$/;"	m	struct:__anon6
+gw_id	src/conf.h	/^    char *gw_id;                \/**< @brief ID of the Gateway, sent to central$/;"	m	struct:__anon6
+gw_interface	src/conf.h	/^    char *gw_interface;         \/**< @brief Interface we will accept connections on *\/$/;"	m	struct:__anon6
+gw_port	src/conf.h	/^    int gw_port;                \/**< @brief Port the webserver will run on *\/$/;"	m	struct:__anon6
+hostname	src/conf.h	/^    char *hostname;$/;"	m	struct:_popular_server_t
+htmlmsgfile	src/conf.h	/^    char *htmlmsgfile;          \/**< @brief name of the HTML file used for messages *\/$/;"	m	struct:__anon6
+httpdmaxconn	src/conf.h	/^    int httpdmaxconn;           \/**< @brief Used by libhttpd, not sure what it$/;"	m	struct:__anon6
+httpdname	src/conf.h	/^    char *httpdname;            \/**< @brief Name the web server will return when$/;"	m	struct:__anon6
+httpdpassword	src/conf.h	/^    char *httpdpassword;        \/**< @brief Password for HTTP authentication *\/$/;"	m	struct:__anon6
+httpdrealm	src/conf.h	/^    char *httpdrealm;           \/**< @brief HTTP Authentication realm *\/$/;"	m	struct:__anon6
+httpdusername	src/conf.h	/^    char *httpdusername;        \/**< @brief Username for HTTP authentication *\/$/;"	m	struct:__anon6
+internal_sock	src/conf.h	/^    char *internal_sock;                \/**< @brief internal path to socket *\/$/;"	m	struct:__anon6
+last_ip	src/conf.h	/^    char *last_ip;      \/**< @brief Last ip used by authserver *\/$/;"	m	struct:_auth_serv_t
+mac	src/conf.h	/^    char *mac;$/;"	m	struct:_trusted_mac_t
+mask	src/conf.h	/^    char *mask;                 \/**< @brief Mask for the rule *destination* *\/$/;"	m	struct:_firewall_rule_t
+mask_is_ipset	src/conf.h	/^    int mask_is_ipset; \/**< @brief *destination* is ipset  *\/$/;"	m	struct:_firewall_rule_t
+name	src/conf.h	/^    char *name;$/;"	m	struct:_firewall_ruleset_t
+next	src/conf.h	/^    struct _auth_serv_t *next;$/;"	m	struct:_auth_serv_t	typeref:struct:_auth_serv_t::_auth_serv_t
+next	src/conf.h	/^    struct _firewall_rule_t *next;$/;"	m	struct:_firewall_rule_t	typeref:struct:_firewall_rule_t::_firewall_rule_t
+next	src/conf.h	/^    struct _firewall_ruleset_t *next;$/;"	m	struct:_firewall_ruleset_t	typeref:struct:_firewall_ruleset_t::_firewall_ruleset_t
+next	src/conf.h	/^    struct _popular_server_t *next;$/;"	m	struct:_popular_server_t	typeref:struct:_popular_server_t::_popular_server_t
+next	src/conf.h	/^    struct _trusted_mac_t *next;$/;"	m	struct:_trusted_mac_t	typeref:struct:_trusted_mac_t::_trusted_mac_t
+pidfile	src/conf.h	/^    char *pidfile;            \/**< @brief pid file path of wifidog *\/$/;"	m	struct:__anon6
+popular_servers	src/conf.h	/^    t_popular_server *popular_servers; \/**< @brief list of popular servers *\/$/;"	m	struct:__anon6
+port	src/conf.h	/^    char *port;                 \/**< @brief Port to block\/allow *\/$/;"	m	struct:_firewall_rule_t
+protocol	src/conf.h	/^    char *protocol;             \/**< @brief tcp, udp, etc ... *\/$/;"	m	struct:_firewall_rule_t
+proxy_port	src/conf.h	/^    int proxy_port;             \/**< @brief Transparent proxy port (0 to disable) *\/$/;"	m	struct:__anon6
+rules	src/conf.h	/^    t_firewall_rule *rules;$/;"	m	struct:_firewall_ruleset_t
+rulesets	src/conf.h	/^    t_firewall_ruleset *rulesets;       \/**< @brief firewall rules *\/$/;"	m	struct:__anon6
+s_config	src/conf.h	/^} s_config;$/;"	t	typeref:struct:__anon6
+ssl_certs	src/conf.h	/^    char *ssl_certs;            \/**< @brief Path to SSL certs for auth server$/;"	m	struct:__anon6
+ssl_cipher_list	src/conf.h	/^    char *ssl_cipher_list;  \/**< @brief List of SSL ciphers allowed. Optional. *\/$/;"	m	struct:__anon6
+ssl_use_sni	src/conf.h	/^    int ssl_use_sni;            \/**< @brief boolean, whether to enable$/;"	m	struct:__anon6
+ssl_verify	src/conf.h	/^    int ssl_verify;             \/**< @brief boolean, whether to enable$/;"	m	struct:__anon6
+t_auth_serv	src/conf.h	/^} t_auth_serv;$/;"	t	typeref:struct:_auth_serv_t
+t_firewall_rule	src/conf.h	/^} t_firewall_rule;$/;"	t	typeref:struct:_firewall_rule_t
+t_firewall_ruleset	src/conf.h	/^} t_firewall_ruleset;$/;"	t	typeref:struct:_firewall_ruleset_t
+t_firewall_target	src/conf.h	/^} t_firewall_target;$/;"	t	typeref:enum:__anon5
+t_popular_server	src/conf.h	/^} t_popular_server;$/;"	t	typeref:struct:_popular_server_t
+t_trusted_mac	src/conf.h	/^} t_trusted_mac;$/;"	t	typeref:struct:_trusted_mac_t
+target	src/conf.h	/^    t_firewall_target target;   \/**< @brief t_firewall_target *\/$/;"	m	struct:_firewall_rule_t
+trustedmaclist	src/conf.h	/^    t_trusted_mac *trustedmaclist; \/**< @brief list of trusted macs *\/$/;"	m	struct:__anon6
+wdctl_sock	src/conf.h	/^    char *wdctl_sock;           \/**< @brief wdctl path to socket *\/$/;"	m	struct:__anon6
+_debug	src/debug.c	/^_debug(const char *filename, int line, int level, const char *format, ...)$/;"	f
+debugconf	src/debug.c	/^debugconf_t debugconf = {$/;"	v
+_DEBUG_H_	src/debug.h	28;"	d
+_debug_conf	src/debug.h	/^typedef struct _debug_conf {$/;"	s
+debug	src/debug.h	44;"	d
+debugconf_t	src/debug.h	/^} debugconf_t;$/;"	t	typeref:struct:_debug_conf
+debuglevel	src/debug.h	/^    int debuglevel;      \/**< @brief Debug information verbosity *\/$/;"	m	struct:_debug_conf
+log_stderr	src/debug.h	/^    int log_stderr;      \/**< @brief Output log to stdout *\/$/;"	m	struct:_debug_conf
+log_syslog	src/debug.h	/^    int log_syslog;      \/**< @brief Output log to syslog *\/$/;"	m	struct:_debug_conf
+syslog_facility	src/debug.h	/^    int syslog_facility; \/**< @brief facility to use when using syslog for logging *\/$/;"	m	struct:_debug_conf
+_GNU_SOURCE	src/firewall.c	29;"	d	file:
+_fw_deny_raw	src/firewall.c	/^_fw_deny_raw(const char *ip, const char *mac, const int mark)$/;"	f	file:
+arp_get	src/firewall.c	/^arp_get(const char *req_ip)$/;"	f
+fw_allow	src/firewall.c	/^fw_allow(t_client * client, int new_fw_connection_state)$/;"	f
+fw_allow_host	src/firewall.c	/^fw_allow_host(const char *host)$/;"	f
+fw_clear_authservers	src/firewall.c	/^fw_clear_authservers(void)$/;"	f
+fw_deny	src/firewall.c	/^fw_deny(t_client * client)$/;"	f
+fw_destroy	src/firewall.c	/^fw_destroy(void)$/;"	f
+fw_init	src/firewall.c	/^fw_init(void)$/;"	f
+fw_set_authdown	src/firewall.c	/^fw_set_authdown(void)$/;"	f
+fw_set_authservers	src/firewall.c	/^fw_set_authservers(void)$/;"	f
+fw_set_authup	src/firewall.c	/^fw_set_authup(void)$/;"	f
+fw_sync_with_authserver	src/firewall.c	/^fw_sync_with_authserver(void)$/;"	f
+FW_MARK_AUTH_IS_DOWN	src/firewall.h	/^    FW_MARK_AUTH_IS_DOWN = 253, \/**< @brief The auth servers are down *\/$/;"	e	enum:_t_fw_marks
+FW_MARK_KNOWN	src/firewall.h	/^    FW_MARK_KNOWN = 2,  \/**< @brief The client is known to the firewall *\/$/;"	e	enum:_t_fw_marks
+FW_MARK_LOCKED	src/firewall.h	/^    FW_MARK_LOCKED = 254 \/**< @brief The client has been locked out *\/$/;"	e	enum:_t_fw_marks
+FW_MARK_NONE	src/firewall.h	/^    FW_MARK_NONE = 0, \/**< @brief No mark set. *\/$/;"	e	enum:_t_fw_marks
+FW_MARK_PROBATION	src/firewall.h	/^    FW_MARK_PROBATION = 1, \/**< @brief The client is in probation period and must be authenticated $/;"	e	enum:_t_fw_marks
+_FIREWALL_H_	src/firewall.h	29;"	d
+_t_fw_marks	src/firewall.h	/^typedef enum _t_fw_marks {$/;"	g
+t_fw_marks	src/firewall.h	/^} t_fw_marks;$/;"	t	typeref:enum:_t_fw_marks
+_GNU_SOURCE	src/fw_iptables.c	29;"	d	file:
+fw_quiet	src/fw_iptables.c	/^static int fw_quiet = 0;$/;"	v	file:
+iptables_compile	src/fw_iptables.c	/^iptables_compile(const char *table, const char *chain, const t_firewall_rule * rule)$/;"	f	file:
+iptables_do_command	src/fw_iptables.c	/^iptables_do_command(const char *format, ...)$/;"	f	file:
+iptables_fw_access	src/fw_iptables.c	/^iptables_fw_access(fw_access_t type, const char *ip, const char *mac, int tag)$/;"	f
+iptables_fw_access_host	src/fw_iptables.c	/^iptables_fw_access_host(fw_access_t type, const char *host)$/;"	f
+iptables_fw_auth_reachable	src/fw_iptables.c	/^iptables_fw_auth_reachable(void)$/;"	f
+iptables_fw_auth_unreachable	src/fw_iptables.c	/^iptables_fw_auth_unreachable(int tag)$/;"	f
+iptables_fw_clear_authservers	src/fw_iptables.c	/^iptables_fw_clear_authservers(void)$/;"	f
+iptables_fw_counters_update	src/fw_iptables.c	/^iptables_fw_counters_update(void)$/;"	f
+iptables_fw_destroy	src/fw_iptables.c	/^iptables_fw_destroy(void)$/;"	f
+iptables_fw_destroy_mention	src/fw_iptables.c	/^iptables_fw_destroy_mention(const char *table, const char *chain, const char *mention)$/;"	f
+iptables_fw_init	src/fw_iptables.c	/^iptables_fw_init(void)$/;"	f
+iptables_fw_set_authservers	src/fw_iptables.c	/^iptables_fw_set_authservers(void)$/;"	f
+iptables_insert_gateway_id	src/fw_iptables.c	/^iptables_insert_gateway_id(char **input)$/;"	f	file:
+iptables_load_ruleset	src/fw_iptables.c	/^iptables_load_ruleset(const char *table, const char *ruleset, const char *chain)$/;"	f	file:
+CHAIN_AUTHSERVERS	src/fw_iptables.h	39;"	d
+CHAIN_AUTH_IS_DOWN	src/fw_iptables.h	46;"	d
+CHAIN_GLOBAL	src/fw_iptables.h	40;"	d
+CHAIN_INCOMING	src/fw_iptables.h	38;"	d
+CHAIN_KNOWN	src/fw_iptables.h	42;"	d
+CHAIN_LOCKED	src/fw_iptables.h	44;"	d
+CHAIN_OUTGOING	src/fw_iptables.h	35;"	d
+CHAIN_TO_INTERNET	src/fw_iptables.h	36;"	d
+CHAIN_TO_ROUTER	src/fw_iptables.h	37;"	d
+CHAIN_TRUSTED	src/fw_iptables.h	45;"	d
+CHAIN_UNKNOWN	src/fw_iptables.h	43;"	d
+CHAIN_VALIDATE	src/fw_iptables.h	41;"	d
+FW_ACCESS_ALLOW	src/fw_iptables.h	/^    FW_ACCESS_ALLOW,$/;"	e	enum:fw_access_t_
+FW_ACCESS_DENY	src/fw_iptables.h	/^    FW_ACCESS_DENY$/;"	e	enum:fw_access_t_
+_FW_IPTABLES_H_	src/fw_iptables.h	29;"	d
+fw_access_t	src/fw_iptables.h	/^} fw_access_t;$/;"	t	typeref:enum:fw_access_t_
+fw_access_t_	src/fw_iptables.h	/^typedef enum fw_access_t_ {$/;"	g
+append_x_restartargv	src/gateway.c	/^append_x_restartargv(void)$/;"	f
+get_clients_from_parent	src/gateway.c	/^get_clients_from_parent(void)$/;"	f
+gw_main	src/gateway.c	/^gw_main(int argc, char **argv)$/;"	f
+init_signals	src/gateway.c	/^init_signals(void)$/;"	f	file:
+main_loop	src/gateway.c	/^main_loop(void)$/;"	f	file:
+sigchld_handler	src/gateway.c	/^sigchld_handler(int s)$/;"	f
+started_time	src/gateway.c	/^time_t started_time = 0;$/;"	v
+termination_handler	src/gateway.c	/^termination_handler(int s)$/;"	f
+tid_fw_counter	src/gateway.c	/^static pthread_t tid_fw_counter = 0;$/;"	v	file:
+tid_ping	src/gateway.c	/^static pthread_t tid_ping = 0;$/;"	v	file:
+webserver	src/gateway.c	/^httpd * webserver = NULL;$/;"	v
+_GATEWAY_H_	src/gateway.h	29;"	d
+_GNU_SOURCE	src/http.c	31;"	d	file:
+http_callback_404	src/http.c	/^http_callback_404(httpd * webserver, request * r, int error_code)$/;"	f
+http_callback_about	src/http.c	/^http_callback_about(httpd * webserver, request * r)$/;"	f
+http_callback_auth	src/http.c	/^http_callback_auth(httpd * webserver, request * r)$/;"	f
+http_callback_disconnect	src/http.c	/^http_callback_disconnect(httpd * webserver, request * r)$/;"	f
+http_callback_status	src/http.c	/^http_callback_status(httpd * webserver, request * r)$/;"	f
+http_callback_wifidog	src/http.c	/^http_callback_wifidog(httpd * webserver, request * r)$/;"	f
+http_send_redirect	src/http.c	/^http_send_redirect(request * r, const char *url, const char *text)$/;"	f
+http_send_redirect_to_auth	src/http.c	/^http_send_redirect_to_auth(request * r, const char *urlFragment, const char *text)$/;"	f
+send_http_page	src/http.c	/^send_http_page(request * r, const char *title, const char *message)$/;"	f
+_HTTP_H_	src/http.h	28;"	d
+_GNU_SOURCE	src/httpd_thread.c	28;"	d	file:
+thread_httpd	src/httpd_thread.c	/^thread_httpd(void *args)$/;"	f
+_HTTPD_THREAD_H_	src/httpd_thread.h	28;"	d
+main	src/main.c	/^main(int argc, char **argv)$/;"	f
+_GNU_SOURCE	src/ping_thread.c	30;"	d	file:
+ping	src/ping_thread.c	/^ping(void)$/;"	f	file:
+thread_ping	src/ping_thread.c	/^thread_ping(void *arg)$/;"	f
+MINIMUM_STARTED_TIME	src/ping_thread.h	31;"	d
+_PING_THREAD_H_	src/ping_thread.h	29;"	d
+_pstr_grow	src/pstring.c	/^_pstr_grow(pstr_t *pstr)$/;"	f	file:
+pstr_append_sprintf	src/pstring.c	/^pstr_append_sprintf(pstr_t *pstr, const char *fmt, ...)$/;"	f
+pstr_cat	src/pstring.c	/^pstr_cat(pstr_t *pstr, const char *string)$/;"	f
+pstr_new	src/pstring.c	/^pstr_new(void)$/;"	f
+pstr_to_string	src/pstring.c	/^pstr_to_string(pstr_t *pstr)$/;"	f
+_PSTRING_H_	src/pstring.h	28;"	d
+buf	src/pstring.h	/^    char *buf;   \/**< @brief Buffer used to hold string. Pointer subject to change. *\/$/;"	m	struct:pstr
+len	src/pstring.h	/^    size_t len;  \/**< @brief Current length of the string. *\/$/;"	m	struct:pstr
+pstr	src/pstring.h	/^struct pstr {$/;"	s
+pstr_t	src/pstring.h	/^typedef struct pstr pstr_t;  \/**< @brief pstr_t is a type for a struct pstr. *\/$/;"	t	typeref:struct:pstr
+size	src/pstring.h	/^    size_t size; \/**< @brief Current maximum size of the buffer. *\/$/;"	m	struct:pstr
+_GNU_SOURCE	src/safe.c	29;"	d	file:
+_fd_list	src/safe.c	/^typedef struct _fd_list {$/;"	s	file:
+cleanup_fds	src/safe.c	/^cleanup_fds(void)$/;"	f	file:
+fd	src/safe.c	/^    int fd;                 \/**< @brief file descriptor *\/$/;"	m	struct:_fd_list	file:
+fd_list	src/safe.c	/^static fd_list_t *fd_list = NULL;$/;"	v	file:
+fd_list_t	src/safe.c	/^} fd_list_t;$/;"	t	typeref:struct:_fd_list	file:
+next	src/safe.c	/^    struct _fd_list *next;  \/**< @brief linked list pointer *\/$/;"	m	struct:_fd_list	typeref:struct:_fd_list::_fd_list	file:
+register_fd_cleanup_on_fork	src/safe.c	/^register_fd_cleanup_on_fork(const int fd)$/;"	f
+safe_asprintf	src/safe.c	/^safe_asprintf(char **strp, const char *fmt, ...)$/;"	f
+safe_fork	src/safe.c	/^safe_fork(void)$/;"	f
+safe_malloc	src/safe.c	/^safe_malloc(size_t size)$/;"	f
+safe_realloc	src/safe.c	/^safe_realloc(void *ptr, size_t newsize)$/;"	f
+safe_strdup	src/safe.c	/^safe_strdup(const char *s)$/;"	f
+safe_vasprintf	src/safe.c	/^safe_vasprintf(char **strp, const char *fmt, va_list ap)$/;"	f
+_SAFE_H_	src/safe.h	29;"	d
+LOCK_CYASSL_CTX	src/simple_http.c	141;"	d	file:
+UNLOCK_CYASSL_CTX	src/simple_http.c	147;"	d	file:
+cyassl_ctx	src/simple_http.c	/^static CYASSL_CTX *cyassl_ctx = NULL;$/;"	v	file:
+cyassl_ctx_mutex	src/simple_http.c	/^static pthread_mutex_t cyassl_ctx_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+get_cyassl_ctx	src/simple_http.c	/^get_cyassl_ctx(const char *hostname)$/;"	f	file:
+http_get	src/simple_http.c	/^http_get(const int sockfd, const char *req)$/;"	f
+https_get	src/simple_http.c	/^https_get(const int sockfd, const char *req, const char *hostname)$/;"	f
+_SIMPLE_HTTP_H_	src/simple_http.h	23;"	d
+LOCK_GHBN	src/util.c	63;"	d	file:
+UNLOCK_GHBN	src/util.c	69;"	d	file:
+WD_SHELL_PATH	src/util.c	77;"	d	file:
+WD_SHELL_PATH	src/util.c	79;"	d	file:
+_GNU_SOURCE	src/util.c	29;"	d	file:
+close_icmp_socket	src/util.c	/^close_icmp_socket(void)$/;"	f
+execute	src/util.c	/^execute(const char *cmd_line, int quiet)$/;"	f
+get_ext_iface	src/util.c	/^get_ext_iface(void)$/;"	f
+get_iface_ip	src/util.c	/^get_iface_ip(const char *ifname)$/;"	f
+get_iface_mac	src/util.c	/^get_iface_mac(const char *ifname)$/;"	f
+ghbn_mutex	src/util.c	/^static pthread_mutex_t ghbn_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+icmp_fd	src/util.c	/^static int icmp_fd;$/;"	v	file:
+icmp_ping	src/util.c	/^icmp_ping(const char *host)$/;"	f
+init_icmp_socket	src/util.c	/^init_icmp_socket(void)$/;"	f
+rand16	src/util.c	/^rand16(void)$/;"	f	file:
+save_pid_file	src/util.c	/^save_pid_file(const char *pf)$/;"	f
+wd_gethostbyname	src/util.c	/^wd_gethostbyname(const char *name)$/;"	f
+EXT_INTERFACE_DETECT_RETRY_INTERVAL	src/util.h	35;"	d
+NUM_EXT_INTERFACE_DETECT_RETRY	src/util.h	32;"	d
+_UTIL_H_	src/util.h	28;"	d
+_GNU_SOURCE	src/wd_util.c	28;"	d	file:
+get_status_text	src/wd_util.c	/^get_status_text()$/;"	f
+is_auth_online	src/wd_util.c	/^is_auth_online()$/;"	f
+is_online	src/wd_util.c	/^is_online()$/;"	f
+last_auth_offline_time	src/wd_util.c	/^static time_t last_auth_offline_time = 0;$/;"	v	file:
+last_auth_online_time	src/wd_util.c	/^static time_t last_auth_online_time = 0;$/;"	v	file:
+last_offline_time	src/wd_util.c	/^static time_t last_offline_time = 0;$/;"	v	file:
+last_online_time	src/wd_util.c	/^static time_t last_online_time = 0;$/;"	v	file:
+mark_auth_offline	src/wd_util.c	/^mark_auth_offline()$/;"	f
+mark_auth_online	src/wd_util.c	/^mark_auth_online()$/;"	f
+mark_offline	src/wd_util.c	/^mark_offline()$/;"	f
+mark_online	src/wd_util.c	/^mark_online()$/;"	f
+served_this_session	src/wd_util.c	/^long served_this_session = 0;$/;"	v
+_WD_UTIL_H_	src/wd_util.h	28;"	d
+_GNU_SOURCE	src/wdctl.c	27;"	d	file:
+config	src/wdctl.c	/^static s_config config;$/;"	v	file:
+connect_to_server	src/wdctl.c	/^connect_to_server(const char *sock_name)$/;"	f	file:
+init_config	src/wdctl.c	/^init_config(void)$/;"	f	file:
+main	src/wdctl.c	/^main(int argc, char **argv)$/;"	f
+parse_commandline	src/wdctl.c	/^parse_commandline(int argc, char **argv)$/;"	f
+send_request	src/wdctl.c	/^send_request(int sock, const char *request)$/;"	f	file:
+usage	src/wdctl.c	/^usage(void)$/;"	f	file:
+wdctl_reset	src/wdctl.c	/^wdctl_reset(void)$/;"	f
+wdctl_restart	src/wdctl.c	/^wdctl_restart(void)$/;"	f	file:
+wdctl_status	src/wdctl.c	/^wdctl_status(void)$/;"	f	file:
+wdctl_stop	src/wdctl.c	/^wdctl_stop(void)$/;"	f	file:
+DEFAULT_SOCK	src/wdctl.h	30;"	d
+WDCTL_KILL	src/wdctl.h	35;"	d
+WDCTL_RESTART	src/wdctl.h	36;"	d
+WDCTL_STATUS	src/wdctl.h	33;"	d
+WDCTL_STOP	src/wdctl.h	34;"	d
+WDCTL_UNDEF	src/wdctl.h	32;"	d
+_WDCTL_H_	src/wdctl.h	28;"	d
+command	src/wdctl.h	/^    int command;$/;"	m	struct:__anon4
+param	src/wdctl.h	/^    char *param;$/;"	m	struct:__anon4
+s_config	src/wdctl.h	/^} s_config;$/;"	t	typeref:struct:__anon4
+socket	src/wdctl.h	/^    char *socket;$/;"	m	struct:__anon4
+_GNU_SOURCE	src/wdctl_thread.c	27;"	d	file:
+create_unix_socket	src/wdctl_thread.c	/^create_unix_socket(const char *sock_name)$/;"	f	file:
+thread_wdctl	src/wdctl_thread.c	/^thread_wdctl(void *arg)$/;"	f
+thread_wdctl_handler	src/wdctl_thread.c	/^thread_wdctl_handler(void *arg)$/;"	f	file:
+wdctl_reset	src/wdctl_thread.c	/^wdctl_reset(int fd, const char *arg)$/;"	f	file:
+wdctl_restart	src/wdctl_thread.c	/^wdctl_restart(int afd)$/;"	f	file:
+wdctl_socket_server	src/wdctl_thread.c	/^static int wdctl_socket_server;$/;"	v	file:
+wdctl_status	src/wdctl_thread.c	/^wdctl_status(int fd)$/;"	f	file:
+wdctl_stop	src/wdctl_thread.c	/^wdctl_stop(int fd)$/;"	f	file:
+write_to_socket	src/wdctl_thread.c	/^write_to_socket(int fd, char *text, size_t len)$/;"	f	file:
+DEFAULT_WDCTL_SOCK	src/wdctl_thread.h	30;"	d
+_WDCTL_THREAD_H_	src/wdctl_thread.h	28;"	d

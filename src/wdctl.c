@@ -157,6 +157,7 @@ connect_to_server(const char *sock_name)
     }
     memset(&sa_un, 0, sizeof(sa_un));
     sa_un.sun_family = AF_UNIX;
+    /** 把src所指向的字符串中以src地址开始的前n个字节复制到dest所指的数组中，并返回dest */
     strncpy(sa_un.sun_path, sock_name, (sizeof(sa_un.sun_path) - 1));
 
     if (connect(sock, (struct sockaddr *)&sa_un, strlen(sa_un.sun_path) + sizeof(sa_un.sun_family))) {

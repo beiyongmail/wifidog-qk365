@@ -141,19 +141,17 @@ http_callback_404(httpd * webserver, request * r, int error_code)
             {
                 debug(LOG_INFO, "New client for %s", r->clientAddr);
                 /* 将此客户端添加到客户端列表 */
-                //client_list_add(r->clientAddr, mac, token->value);
-                client_list_add(r->clientAddr, mac, (const char *)1234);
+                // char token_value[20] = "123456789";
+                char *token_value = (char *)safe_malloc(10*sizeof(char));
+                strcpy(token_value, "12345678");
+                client_list_add(r->clientAddr, mac, (const char *)token_value);
+                free(token_value);
             }
             UNLOCK_CLIENT_LIST();
+            debug(LOG_INFO, "iptables_fw_access start");
             //fw_allow(client, FW_MARK_KNOWN);
             iptables_fw_access(FW_ACCESS_ALLOW, r->clientAddr, mac, FW_MARK_KNOWN);
-            served_this_session++;
-            //fw_allow_host(r->request.host);
-            //
-            // safe_asprintf(&urlFragment, "%sgw_id=%s", auth_server->authserv_portal_script_path_fragment, config->gw_id);
-            // http_send_redirect_to_auth(r, urlFragment, "Redirect to portal");
-            // free(urlFragment);
-            
+            served_this_session++;   
         }
         free(mac);
 
