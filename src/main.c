@@ -30,5 +30,6 @@
 int
 main(int argc, char **argv)
 {
+    printf("qingke!");
     return gw_main(argc, argv);
 }

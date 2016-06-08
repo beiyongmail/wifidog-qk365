@@ -185,6 +185,7 @@ iptables_compile(const char *table, const char *chain, const t_firewall_rule * r
             }
             char * ip =NULL;
             if(is_domain){
+                /** 用域名或主机名获取IP地址 */
                 struct in_addr * h_addr =wd_gethostbyname(mask);
                 if(h_addr){
                     ip= safe_strdup(inet_ntoa(*h_addr));
